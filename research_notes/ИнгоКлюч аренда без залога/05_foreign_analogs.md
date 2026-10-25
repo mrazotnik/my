@@ -1,298 +1,644 @@
-# Foreign analogs of ИнгоКлюч: deposit-replacement and rent-guarantee products (UK, US, EU, Ukraine), as of Oct 2026
+# Зарубежные аналоги ИнгоКлюч: замена залога и гарантия аренды (Великобритания, США, Европа, Украина). Проверенная версия от 25.10.2026
 
-> **How these notes were made (read first).** The research egress proxy refused direct page loads (HTTP 403 on CONNECT) for the key primary sites: zerodeposit.com, visale.fr, flatfair.co.uk, alleywatch.com and interfax.com.ua. The shared web-search budget then ran out (200 searches per turn), so some planned checks never ran. All figures below come from search-engine extracts of the cited URLs. I did not read the full pages. Every number has a URL, but **spot-check the ones used on slides by opening the URL**. Company marketing claims are tagged **[company claim]**. Independent or regulator data is tagged **[independent]**. Older data is tagged with its year.
-
----
-
-## 1. UK: Zero Deposit, Reposit, Flatfair, Ome (products, prices, cover, scale)
-
-### Takeaway
-The UK has the cleanest analog to ИнгоКлюч. The tenant pays a non-refundable fee of about one week's rent instead of a 5-week cash deposit. The landlord gets 6–10 weeks of cover. The provider pays valid claims and then recovers them from the tenant. Zero Deposit is insurance (Great Lakes / Munich Re) sold through an FCA-authorised intermediary. Reposit is FCA-regulated. Flatfair is *not* insurance. Published scale is modest and mostly self-reported. Independent surveys put national uptake at only about 4–7% of tenancies.
-
-### Cited Findings
-**Zero Deposit (Global Property Ventures Ltd)**
-- Tenant pays "a non-returnable fee, which is the equivalent of one week's rent plus a £49 set up fee, followed by an annual fee of £17.50" if they stay; landlords pay nothing. **[company claim]** — [Zero Deposit FAQ](https://www.zerodeposit.com/faq/). The company's tenant page states the set-up fee as **£59.99**, so its own pages disagree — [Zero Deposit tenants](https://www.zerodeposit.com/tenants/). An older article gives the annual fee as **£26** — [Coapt](https://www.coapt.co.uk/news/landlords/new-zero-deposit-scheme-takes-hold/).
-- Landlord cover is "up to the value of six weeks rent", one week more than the standard 5-week cash deposit cap. — [Zero Deposit landlord FAQ](https://www.zerodeposit.com/faq/landlords/)
-- Underwriter: "cover, provided by Great Lakes Insurance SE, part of the Munich Re Group". — [Zero Deposit agent FAQ](https://www.zerodeposit.com/faq/agents/). An older article says Munich Re underwrites it — [Coapt](https://www.coapt.co.uk/news/landlords/new-zero-deposit-scheme-takes-hold/). One agent page names "Equitable Rental Insurance Ltd" instead, and the discrepancy is unexplained — see search set incl. [Reeds Rains](https://www.reedsrains.co.uk/landlords/zero-deposits).
-- Regulatory status: Zero Deposit is a trading name of Global Property Ventures Ltd, an insurance intermediary "authorised and regulated by the Financial Conduct Authority". — [Blundells (agent page)](https://www.blundells.com/to-rent/zero-deposit)
-- Tenants must pass referencing before the insurer accepts them. — [Landlords Guild](https://england.landlordsguild.com/article/zero-deposit-schemes-a-landlord-s-guide-to-benefits)
-- Early distribution: "Zero Deposit now goes live in 400 branches including Foxtons and Your Move" (Property Industry Eye, c. 2018, older). — [PIE](https://propertyindustryeye.com/zero-deposit-now-goes-live-in-400-branches-including-foxtons-and-your-move/)
-- **New adjacent product, Guarantor+ (rent guarantee in place of a personal guarantor):** live since Feb 2026, with JLL the first named major partner, rolled out across 11 JLL branches. Cover is up to 12 months of the tenant's share of rent, capped at **£130,000**, plus **£10,000** for legal expenses. The price is **not published**. — [Zero Deposit Guarantor+](https://www.zerodeposit.com/guarantorplus/); [Property Reporter](https://www.propertyreporter.co.uk/zero-deposits-guarantor-secures-jll-and-a-quarter-of-the-market.html); [News on the Block](https://www.newsontheblock.com/news-opinion/zero-deposit-launches-guarantor-and-jll-the-first-major-partner-announced)
-- Zero Deposit claims a "**24% market share**" for Guarantor+ (May 2026). **[company claim]** The denominator is unclear: it is probably a share of the guarantor/rent-guarantee segment, not of all tenancies. — [The Intermediary, May 2026](https://theintermediary.co.uk/2026/05/zero-deposit-secures-24-market-share-as-jll-adopts-guarantor-solution/)
-- Oct 2026: Zero Deposit partnered with COHO to offer deposit and guarantor products. — [The Intermediary, Oct 2026](https://theintermediary.co.uk/2026/10/zero-deposit-partners-with-coho-to-provide-deposit-and-guarantor-products/)
-- Zero Deposit landlord survey (800 landlords): **9%** would move directly to a deposit alternative if insured deposit schemes were abolished, and **26%** would follow tenant preference. **[company-commissioned survey]** — [PropertyWire](https://www.propertywire.com/news/over-one-million-landlords-may-switch-to-deposit-alternatives); [London Loves Property](https://londonlovesproperty.com/1m-landlords-could-adopt-deposit-alternatives-if-insured-tenancy-deposits-are-abolished/)
-
-**Reposit**
-- Fee: a non-refundable **one week's rent (minimum £150)** instead of a 5-week deposit. There is an annual fee of **£30** split between tenants, charged only if the tenancy runs past 12 months, and a dispute fee of **£60**, refunded if the dispute succeeds. Landlord cover is **8 weeks' rent**. **[company claim]** — [Reposit tenants](https://reposit.co.uk/tenants/); [Reposit General FAQs](https://support.reposit.co.uk/en/articles/11485229-general-faqs)
-- OpenRent help page: cover is up to 8 weeks' rent **or £5,000, whichever is lower**. — [OpenRent help](https://help.openrent.co.uk/hc/en-gb/articles/4429453785105-How-can-I-raise-an-end-of-tenancy-charge-with-Reposit)
-- The average Reposit fee in 2023 was **£242**, against an average 5-week cash deposit of about **£1,300** (2023). **[company claim]** — [Reposit blog](https://reposit.co.uk/blog/what-is-no-deposit-renting/)
-- Reposit says it is "one of only two deposit alternatives in the UK to have achieved FCA regulated status", and that the tenant "remains fully liable at the end of their tenancy for any valid charges". — [Reposit myths blog](https://reposit.co.uk/blog/6-common-myths-busted-deposit-alternative-products/)
-- Growth: H1 2025 sales up **37%** YoY. Absolute figures were not disclosed. H1 2024 sales were up **28%**. **[company claim]** — [Property Industry Eye](https://propertyindustryeye.com/reposit-reports-record-first-half/); [Property Reporter](https://www.propertyreporter.co.uk/reposit-sees-sales-surge-by-a-third-during-record-half-year.html)
-- H1 2026: the headline reports a **58%** sales rise. Tenants avoided more than **£17.2m** in upfront moving costs, an average saving of **£1,088 per tenancy**. **[company claim]** I saw only the headline and snippet. — [PropertyWire](https://www.propertywire.com/company-news/deposit-replacement-firm-reports-58-sales-rise-in-h1-2026/)
-- Goodlord (a lettings-software platform) has named Reposit its **sole** deposit-replacement partner. The date is unconfirmed. — referenced in the [PropertyWire](https://www.propertywire.com/company-news/deposit-replacement-firm-reports-58-sales-rise-in-h1-2026/) search set (date unverified)
-
-**Flatfair**
-- "No Deposit": the tenant pays a check-in fee of **28% of one month's rent or £120, whichever is greater, plus VAT**. Charges are recovered from the tenant once agreed. — [Flatfair FAQs](https://www.flatfair.co.uk/faqs)
-- It covers landlords for up to **10 weeks** of damage or arrears. Charges above that get a free debt-collection service. — [Flatfair landlords](https://www.flatfair.co.uk/landlords)
-- "Deposit Boost" (2025): Flatfair **buys the landlord's unpaid excess charges, up to an extra 5 weeks' rent**, and pursues the tenant for them. In effect it is a debt purchase, not insurance. — [Letting Agent Today, Jul 2025](https://www.lettingagenttoday.co.uk/breaking-news/2025/07/deposit-alternative-service-will-buy-debt-if-tenant-leaves-unpaid-arrears-or-damages/); [Property118](https://www.property118.com/flatfairs-deposit-boost-tackles-rent-arrears-debt/)
-- Flatfair is **not an insurance product and is not FCA-regulated as one**; its protection is described as discretionary. — [LetCompliance comparison 2026](https://letcompliance.com/blog/deposit-replacement-schemes-zero-deposit-flatfair-reposit-uk-2026)
-- Zero Deposit referred Flatfair to the Advertising Standards Authority (ASA) over Flatfair's advertising claims. The ASA ruled for Flatfair after a five-month investigation (older). — [The Negotiator](https://thenegotiator.co.uk/news/flatfair-zerodeposit-asa/)
-- Flatfair claims "**56%** of tenants are selecting deposit alternative products". **[company claim, own customer base]** — [Letting Agent Today, Dec 2024](https://www.lettingagenttoday.co.uk/breaking-news/2024/12/more-demand-for-deposit-alternatives-says-deposit-alternative-firm/)
-- **"Collapse" check:** I found **no report** of Flatfair entering administration, closing or being acquired. Searches of trade press returned only operating-company material, including a 2025 product launch (Deposit Boost). The brief's premise of a Flatfair collapse is **unverified**.
-
-**Ome (Hamilton Fraser)**
-- Hamilton Fraser, which also runs the *mydeposits* protection scheme, launched Ome as an in-house deposit alternative. The Negotiator called it a "Netflix-style" launch (c. 2019–2020). — [The Negotiator](https://thenegotiator.co.uk/news/products-services-news/ome-deposits-alternative-launch/); [Property118](https://www.property118.com/rental-industry-giant-hamilton-fraser-to-launch-deposit-alternative-product/); [PIE (launch despite CEO's early concerns)](https://propertyindustryeye.com/new-deposit-replacement-product-gets-set-to-launch-despite-ceos-early-concerns/)
-- Ome-commissioned research: "Tenants' deposits worth £5.2bn taken out of the economy last year" (older, c. 2019–20). — [PIE](https://propertyindustryeye.com/tenants-deposits-worth-5-2bn-taken-out-of-the-economy-last-year-says-new-research/)
-
-**Independent market-size data**
-- Generation Rent's April 2025 tenant survey: **4%** paid a deposit alternative at the start of their current tenancy, and almost a quarter did not get their full deposit back. **[independent]** — [Generation Rent, Apr 2025](https://www.generationrent.org/wp-content/uploads/2025/04/Tenancy-deposits-findings-1.pdf)
-- An Opinium survey cited by Generation Rent: **7%** of respondents had used a deposit alternative for their current tenancy. **[independent]** — [Generation Rent, Jul 2025](https://www.generationrent.org/wp-content/uploads/2025/07/Tenancy-deposits-recommendations-2025.pdf)
-- Letting agency Fenn Wright (11 branches): "around 40–50% of tenants are looking to choose an alternative product" (one agency, not the national market). — [Residential Landlord](https://residentiallandlord.co.uk/half-of-new-tenants-choose-deposit-alternatives-reports-leading-letting-agency/)
-- Deposit-dispute context: in the year to March 2025, **46,950** deposits went to formal adjudication at TDS (the Tenancy Deposit Scheme). — [Property Investments UK](https://www.propertyinvestmentsuk.co.uk/zero-deposit-scheme/)
-
-### Inferences
-- In UK products the fee is roughly **12.5–17% of the cover limit**: Zero Deposit charges 1 week of rent for 6 weeks of cover, and Reposit charges 1 week for 8 weeks. As a share of one month's rent, the fee is about **23%** (1/4.33) for Zero Deposit and Reposit, and **28% + VAT** for Flatfair. This is far below the expected loss from damage. The model works only because valid claims are **recovered from the tenant**. The fee mainly pays for distribution, administration, unrecovered losses and capital, and the product behaves more like surety or credit than pure insurance.
-- From Reposit's H1 2026 numbers, £17.2m ÷ £1,088 ≈ **15,800 tenancies in H1 2026**. That suggests roughly 30k a year for one of the top two providers, small next to England's private rented sector. This is my own calculation from a company claim.
-- Distribution through letting agents and proptech platforms is the main channel: Zero Deposit via 400+ branches, the Goodlord–Reposit exclusive, and JLL for Guarantor+. In Russia the equivalent channels would be agencies, classifieds sites (Циан, Авито, Домклик) and build-to-rent operators.
-- The UK market is moving from deposit replacement toward **rent guarantees** (Zero Deposit's Guarantor+). This supports bundling unpaid-rent cover into ИнгоКлюч.
-
-### Gaps
-- **Zero Deposit headline scale:** one search extract cited ">200,000 tenants supported and >£170m in landlord cover, based on internal data as of January 2026", but I could not pin it to a URL. A second, targeted search did not reproduce it. Treat it as **unverified** until it is found on zerodeposit.com or in a press release.
-- An undated Property Industry Eye article reportedly mentions about 850 agency offices offering Zero Deposit (incl. Connells, Knight Frank), but I could not pin the URL.
-- I found no published count of landlords, total deposits replaced (£), claim frequency or loss ratio for Zero Deposit or Ome. Flatfair's current scale and ownership were also not found.
-- Zero Deposit's fee figures (£49 vs £59.99 set-up; £17.50 vs £26 annual) conflict across its own and third-party pages. Check the live site.
+> **Как проверялось.** 25.10.2026 через `fetch.py` запрошены все 161 URL из прошлой версии файла; PDF прочитаны через `pdftotext`. С текстом открылись 127 страниц. Ещё 34 недоступны (403, 404, 5xx, ошибка SSL или страница рендерится скриптом); они перечислены в разделе 8. Использовано 5 веб-поисков из 20. По найденным ссылкам и прямым адресам компаний открыто ещё 10 страниц. Цитаты скопированы из текста страниц дословно, на языке оригинала (переносы строк из вёрстки заменены пробелами).
+>
+> **Обозначения.** У каждого факта указаны дата публикации (или «без даты, открыто 25.10.2026»), открытый URL, цитата, статус и тип источника:
+> - **заявление компании**: сайт, пресс-релиз или интервью самой компании. Сюда же относятся отраслевые СМИ, которые пересказывают её релиз, и опросы по её заказу.
+> - **данные оператора**: государственный или некоммерческий оператор о собственной программе (Visale).
+> - **независимые данные**: закон, регулятор, НКО, журналистское расследование, независимый опрос, обзорный сайт.
+> - **отраслевые данные**: участник рынка со ссылкой на внешнее исследование (GLI, данные PwC).
+>
+> Всё, что не удалось найти на открытой странице, вынесено в раздел 8 «Не подтверждено и не используется».
 
 ---
 
-## 2. UK: government and regulator stance (Tenant Fees Act 2019, Renters' Rights Act 2025, FCA, Propertymark) and criticism
+## 1. Сводная таблица (только проверенные цифры)
 
-### Takeaway
-Deposit replacement products (DRPs) are **legal but voluntary** in England. The tenant must be offered the cash-deposit option. Only DRPs structured as insurance fall under the FCA. The Renters' Rights Act 2025 leaves deposit rules unchanged and does not legislate DRPs. The main criticisms are that the fee is non-refundable, tenants remain fully liable, and non-insurance schemes escape regulation. Generation Rent (2025) wants all deposit alternatives FCA-regulated, and the rest banned.
-
-### Cited Findings
-- Tenant Fees Act 2019 caps deposits at **5 weeks' rent** (annual rent under £50,000) or **6 weeks** (above). Holding deposits are capped at **1 week**. — [Propertymark TFA leaflet](https://www.propertymark.co.uk/static/211d0c2a-aa4c-484d-8bbc4cdb1935fc89/1360f00d-1e02-4c5b-b4436e33abae8605/tenant-fees-act-landlord-leaflet.pdf); [legislation.gov.uk TFA 2019](https://www.legislation.gov.uk/ukpga/2019/4/pdfs/ukpga_20190004_en.pdf)
-- The government's TFA tenant guidance has a dedicated question on whether "a deposit replacement product can be used if the tenant does not pay a tenancy deposit". I could not retrieve the answer text. — [GOV.UK TFA tenant guidance (PDF)](https://assets.publishing.service.gov.uk/media/5f745d69d3bf7f287328e5a5/Tenant_Fees_Act_-_Tenant_Guidance.pdf); [GOV.UK TFA landlord/agent guidance (PDF)](https://assets.publishing.service.gov.uk/media/5f745d308fa8f5189a93d141/Tenant_Fees_Act_2019_-_Guidance_for_landlords_and_agents.pdf)
-- A tenant **cannot be required** to use a DRP as a condition of the tenancy, so a cash-deposit option must stay available. — [Landlords Guild](https://england.landlordsguild.com/article/how-zero-deposit-home-rentals-work); [LetCompliance](https://letcompliance.com/blog/deposit-replacement-schemes-zero-deposit-flatfair-reposit-uk-2026)
-- Welsh government guidance describes "insurance-based deposits": the tenant pays a lump sum and an annual fee to a third party, the provider pays the landlord, and the tenant repays the provider. — [Gov.Wales landlord guidance](https://www.gov.wales/sites/default/files/publications/2019-10/letting-fees-guidance-for-landlords-and-letting-agents_1.pdf)
-- **Renters' Rights Act 2025:** deposit rules are unchanged and deposits must still be protected. The Act does not legislate DRPs. Rent in advance is limited (at most one month's rent at a time, none before the tenancy agreement). Deposit-handling errors carry fines of up to **£5,000**. Possession requires that the deposit was protected. — [Landlords Guild (RRA deposits)](https://england.landlordsguild.com/article/tenancy-deposits-under-the-renters-rights-act-2025); [NRLA](https://www.nrla.org.uk/news/what-the-renters-rights-act-means-for-deposit-protection); [legislation.gov.uk RRA 2025](https://www.legislation.gov.uk/ukpga/2025/26/contents)
-- Property118 reports that DRPs such as Reposit are separate from insurance-backed deposit protection schemes and "will continue to be available". The government is considering further deposit reforms, but their scope is unconfirmed. — [Property118 (gov clarifies)](https://www.property118.com/government-clarifies-deposit-rules-under-renters-rights-act/); [Property118 (future reforms)](https://www.property118.com/landlords-face-deposit-dilemma-as-government-considers-future-reforms/)
-- **FCA:** Generation Rent notes that "FCA regulation only applies to those schemes selling insurance to tenants, but few are insurance products even though they often look like they are." Its July 2025 report calls for FCA regulation of **all** deposit-alternative products, and for those that cannot be regulated to be **banned** from the private rented sector. **[advocacy]** — [Generation Rent page](https://generationrent.org/_deposit_free_products); [Generation Rent report, Jul 2025](https://www.generationrent.org/wp-content/uploads/2025/07/Tenancy-deposits-recommendations-2025.pdf)
-- 2019: calls for the FCA to review DRP regulation, including firms that claim to sell insurance without being regulated themselves (older). — [Property Industry Eye](https://propertyindustryeye.com/financial-watchdog-urged-to-review-regulation-of-deposit-replacement-schemes/)
-- Cost criticism: Generation Rent found that Romans' "No Deposit Option" cost a tenant **£864 over two years**, while a traditional deposit costs the tenant nothing if returned in full. The fee is paid even when there are no damage claims. — [Generation Rent](https://generationrent.org/_deposit_free_products)
-- Industry criticism (older, c. 2018–19): the new boss of Martin & Co said DRPs "will cost tenants more", and a national newspaper criticised agents over zero-deposit schemes. — [PIE (Martin & Co)](https://propertyindustryeye.com/new-boss-of-martin-co-hits-out-at-deposit-replacement-schemes-saying-they-will-cost-tenants-more/); [PIE (national newspaper)](https://propertyindustryeye.com/national-newspaper-slams-agents-over-zero-deposit-schemes/)
-- The Dispute Service (TDS) chief executive said providers "talk up their policy numbers" and should publish how many policies they hold and their claims data. — [The Negotiator feature](https://thenegotiator.co.uk/features/products-services-features/deposit-alternatives-too-good-to-be-true/); see also [The Negotiator "The deposit dilemma"](https://thenegotiator.co.uk/features/the-deposit-dilemma/)
-- Propertymark lists Flatfair as an industry supplier and published "Five reasons deposit alternatives have surged in demand". — [Propertymark resource](https://www.propertymark.co.uk/resource/five-reasons-deposit-alternatives-have-surged-in-demand.html); [Propertymark supplier listing](https://www.propertymark.co.uk/membership/industry-suppliers/flatfair.html)
-
-### Inferences
-- The UK precedent supports positioning ИнгоКлюч as an **optional** alternative, with the cash-deposit option kept and the non-refundable nature and continuing tenant liability disclosed up front. These are exactly the points UK critics attack.
-- Structuring the product as regulated insurance (as Zero Deposit and Reposit do) is a selling point against unregulated rivals. Ingosstrakh, as a licensed insurer, has that edge by default.
-
-### Gaps
-- I could not retrieve the text of ARLA/Propertymark guidance specific to DRPs, or the government's exact DRP answer in the TFA guidance.
-- I found no FCA publication specific to DRPs (e.g. a fair-value or product-governance review), and no Guardian/FT/BBC article could be pinned.
-- A Scottish Housing News headline cites "up to £169m wasted annually" on tenancy deposits. I did not see what the figure measures, so it is not used. — [Scottish Housing News](https://www.scottishhousingnews.com/articles/uk-call-for-tenancy-deposits-as-up-to-ps169m-wasted-annually)
+| Игрок (страна) | Модель и носитель риска | Цена для арендатора | Покрытие арендодателя | Масштаб (дата, тип) | Регресс к арендатору |
+|---|---|---|---|---|---|
+| Zero Deposit (UK) | Страхование, Great Lakes Insurance SE (Munich Re Group), FCA | 1 неделя аренды + set-up £49 (FAQ) или £59.99 (страница арендаторов); £17.50 в год | 6 недель аренды | >200 000 арендаторов, >£170 млн покрытия (данные на янв. 2026; компания) | Да |
+| Reposit (UK) | FCA-регулируемый, со страховым обеспечением | 1 неделя аренды (мин. £150); £30 в год после 12 мес.; £60 за спор | 8 недель аренды | H1 2026: >£34 млн покрытия, £17.2 млн сэкономлено арендаторами (компания) | Да |
+| Flatfair (UK) | Не страхование, «discretionary»; выкуп долга (Deposit Boost) | 28% месячной аренды или £120 (что больше) + VAT | До 10 недель; выкуп долга ещё до 5 недель | Нет данных | Да |
+| Greenlight Rent = Rhino + Jetty (US) | Лицензированное страховое агентство, general agent нескольких страховщиков | Rhino: от $4 в месяц (обзор, апр. 2024); Jetty: 17.5% суммы залога (2019) | Сумма залога или больше по выбору арендодателя | >6 млн квартир в сети партнёров, >$4 млрд оставлено у арендаторов (фев. 2025; компания) | Да (Rhino) |
+| LeaseLock (US) | Lease insurance, панель страховщиков (+2 с рейтингом A, 2026) | В среднем $39 в месяц (2024; компания) | Аренда и ущерб в пределах лимита | $17 млрд застрахованных договоров аренды (июль 2026; компания) | Компания заявляет, что взыскания после аренды нет |
+| TheGuarantors (US) | Гарантия аренды на базе страхования; мажоритарный инвестор Warburg Pincus (2026) | Rent Coverage: от 40% до чуть более 1 месячной аренды за 1-летний договор; Deposit Coverage: 25–50% месячной аренды | 3–12 месячных арендных плат | >3,5 млн квартир, >$6 млрд стоимости договоров (март 2026; компания) | Да |
+| Obligo (US) | Billing authorization, «credit-based» (не страхование) | Небольшая ежемесячная плата | Заранее согласованная сумма | Партнёры управляют >200 000 квартир (2021; компания) | Списание с карты или счёта арендатора |
+| Mietkautionsbürgschaft (DE) | Поручительство банка или страховщика | 4,4–4,7% суммы залога в год (мин. €25–50) | Сумма залога | plusForta: ~160 000 договоров (2019; компания) | Да |
+| Visale (FR) | Бесплатное поручительство Action Logement | Бесплатно | До 36 мес. неоплаты; с 06.01.2026 только срок первого договора, максимум 3 года | ~350 000 новых договоров в 2025; 2 млн всего (июль 2026; оператор) | Да |
+| GLI (FR) | Страховка, которую оплачивает арендодатель | 2,5–3,5% аренды (2020); 2,5–5% годовой аренды (2026) | Неоплата аренды | ~10% из 8 млн частных арендных лотов (белая книга, данные PwC) | Не проверялось |
+| SwissCaution (CH) | Страховщик (группа La Mobilière), FINMA | 5% в год + CHF 20 + 5% гербового сбора (2018) | Сумма гарантии | >400 000 клиентов (сайт, 2026); 180 000 клиентов и >CHF 40 млн премий (2016) | Не проверялось |
+| VUSO + Tenant (UA) | Страхование ответственности арендатора | 4 000–17 000 грн | 100 000–500 000 грн | Нет данных (запуск 23.03.2026) | Не проверялось |
 
 ---
 
-## 3. US: Rhino + Jetty (now Greenlight Rent), LeaseLock, TheGuarantors, Obligo
+## 2. Великобритания
 
-### Takeaway
-The US market is the largest and most venture-funded. Rhino raised $95m in 2021 at a valuation just under $500m. Rhino and Jetty merged in Feb 2025 and now trade as Greenlight Rent, claiming more than 6m units of reach. LeaseLock reports **$17bn** in leases secured (Jul 2026). TheGuarantors, a rent guarantor, took a Warburg Pincus majority investment in Mar 2026. The market has consolidated into a few platforms distributed through large property managers. Consumer advocates (NCLC 2026) and a state attorney general (Maryland, 2022) have pushed back.
+### 2.1 Zero Deposit (Global Property Ventures Ltd)
 
-### Cited Findings
-**Rhino (surety-bond deposit insurance) → merged with Jetty → Greenlight Rent**
-- Jan 2021: Rhino raised **$95m**, led by Tiger Global with Kairos, Lakestar and Lakehouse, at a valuation reported just under **$500m**. Coverage reported more than **1m homes covered**, contracted ARR growing from **$4m (Jan 2019) to $60m (Jan 2021)**, and a claimed **>$250m** in renter savings, with a target of $500m in 2021. **[company claim, 2021]** — [TechCrunch, Jan 26 2021](https://techcrunch.com/2021/01/26/rhino-raises-95m-to-scale-its-rental-deposit-replacing-insurance-product); [Insurance Business](https://www.insurancebusinessmag.com/us/news/technology/rental-deposit-insurance-startup-rhino-raises-95-million-245047.aspx); [IBS Intelligence](https://ibsintelligence.com/ibsi-news/insurtech-rhino-secures-95-mn-investment-targets-500-mn-in-direct-savings-for-renters-in-2021/)
-- Price: in 2021, "as low as **$5/month**" for a $1,000 deposit equivalent — [TechCrunch 2021](https://techcrunch.com/2021/01/26/rhino-raises-95m-to-scale-its-rental-deposit-replacing-insurance-product). A 2024 review site says the premium is typically **$10–$20/month per $1,000** of coverage — [RentalRealEstate.com (2024)](https://rentalrealestate.com/tools/rhino/)
-- Merger: Rhino and Jetty merged in **Feb 2025** to create "the largest security deposit insurance company in the market". They claim combined reach of **>6 million rental units** and **>$4bn** in move-in cash retained by renters. **[company claim]** — [PR Newswire](https://www.prnewswire.com/news-releases/rhino-and-jetty-merge-to-create-the-largest-security-deposit-insurance-company-in-the-market-302370218.html); [AlleyWatch, Feb 2025](https://www.alleywatch.com/2025/02/security-deposit-alternative-insurnace-rhino-jetty-merger/); [Goodwin (adviser to Jetty)](https://www.goodwinlaw.com/en/news-and-events/news/2025/06/announcements-technology-ma-goodwin-advises-jetty)
-- The combined company now operates as **Greenlight Rent** and the deposit product is **"Greenlight Deposit"**. Georges Clement is named CEO. Existing Rhino policies are unchanged. — [Coverager](https://coverager.com/rhino-launches-greenlight-rent/); [Maymont Homes](https://maymonthomes.com/rhino-security-deposit-alternative/)
-- Claims operations: Rhino + Jetty use agentic AI from Taktile (a decision-automation vendor), which they say cut manual claims work by **50%**. **[vendor case study]** — [Taktile](https://taktile.com/customer-stories/rhino-jetty-and-taktile)
-- Rhino's bond agreement has an **arbitration clause and a class-action waiver**. In one case, after the landlord collected **$6,000** from Rhino, the company pursued the tenant for reimbursement (2020). — [Shelterforce, Dec 2020](https://shelterforce.org/2020/12/10/security-deposit-alternatives-the-misleading-marketing-of-renters-choice/)
-- Rhino co-founder Ankur Jain told The Intercept the company "would never sue a renter", but the tenant agreement warns that non-repayment could hurt the tenant's credit score and future ability to rent or get insurance (2021). — [The Intercept, May 2021](https://theintercept.com/2021/05/05/rhino-rent-security-deposits-baltimore/)
-- Vice: landlords can offer *only* the alternative, "essentially forcing renters into the more costly product", and "there's little information about how many renters are using" these alternatives. — [Vice](https://www.vice.com/en/article/how-landlord-tech-is-squeezing-renters-who-cant-afford-security-deposits/)
-- I found no pending Rhino class action. The arbitration and class-waiver terms probably limit them, but that is an inference. Trustpilot and PissedConsumer carry anecdotal complaints about unverifiable claims and collections. — [Trustpilot](https://www.trustpilot.com/review/sayrhino.com); [PissedConsumer](https://rhino-security-deposit-insurance.pissedconsumer.com/review.html)
+**ZD-1. Плата арендатора: одна недельная аренда + £49 set-up, затем £17.50 в год.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.zerodeposit.com/faq/landlords/ (та же формулировка в https://www.zerodeposit.com/faq/agents/)
+- Цитата: "The tenant pays Zero Deposit a non-returnable fee, which is the equivalent of one week’s rent plus a £49 set up fee, followed by an annual fee of £17.50 if they remain in your property."
+- Статус: проверено по странице · Тип: заявление компании
 
-**Jetty (Jetty Deposit), before the merger**
-- Feb 2019 Series B of **$25m**, led by Khosla Ventures (Keith Rabois), with Valar and Ribbit. Total funding then exceeded **$40m**. — [Coverager](https://coverager.com/jetty-raises-25m-in-series-b/); [HousingWire](https://www.housingwire.com/articles/48134-renter-focused-insurance-startup-jetty-raises-25-million)
-- Jetty Deposit fee: **17.5% of the deposit amount**. Members saved an average of **$1,350** in move-in costs. Partners included LivCor, LeFrak and Rose Associates, covering more than **500,000 units** (all figures 2019, likely outdated). — [HousingWire 2019](https://www.housingwire.com/articles/48134-renter-focused-insurance-startup-jetty-raises-25-million); [MPA Mag](https://mpamag.com/news/jetty-raises-25m-in-funding-to-secure-more-renters-158325.aspx)
+**ZD-2. Расхождение: на странице для арендаторов set-up fee равен £59.99.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.zerodeposit.com/tenants/
+- Цитата: "It costs an amount equivalent to around one week's rent plus a £59.99 set up fee at the point you move in, and then £17.50 each year."
+- Статус: проверено по странице · Тип: заявление компании. Расхождение £49 и £59.99 есть на сайте самой компании. Общий FAQ (https://www.zerodeposit.com/faq/) называет просто «a set up fee», без суммы. В 2019 году годовой сбор был £26 (см. ZD-9).
 
-**LeaseLock (lease insurance; "Zero Deposit™" for multifamily)**
-- Model: a monthly fee instead of an upfront deposit. Cover includes **unpaid rent, property damage, pet damage and eviction costs**. — [BusinessWire, Jun 2024 (Get Covered partnership)](https://www.businesswire.com/news/home/20240617050084/en/Get-Covered-Partners-With-LeaseLock-Zero-Deposit-to-Mitigate-Risk-for-Rental-Housing)
-- Jul 7 2025: **$14bn** in leases insured and "over 2 million" leases without a deposit. A CEO interview gives 2.5m homes. **[company claim]** — [LeaseLock press (Jul 2025)](https://www.financialcontent.com/article/bizwire-2025-7-8-leaselock-surpasses-14-billion-in-leases-insured-as-renters-nationwide-opt-for-deposit-free-living); [LeaseLock blog](https://leaselock.com/?p=45684)
-- Jul 28 2026: passed **$17bn** in leases secured and added **two A-rated international carriers** to its insurance panel. CEO is Janine Steiner Jovanovic. **[company claim]** — [GlobeNewswire via Generation-NT](https://www.generation-nt.com/communiques-presse/leaselock-surpasses-17-billion-in-leases-secured-and-expands-2079207)
-- Growth path (all company releases): $300m insured (Jun 2020), $500m (Sep 2020), $1bn (Mar 2021), then $3bn. QBE North America partnership (Sep 2020). — [BW Jun 2020](https://www.businesswire.com/news/home/20200625005590/en/LeaseLock-Accelerates-With-$300-Million-in-Leases-Insured); [BW Mar 2021](https://www.businesswire.com/news/home/20210316005567/en/LeaseLock-Announces-1-Billion-in-Leases-Insured-as-Deposits-Become-Extinct); [BW QBE](https://www.businesswire.com/news/home/20200916005486/en/LeaseLock-and-QBE-North-America-Partner-to-Eliminate-Deposits-in-U.S.-Rental-Housing-Market)
-- Funding totals conflict: **$63.7m** total per [CB Insights](https://www.cbinsights.com/company/leaselock), versus **$73.2m** over nine rounds, including a **$52m Series B (2021)**, per [Insurtech List](https://insurtechlist.com/companies/leaselock/).
-- **Maryland Attorney General settlement (Jan 26 2022):** the AG said LeaseLock's deposit-waiver fee violated Maryland's Security Deposit Law, because deposits must be refundable. LeaseLock had to **refund the monthly payments** collected from Maryland tenants (except where valid claims existed) and accept an injunction. It had already stopped the program in Maryland. — [Nottingham MD](https://nottinghammd.com/2022/01/26/attorney-general-frosh-announces-settlement-with-leaselock/); [MD legislature testimony 2024](https://mgaleg.maryland.gov/cmte_testimony/2024/jpr/23645_04012024_18329-632.pdf)
+**ZD-3. Покрытие арендодателя: 6 недель аренды (на одну неделю больше законного лимита залога).**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.zerodeposit.com/faq/
+- Цитата: "Instead, they are protected by insurance cover to the value of six weeks’ rent (one week more than they could expect under a normal cash deposit arrangement)."
+- Статус: проверено по странице · Тип: заявление компании
 
-**TheGuarantors (rent guarantee / institutional guarantor + deposit alternative)**
-- Mar 18 2026: **majority investment from Warburg Pincus**. The release describes "proprietary AI underwriting, insurance-backed coverage". — [PR Newswire](https://www.prnewswire.com/news-releases/theguarantors-announce-growth-investment-from-warburg-pincus-302716073.html)
-- The company says it has protected "**$7B+** in lease value". Its risk model analyses "credit, income, cash flow & more". **[company claim]** — [TheGuarantors multifamily](https://www.theguarantors.com/solutions-multifamily); [Rent coverage page](https://www.theguarantors.com/products-rent-coverage)
-- Price: the official site says the cost "generally varies from about **half to more than one month's rent**" (another page says **40% to a bit more than a full month**). It depends on coverage length, rent and the applicant's risk. — [TheGuarantors lease guarantee](https://www.theguarantors.com/products-rent-coverage). Older coverage gave 5–10% of annual rent (2017). Legacy guarantor firms charge **70–110% of one month's rent**. — [RealEstateSkills 2026](https://www.realestateskills.com/blog/best-lease-guarantor-companies); [Global Venturing 2017](https://globalventuring.com/blog/2017/11/13/corporates-sign-up-to-theguarantors-series-a/)
-- Prior funding, from a startup database and not primary-verified: **$112m** over 4 rounds, including a **$50m Series C (Portage)**, a **$15m Series B (2019)** and **$35m of debt (May 2023)**. — [StartupIntros](https://startupintros.com/orgs/theguarantors)
-- Oct 2022 launch: "Rent and Damage Protection" for independent landlords. Mar 2026: a Kikoff partnership adds credit building for applicants. — [BusinessWire 2022](https://www.businesswire.com/news/home/20221012005841/en/TheGuarantors-Launches-Rent-and-Damage-Protection-for-Independent-Landlords); [TheGuarantors blog](https://www.theguarantors.com/blog/company-updates/theguarantors-and-kikoff-partner-to-help-renters-build-credit)
+**ZD-4. Страховщик: Great Lakes Insurance SE (Munich Re Group); надзор FCA и PRA.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.zerodeposit.com/faq/agents/
+- Цитата: "The cover, provided by Great Lakes Insurance SE, part of the Munich Re Group, is for the equivalent of six weeks’ rent." и "our no deposit scheme is insured by Great Lakes Insurance SE and subject to regulation by the FCA and Prudential Regulation Authority"
+- Статус: проверено по странице · Тип: заявление компании
+- Расхождение: страница агентства Reeds Rains (без даты) называет другого страховщика: "the policy is backed and underwritten by one of the world's largest insurers, Equitable Rental Insurance Ltd." (https://www.reedsrains.co.uk/landlords/zero-deposits). Статус: проверено по странице · Тип: заявление партнёра-агента. Причина расхождения не установлена; для слайдов берём сайт Zero Deposit.
 
-**Obligo (billing authorization, "not insurance")**
-- Mechanism: the renter links a bank account and card (via Plaid open banking) and authorizes the landlord to charge up to an agreed security amount at move-out. Obligo says it uses "a credit-based financial structure (not insurance)". The fee is non-refundable and can be paid by the property manager, the renter or both. **[company claim]** — [Plaid customer story](https://plaid.com/customer-stories/obligo/); [Multifamily Executive](https://www.multifamilyexecutive.com/property-management/obligo-puts-a-new-twist-on-the-deposit-free-model_o); [Obligo blog](https://myobligo.com/blog/9-key-questions-to-ask-before-implementing-a-deposit-free-solution/)
-- **80%** of users qualify after connecting a bank account via Plaid. **[company/partner claim]** — [Plaid blog](https://plaid.com/blog/obligo-customer-story/). Other Obligo materials claim **70%** of renters choose deposit-free and partners managing **>200,000 units** (undated). — [Obligo on Medium](https://medium.com/@obligo/obligo-puts-a-new-twist-on-the-deposit-free-model-efec58e07194)
+**ZD-5. Регресс: компания платит арендодателю и взыскивает сумму с арендатора; неуплата ведёт к коллекторам и бьёт по кредитной истории.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.zerodeposit.com/tenants/
+- Цитата: "If you dispute your landlord’s claim, and our expert evaluation partner finds in your landlord’s favour, we will settle with them and then seek reimbursement from you. Failure to pay us at this stage will result in us passing your debt to a debt collection agency which may incur further costs for you and could affect your credit rating"
+- Статус: проверено по странице · Тип: заявление компании
 
-### Inferences
-- US numbers such as "units reached", "leases insured ($)" and "move-in cash retained" measure **reach and exposure, not paying policies or revenue**. LeaseLock's $17bn is the sum of insured lease values, not premiums. Rhino's 2021 ARR of **$60m** is the only revenue-type figure found.
-- Consolidation and exit pattern: Rhino and Jetty merged, Warburg took a majority of TheGuarantors, and LeaseLock added international carriers. The business scales through **B2B2C distribution with large property managers**, which matches Ingosstrakh partnering with agencies, build-to-rent operators and classifieds platforms.
-- Obligo shows a third way between cash deposit and insurance: a pre-authorized charge with bank-data qualification. In Russia a similar mechanism could pair with the tenant reliability rating, for example a bank-card pre-authorization for low-risk tenants.
+**ZD-6. Процесс: споры решает TDS; о претензии нужно заявить в течение 28 дней; выплата в течение 2 рабочих дней после решения TDS; без проверки арендатора (referencing) в выплате могут отказать.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.zerodeposit.com/faq/landlords/
+- Цитаты: "You must notify us of a claim within 28 days of a tenancy ending." · "If TDS finds a claim is in your favour, we aim to pay within two working days of being informed of TDS’s decision and receiving your bank details." · "If you can't provide evidence that a tenant was referenced properly we may have to decline the claim."
+- Статус: проверено по странице · Тип: заявление компании
 
-### Gaps
-- I found no current Greenlight Deposit price schedule, total Rhino funding after 2021, policy count, loss ratio or recovery rate.
-- I found no current units or funding figure for Obligo from an independent source.
-- I could not confirm whether the 2025 merger has closed, or what the June 2025 Goodwin note refers to.
+**ZD-7. Добровольность и агентская комиссия: продукт нельзя сделать обязательным; агенты получают комиссию за каждую продажу.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.zerodeposit.com/faq/landlords/ ; https://www.zerodeposit.com/faq/agents/
+- Цитаты: "No. A Zero Deposit Guarantee must always be a choice for your tenants, otherwise you may be in breach of the laws banning tenant fees across the UK." · "Our Partner Agents earn a commission for every introduction that leads to a Zero Deposit Guarantee purchase."
+- Статус: проверено по странице · Тип: заявление компании
+
+**ZD-8. Масштаб: более 200 000 арендаторов и более £170 млн покрытия для арендодателей (внутренние данные на январь 2026).**
+- Дата: 01.05.2026
+- URL: https://www.newsontheblock.com/news-opinion/zero-deposit-launches-guarantor-and-jll-the-first-major-partner-announced (та же цифра в https://www.propertyreporter.co.uk/zero-deposits-guarantor-secures-jll-and-a-quarter-of-the-market.html)
+- Цитата: "*Zero Deposit has supported more than 200,000 tenants and provided landlords with over £170m of cover via its Deposit Alternative product - based on Zero Deposit internal data as of January 2026."
+- Статус: проверено по странице · Тип: заявление компании (пресс-релиз в отраслевом СМИ)
+
+**ZD-9. Ранняя дистрибуция: 400 отделений агентств на массовом запуске (октябрь 2018) и 850 агентств в январе 2019; страховщик Munich Re; годовой сбор £26.**
+- Дата: 05.10.2018; 08.01.2019
+- URL: https://propertyindustryeye.com/zero-deposit-now-goes-live-in-400-branches-including-foxtons-and-your-move/ ; https://www.coapt.co.uk/news/landlords/new-zero-deposit-scheme-takes-hold/
+- Цитаты: "Zero Deposit has celebrated its mass-market launch and announced it is already in 400 branches." · "So far 850 letting agents have now signed up to the scheme including four major agencies, Connells, LSL, Knight Frank and Acorn Group are all signed up and have invested in the business." · "The insurance policy itself is underwritten by Munich Re which the tenant acquires a one-off payment at the equivalent of one week’s rent, no matter the length of the tenancy, along with an annual admin fee of £26.00."
+- Статус: проверено по странице · Тип: заявление компании (2018–2019, устарело)
+
+**ZD-10. Новый продукт Guarantor+ (замена личного поручителя): работает с февраля 2026; покрытие до 12 месяцев аренды, но не более £130 000, плюс £10 000 на юридические расходы; цена не опубликована.**
+- Дата: страница без даты (сноска о доле рынка датирована июлем 2026), открыто 25.10.2026
+- URL: https://www.zerodeposit.com/guarantorplus/
+- Цитата: "*Cover provides up to 12 months' tenant share of the rent, up to £130,000, plus £10,000 towards legal expenses." Рядом сказано "Transparent pricing with no hidden fees", но цифр цены на странице нет.
+- Статус: проверено по странице · Тип: заявление компании
+
+**ZD-11. «Доля рынка» Guarantor+ 24% (май 2026) и >25% (июль 2026). Это доля рынка, где продукт доступен, а не продаж: модель на внутренних данных о партнёрах; первый публичный партнёр JLL, 11 отделений.**
+- Дата: 01.05.2026
+- URL: https://www.propertyreporter.co.uk/zero-deposits-guarantor-secures-jll-and-a-quarter-of-the-market.html ; https://theintermediary.co.uk/2026/05/zero-deposit-secures-24-market-share-as-jll-adopts-guarantor-solution/ ; https://www.zerodeposit.com/guarantorplus/
+- Цитаты: "Guarantor+ has reached a 24% share of the UK rental market since launching in February 2026, covering an estimated 580,000 lets handled by agents each year." · "with the rollout now underway across 11 branches" · "****Estimated >25% market share is based on UK rental benchmarks and internal Zero Deposit partner adoption data, modelled to reflect agent-managed lettings (July 2026)."
+- Статус: проверено по странице · Тип: заявление компании
+
+**ZD-12. Октябрь 2026: партнёрство с платформой совместного проживания COHO.**
+- Дата: 05.10.2026
+- URL: https://theintermediary.co.uk/2026/10/zero-deposit-partners-with-coho-to-provide-deposit-and-guarantor-products/
+- Цитата: "Zero Deposit has partnered with COHO to offer deposit and guarantor products through its shared-living platform."
+- Статус: проверено по странице · Тип: заявление компании
+
+**ZD-13. Опрос Zero Deposit среди 800 арендодателей (если отменят страховые схемы защиты депозитов): 9% сразу перейдут на альтернативу, 26% последуют выбору арендатора, 64% переведут залоги в кастодиальную схему.**
+- Дата: 11.09.2026 (PropertyWire); 10.09.2026 (London Loves Property)
+- URL: https://www.propertywire.com/news/over-one-million-landlords-may-switch-to-deposit-alternatives ; https://londonlovesproperty.com/1m-landlords-could-adopt-deposit-alternatives-if-insured-tenancy-deposits-are-abolished/
+- Цитаты: "The research found that 9% of landlords would move directly to a deposit alternative product" · "A further 26% of respondents indicated they would be guided by tenant preference" · "The survey also showed that 64% of landlords said they would transfer tenancy deposits into a traditional custodial tenancy deposit scheme."
+- Статус: проверено по странице · Тип: заявление компании (опрос по заказу компании)
+
+**ZD-14. Декабрь 2024: компания заявляет о росте числа объектов с её продуктом (Кардифф +31%, Ноттингем +28%) в 14 городах.**
+- Дата: 11.12.2024
+- URL: https://www.lettingagenttoday.co.uk/breaking-news/2024/12/more-demand-for-deposit-alternatives-says-deposit-alternative-firm/
+- Цитата: "Zero Deposit claims a rise of 31% in the number of Cardiff rental properties adopting this option, while in Nottingham it’s a 28% rise, Liverpool 17% and Swansea 15%."
+- Статус: проверено по странице · Тип: заявление компании
+
+### 2.2 Reposit
+
+**RP-1. Плата: невозвратная, одна недельная аренда (минимум £150); покрытие до 8 недель аренды.**
+- Дата: 11.06.2025 (метка страницы)
+- URL: https://support.reposit.co.uk/en/articles/11485229-general-faqs
+- Цитата: "Reposit is a deposit alternative scheme that allows tenants to pay a non-refundable fee equivalent to one week's rent (subject to a minimum £150), instead of a traditional five-week cash deposit. In return, landlords and agents receive protection of up to eight weeks' rent for any end-of-tenancy charges."
+- Статус: проверено по странице · Тип: заявление компании
+
+**RP-2. Прочие сборы: £30 в год, если аренда длится дольше 12 месяцев; £60 за спор (возвращается, если арендатор выиграл); £50 за смену арендатора. Регресс: долг надо погасить, иначе пострадает кредитная история и возможен иск.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://reposit.co.uk/tenants/
+- Цитаты: "If your tenancy lasts for more than 12 months you will be charged a £30 annual fee, split between all tenants." · "Dispute fee of £60, split between all tenants. Only chargeable if you wish to dispute end of tenancy charges and fully refunded if your dispute is successful." · "Not doing so could affect your credit rating, and Reposit reserves the right to pursue legal action until the balance is settled."
+- Статус: проверено по странице · Тип: заявление компании
+
+**RP-3. Данные о претензиях за 2024 год (на 19.06.2024, то есть за неполный год): в 17% договоров претензия превышала 5 недель аренды (13% в 2023); 49% договоров закрылись вообще без начислений.**
+- Дата: 19.06.2024
+- URL: https://reposit.co.uk/blog/number-of-claims-exceeding-five-weeks-rent-rises-to-17-but-around-half-of-all-tenancies-end-in-no-charges/
+- Цитаты: "It found that in 17% of tenancies, landlords needed to reclaim more than five weeks of rent to cover costs such as rent arrears or damage. This figure has risen by 4%pts from a previous average of 13% in 2023." · "During 2024 so far, Reposit found 49% of agreements ended without any costs incurred by the tenant at all."
+- Статус: проверено по странице · Тип: заявление компании (собственные данные, без независимой проверки)
+
+**RP-4. Тот же ряд в другой подаче: выборка почти 20 000 договоров, 17% и 51% без начислений; начисления «на уровне средних удержаний из денежных залогов»; Reposit называет себя одной из двух альтернатив со статусом FCA; доля согласия арендаторов >60%, арендодателей >80%.**
+- Дата: 16.05.2026 (метка публикации; в тексте упомянут опрос мая 2024)
+- URL: https://reposit.co.uk/blog/6-common-myths-busted-deposit-alternative-products/
+- Цитаты: "Reposit’s own data found that across almost 20,000 tenancies, deposits of five weeks rent did not provide landlords with enough protection in 17% of cases." · "and when there are charges to the tenant, they are in line with average deductions on cash deposits." · "Reposit is independently authorised and is currently one of only two deposit alternatives in the UK to have achieved FCA regulated status" · "the opt-in rate among landlords is over 80%. Data from its platform and integration partners shows that tenant opt-in rates are consistently over 60%."
+- Статус: проверено по странице · Тип: заявление компании
+
+**RP-5. Средняя плата Reposit в 2023 году была £242 при среднем 5-недельном залоге около £1 300; в 14% случаев 5 недель не хватало.**
+- Дата: 12.09.2023
+- URL: https://reposit.co.uk/blog/what-is-no-deposit-renting/
+- Цитаты: "The average Reposit fee in 2023 is £242, with an average 5 week cash deposit standing at around £1,300." · "We see that in 14% of instances, 5 week’s cover isn’t enough to satisfy the claims at the end of the tenancy and the landlord is left out of pocket."
+- Статус: проверено по странице · Тип: заявление компании
+
+**RP-6. Рост: продажи в H1 2024 выросли на 28%, в H1 2025 на 37%; абсолютные цифры не раскрыты.**
+- Дата: 26.07.2024; 17.07.2025
+- URL: https://www.propertyreporter.co.uk/reposit-sees-sales-surge-by-a-third-during-record-half-year.html ; https://propertyindustryeye.com/reposit-reports-record-first-half/
+- Цитаты: "compared with H1 23, sales rose across H1 24 by 28%" · "The company says that overall sales rose by 37% compared to the same period in 2024, marking the firm’s strongest six-month performance to date. However, the company failed to provide actual figures."
+- Статус: проверено по странице · Тип: заявление компании (PIE прямо отмечает, что абсолютных цифр нет)
+
+**RP-7. H1 2026: продажи +58%; >£34 млн покрытия; арендаторы не потратили £17.2 млн на переезд, в среднем £1 088 на договор; с мая 2026 Reposit эксклюзивный партнёр Goodlord по замене залога; >195 новых агентов-партнёров.**
+- Дата: 13.07.2026
+- URL: https://www.propertywire.com/company-news/deposit-replacement-firm-reports-58-sales-rise-in-h1-2026/
+- Цитаты: "Deposit replacement provider Reposit recorded a 58% increase in sales during the first half of 2026" · "it provided more than £34 million of cover for landlords during the first six months of the year" · "Reposit said tenants using its service avoided more than £17.2 million in upfront moving costs during the period, equivalent to an average saving of £1,088 per tenancy." · "becoming Goodlord’s exclusive deposit replacement partner in May"
+- Статус: проверено по странице · Тип: заявление компании
+
+**RP-8. Скорость споров: валидные претензии рассматриваются в среднем 14–20 дней (страница агента); у Reposit «as short as 14 days».**
+- Дата: без даты (агент); 12.09.2023 (Reposit)
+- URL: https://www.alldayandmiller.co.uk/articles/reposit-deposit-free-renting ; https://reposit.co.uk/blog/what-is-no-deposit-renting/
+- Цитаты: "At tenancy end, any valid claims for damage or rent arrears are submitted and resolved within an average of 14 to 20 days" · "At Reposit, we’re pleased that our adjudication turnaround is as short as 14 days."
+- Статус: проверено по странице · Тип: заявление партнёра-агента и компании
+
+**RP-9. Страховщик по старой брошюре для арендодателей: Canopius (Lloyd’s Syndicate 4444).**
+- Дата: без даты. Брошюра ссылается на опрос сентября 2017 и на «обычный» залог в шесть недель, то есть, по всей видимости, написана до вступления в силу Tenant Fees Act 2019 (это мой вывод).
+- URL: https://pattinson.blob.core.windows.net/web/1/root/reposit-landlord-leaflet.pdf
+- Цитаты: "However our insurance policy, underwritten by Canopius, allows us to cover the Landlord for up to eight week’s of damages or rent arrears if a tenant defaults on fair" · "insurance policy underwritten by Canopius Managing Agents, Lloyds Syndicate 4444."
+- Статус: проверено по странице · Тип: заявление компании (устаревший документ; текущего страховщика на открытых страницах нет)
+
+### 2.3 Flatfair
+
+**FF-1. Плата: 28% месячной аренды или £120 (что больше), плюс VAT; невозвратная.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.flatfair.co.uk/faqs
+- Цитата: "28% of a month's rent or £120 (whichever is greater), plus VAT, split evenly between all tenants."
+- Статус: проверено по странице · Тип: заявление компании
+
+**FF-2. Не страхование: дискреционная защита до 10 недель.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.flatfair.co.uk/faqs ; https://www.flatfair.co.uk/landlords
+- Цитаты: "No, flatfair is not insurance; you’re still accountable for any damage or rent arrears you are responsible for at the end of your tenancy" · "We’re discretionary, so we judge every case based on its individual merit" · "Landlords get up to 10 weeks’ protection and they don’t pay a penny."
+- Статус: проверено по странице · Тип: заявление компании
+
+**FF-3. Deposit Boost (июль 2025): Flatfair выкупает долг сверх 5-недельного лимита, но не более чем ещё 5 недель аренды.**
+- Дата: 09.07.2025 (Property118); 07.07.2025 (Letting Agent Today)
+- URL: https://www.property118.com/flatfairs-deposit-boost-tackles-rent-arrears-debt/ ; https://www.lettingagenttoday.co.uk/breaking-news/2025/07/deposit-alternative-service-will-buy-debt-if-tenant-leaves-unpaid-arrears-or-damages/
+- Цитата: "If excess charges are raised and the tenant doesn’t pay, flatfair can purchase the outstanding debt — up to an additional five weeks’ rent"
+- Статус: проверено по странице · Тип: заявление компании
+
+**FF-4. Спор с Zero Deposit в ASA: ASA пять месяцев расследовала жалобу Zero Deposit и не признала рекламу Flatfair вводящей в заблуждение.**
+- Дата: 04.12.2019
+- URL: https://thenegotiator.co.uk/news/flatfair-zerodeposit-asa/
+- Цитата: "The UK’s two leading alternative deposit providers have clashed after Zero Deposit referred competitor flatfair to the Advertising Standards (ASA) Authority" · "After a five-month investigation by the ASA"
+- Статус: проверено по странице · Тип: независимые данные (отраслевое СМИ о решении регулятора рекламы)
+
+### 2.4 Ome (Hamilton Fraser)
+
+**OM-1. Hamilton Fraser (оператор схемы mydeposits) запустил Ome в формате «подписки как Netflix».**
+- Дата: 28.11.2019
+- URL: https://thenegotiator.co.uk/news/products-services-news/ome-deposits-alternative-launch/
+- Цитата: "The key difference with its competitors is that the service will be a ‘Netflix’ style flexible subscription"
+- Статус: проверено по странице · Тип: заявление компании
+
+**OM-2. Расчёт Ome: в 2019 году в авторизованных схемах лежало £5.2 млрд залогов, средний залог £1 139.**
+- Дата: 21.02.2020
+- URL: https://propertyindustryeye.com/tenants-deposits-worth-5-2bn-taken-out-of-the-economy-last-year-says-new-research/
+- Цитаты: "just over £5.2bn was held via authorised schemes. The average tenancy deposit was £1,139." · "The number crunching has been done by Ome"
+- Статус: проверено по странице · Тип: заявление компании
+
+### 2.5 Проникновение на рынке: независимые опросы
+
+**UK-1. Opinium по заказу Generation Rent: 7% респондентов использовали альтернативу залогу в текущей аренде. Среди них 51% получают пособия и 28% имеют инвалидность, против 39% и 24% по всей выборке. Generation Rent называет продукт «надбавкой за бедность».**
+- Дата: 28.07.2025. Отчёт Generation Rent (PDF на generationrent.org) закрыт Cloudflare (403); цифры подтверждены по пересказу в СМИ.
+- URL: https://www.scottishhousingnews.com/articles/uk-call-for-tenancy-deposits-as-up-to-ps169m-wasted-annually
+- Цитаты: "Seven per cent of respondents in the Opinium survey said they had used a deposit alternative for their current tenancy. Among these, 51% were receiving benefits and 28% reported a disability—compared to 39% and 24% in the broader sample." · "“These ‘deposit alternatives’ are effectively a poverty premium, forcing those with the least to pay the most,” the report warns." · "These products are largely unregulated."
+- Статус: проверено по странице · Тип: независимые данные (опрос Opinium для НКО Generation Rent)
+
+**UK-2. Опрос Generation Rent среди 2 000 арендаторов (2025): 4% относится к использованию формальной процедуры спора, а не к доле альтернатив залогу; 46% не знают, что удержания можно оспорить.**
+- Дата: 24.07.2025
+- URL: https://thenegotiator.co.uk/news/rental-market/alternative-rental-deposits-are-solution-to-generation-rent-accusations/
+- Цитата: "The survey of 2,000 private renters found that almost half (46%) are unaware they can challenge deposit deductions they believe are unfair, and only 4% have used formal dispute resolution processes to recover money."
+- Статус: проверено по странице · Тип: независимые данные (опрос НКО). **Исправление:** в прошлой версии было «4% платили альтернативу залогу». На открытых страницах 4% означает только долю тех, кто пользовался формальным спором (см. раздел 8).
+
+### 2.6 Регулирование Великобритании и критика
+
+**UK-3. Tenant Fees Act 2019: залог не более 5 недель аренды при годовой аренде до £50 000 и не более 6 недель при £50 000 и выше.**
+- Дата: закон 2019 года
+- URL: https://www.legislation.gov.uk/ukpga/2019/4/pdfs/ukpga_20190004_en.pdf
+- Цитата: "(a) the amount of five weeks’ rent, where the annual rent in respect of the tenancy immediately after its grant, renewal or continuance is less than £50,000, or (b) the amount of six weeks’ rent, where the annual rent in respect of the tenancy immediately after its grant, renewal or continuance is £50,000 or more, the amount of the excess is a prohibited payment."
+- Статус: проверено по странице · Тип: независимые данные (закон)
+
+**UK-4. Позиция правительства по продуктам замены залога: их можно предлагать, но нельзя требовать; плата невозвратная; ответственность арендатора сохраняется. Руководство отозвано 08.05.2026 и заменено новым, которое я не открывал.**
+- Дата: PDF-руководство для арендаторов; отметка «withdrawn on 8 May 2026»
+- URL: https://assets.publishing.service.gov.uk/media/5f745d69d3bf7f287328e5a5/Tenant_Fees_Act_-_Tenant_Guidance.pdf (перенаправляет на актуальный адрес в assets.publishing.service.gov.uk)
+- Цитаты: "A landlord or agent cannot require you to use a deposit replacement product but may allow it as an option without contravening the Tenant Fees Act." · "Any fee paid to a deposit replacement provider is non-refundable (unlike a traditional upfront cash deposit paid to a landlord)."
+- Статус: проверено по странице · Тип: независимые данные (правительство; документ отозван)
+
+**UK-5. Уэльс описывает «insurance-based deposit»: единовременный платёж третьей стороне плюс ежегодный сбор.**
+- Дата: октябрь 2019 (путь файла)
+- URL: https://www.gov.wales/sites/default/files/publications/2019-10/letting-fees-guidance-for-landlords-and-letting-agents_1.pdf
+- Цитата: "insurance-based deposit, where a tenant may pay a lump sum to a third-party provider, followed by an annual fee."
+- Статус: проверено по странице · Тип: независимые данные (правительство Уэльса)
+
+**UK-6. Renters’ Rights Act вступил в силу 01.05.2026; правила о залогах не изменились. Пересмотр системы залогов ожидается в 2027; правительство намекало на отмену страховых схем защиты депозитов.**
+- Дата: 11.02.2026; 29.06.2026; 03.08.2026
+- URL: https://www.property118.com/government-clarifies-deposit-rules-under-renters-rights-act/ ; https://www.nrla.org.uk/news/what-the-renters-rights-act-means-for-deposit-protection ; https://www.property118.com/landlords-face-deposit-dilemma-as-government-considers-future-reforms/
+- Цитаты: "The latest clarification comes as the Renters’ Rights Act comes into force on 1 May 2026." · "While the rules around deposits haven’t changed, the Renters’ Rights Act could still shape how things play out" · "The bigger potential change for the deposits sector is expected to come through the government’s review of the tenancy deposit system, which is due to begin during 2027."
+- Статус: проверено по странице · Тип: независимые данные (отраслевые СМИ и ассоциация арендодателей)
+
+**UK-7. CMA (антимонопольный регулятор) летом 2023 года начала изучать проблемы частной аренды, в том числе «zero deposit schemes»; в 2022 году The Observer писал, что агенты фактически навязывают такие схемы.**
+- Дата: 11.12.2024
+- URL: https://www.lettingagenttoday.co.uk/breaking-news/2024/12/more-demand-for-deposit-alternatives-says-deposit-alternative-firm/
+- Цитаты: "In summer 2023 the Competitions and Markets Authority started an investigation into “areas of concern” in the private rental sector, one of which was what it called “zero deposit schemes.”" · "In 2022 The Observer newspaper claimed that some agents were flouting the ban on tenant fees by effectively obliging renters to sign up to such schemes as a precondition for their tenancy."
+- Статус: проверено по странице · Тип: независимые данные (отраслевое СМИ)
+
+**UK-8. Глава TDS призывает провайдеров публиковать число полисов и данные о претензиях и считает, что все они должны регулироваться FCA. При этом TDS владеет долей в Zero Deposit.**
+- Дата: 12.07.2024
+- URL: https://thenegotiator.co.uk/features/products-services-features/deposit-alternatives-too-good-to-be-true/
+- Цитаты: "It is of course in the interests of the deposit replacement insurance schemes to talk up their policy numbers and I would lay down a challenge to the main players in the market to publish the number of deposit policies they hold, and details of claims made." · "Harriott says deposit replacement schemes do have a role to play – and TDS has a stake in Zero Deposit – but believes they should all be FCA-regulated."
+- Статус: проверено по странице · Тип: независимые данные (позиция оператора схемы защиты депозитов, у которого есть доля в Zero Deposit)
+
+**UK-9. Ранняя критика: Generation Rent называла рынок «wild west» (2019); FCA призывали проверить продажи таких схем (2019); расследование BBC (2020) показало, что арендаторы не понимают невозвратности платы.**
+- Дата: 01.02.2019; 31.05.2019; 10.02.2020
+- URL: https://propertyindustryeye.com/tenant-group-slams-wild-west-of-deposit-replacement-schemes/ ; https://propertyindustryeye.com/financial-watchdog-urged-to-review-regulation-of-deposit-replacement-schemes/ ; https://thenegotiator.co.uk/news/bbc-alternative-deposits-report/
+- Цитаты: "Deposit-free schemes are a real wild west with a lack of regulatory oversight and information on costs and ability." · "The Financial Conduct Authority (FCA) has been urged to review how deposit replacement scheme products are being sold to tenants." · "The key plank of the criticisms is that tenants do not understand that, unlike a traditional deposit, alternative deposits schemes charge them fees which are non-refundable"
+- Статус: проверено по странице · Тип: независимые данные (НКО и СМИ)
 
 ---
 
-## 4. US: state and local regulation of deposit alternatives (NY, CA, CO, CT, MD, OH)
+## 3. США
 
-### Takeaway
-No state has created a clean licensing regime for deposit alternatives. Regulators mostly act through **deposit caps** (CA, CO), **installment rights** (CO, Columbus, Cincinnati) and **enforcement of existing deposit law** (Maryland AG vs LeaseLock, 2022). Industry-backed "renter's choice" laws peaked in 2020–21 and have since **stalled** (Shelterforce, Dec 2025). Advocates (NCLC, May 2026) are pushing for tighter rules.
+### 3.1 Rhino → слияние с Jetty → Greenlight Rent
 
-### Cited Findings
-- **Colorado HB25-1249**, signed Jun 3 2025 and effective Jan 1 2026: deposits are capped at **1× monthly rent**, and on the tenant's request landlords must accept payment in installments. One source says a plan of at least 6 months is required, and the deposit cannot be grounds for eviction. — [Colorado General Assembly bill text](https://content.leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_1249_01.pdf); [Colorado DRE summary](https://dre.colorado.gov/hb25-1249-summary); [Otten Johnson](https://www.ottenjohnson.com/insight/changes-to-the-colorado-security-deposit-statute-to-take-effect-january-1-2026/); [Colorado Housing Coalition](https://www.coloradohousingcoalition.org/legislative-and-lobbyist-updates/hb25-1249-tenant-security-deposit-protections). I found no CO provision specifically regulating insurance-type alternatives.
-- **New York:** bills S180 (2023) and S6397 (2025) would require landlords to offer at least one alternative: installments over at least 6 months, a deposit capped at half a month's rent, or a state guarantee program. They would also allow deposit insurance. Their enactment is **unconfirmed**, and they appeared to be pending. — [NY Senate S180](https://www.nysenate.gov/legislation/bills/2023/S180); [NY Senate S6397](https://www.nysenate.gov/legislation/bills/2025/S6397)
-- **California AB 12:** caps most move-in deposits at **one month's rent**, replacing the 1977 rule of two months, or three if furnished. The source is a vendor blog. — [TheGuarantors blog on AB 12](https://www.theguarantors.com/blog/owners-and-operators/californias-security-deposit-bill-a-b-12). Vendor and landlord sites say no CA law requires landlords to offer a deposit alternative, and that bonds are not "security deposits" under the Civil Code. This is **unverified** against the statute.
-- **Connecticut:** a 2022 bill (sHB 5234) to let landlords accept damage insurance instead of a deposit **died**. Public Act 23-207 (2023) cut the deposit-return deadline from **30 to 21 days**, created a **pre-occupancy walk-through right**, limited application fees, and extended the state's **Security Deposit Guarantee Program** to people under 60% of state median income. Caps remain 2 months' rent, or 1 month for tenants aged 62+. — [CGA OLR report 2023-R-0153](https://cga.ct.gov/2023/rpt/pdf/2023-R-0153.pdf); [CGA bill analysis sHB 5234 (2022)](https://cga.ct.gov/2022/ba/pdf/2022HB-05234-R000273-BA.pdf); [CT Public, Nov 2022](https://www.ctpublic.org/news/2022-11-29/rent-without-a-hefty-security-deposit-an-alternative-may-be-in-connecticuts-future)
-- **Maryland:** the AG treated the deposit-waiver fee as a deposit that must be refundable, and LeaseLock refunded fees (Jan 2022) — see section 3. — [Nottingham MD](https://nottinghammd.com/2022/01/26/attorney-general-frosh-announces-settlement-with-leaselock/)
-- **Cincinnati (OH) ordinance:** landlords with more than 25 units must offer alternatives: "rental security insurance", a deposit of at most half a month's rent, or installments over at least 6 months. It is triggered on the tenant's request. Shelterforce reports Rhino lobbied for these laws and that Cincinnati was its first legislative win. — [CityBeat](https://www.citybeat.com/news/cincinnati-city-council-passes-ordinance-requiring-security-deposit-alternatives-for-rental-housing-12157511/); [KMK Law](https://www.kmklaw.com/real-estate/navigating-cincinnati-new-security-deposit-legislation); [CBS News](https://www.cbsnews.com/news/cincinnati-security-deposit-cash-alternatives/)
-- **Columbus (OH), 2021:** landlords with 5+ units must offer payment in full, in 3 monthly installments or in 6. A local advocate reports no complaints or litigation. **Baltimore:** the mayor vetoed a "renter's choice" law after advocates warned of predatory products. The renter's-choice push "peaked in 2020 and 2021" and has since died down. — [Shelterforce, Dec 19 2025](https://shelterforce.org/2025/12/19/what-happened-to-renters-choice-legislation/); [Planetizen](https://www.planetizen.com/news/2025/12/136611-what-happened-renters-choice-legislation). A Baltimore Sun op-ed says Council Bill 21-0022 passed in Apr 2021, which conflicts with Shelterforce. — [Baltimore Sun via PressReader](https://www.pressreader.com/usa/baltimore-sun/20210416/281822876626517)
-- **NCLC, "Tenant Insecurity" (May 20 2026; Kuehnhoff, Nelson, Sharpe):** deposit alternatives are often costlier than a deposit. Fees are non-refundable and recurring, riskier tenants pay more, and the products "attempt to evade state laws designed to protect tenants". It also lists bundling with unwanted products, overdrawn bank accounts, "no proof of claims or dispute process", and price increases. It recommends enforcing existing laws and prohibiting abusive practices. **[advocacy, independent of industry]** — [NCLC report page](https://www.nclc.org/resources/tenant-insecurity-how-security-deposit-alternatives-raise-tenants-costs-and-erode-their-protections/); [PDF (UT Law mirror)](https://law.utexas.edu/wp-content/uploads/sites/11/2026/06/2026-May_Tenant-Insecurity-report.pdf); [NCLC blog](https://www.nclc.org/security-deposit-alternative-products-are-hurting-tenant-financial-security/); [Washington Informer](https://www.washingtoninformer.com/renters-costly-security-deposit-alternatives/)
-- National Housing Law Project letter on security-deposit replacement products (Jan 5, per the document heading). — [NHLP PDF](https://www.nhlp.org/wp-content/uploads/2023.01.05-Regarding-Security-Deposit-Replacement-Products.pdf)
+**US-1. Январь 2021: Rhino привлёк $95 млн при оценке чуть ниже $500 млн, раунд вёл Tiger Global; contracted ARR вырос с $4 млн (январь 2019) до $60 млн (январь 2021).**
+- Дата: 26.01.2021
+- URL: https://techcrunch.com/2021/01/26/rhino-raises-95m-to-scale-its-rental-deposit-replacing-insurance-product
+- Цитаты: "today announced that it has raised $95 million, an investment that values the startup at just under $500 million. Tiger Global led the round" · "its contracted ARR has scaled quickly in recent years, from $4 million in January 2019 to $60 million in January 2021. The ARR figure represents the amount of expected customer volume from buildings that Rhino has contracted with."
+- Статус: проверено по странице · Тип: заявление компании в СМИ (TechCrunch поясняет, что ARR означает ожидаемый объём, а не выручку)
 
-### Inferences
-- The main US legal risk is **recharacterization**: a regulator decides a non-refundable "fee instead of deposit" is really a deposit (Maryland), or the product is used to dodge deposit caps (NCLC). For Russia, ИнгоКлюч must be documented as an insurance contract, not as a security payment under ст. 381.1 ГК РФ. Russia-law aspects are covered by other notes.
-- Laws that *required* landlords to accept alternatives (Cincinnati) were industry-driven and drew backlash. The durable fixes were installments and deposit caps. A Russian launch should stay voluntary and market-led, not lobbied into mandates.
+**US-2. Масштаб Rhino в 2021 году: рост с 200 000 до более чем 1 млн квартир за 18 месяцев; арендаторы сэкономили >$250 млн.**
+- Дата: 29.01.2021
+- URL: https://www.insurancebusinessmag.com/us/news/technology/rental-deposit-insurance-startup-rhino-raises-95-million-245047.aspx
+- Цитата: "it has tripled in size to 100 employees, and expanded from serving 200,000 homes to over a million. The company also said that in that period, it has helped renters save more than $250 million."
+- Статус: проверено по странице · Тип: заявление компании
 
-### Gaps
-- The search budget ran out before I could check NY DFS treatment of deposit bonds, the California statute text, Washington, Virginia (which permits deposit insurance) and any 2024–25 laws regulating alternatives directly. Treat the state list as incomplete.
+**US-3. Цена Rhino по обзору 2024 года: Deposit Insurance «Starting at $4/month».**
+- Дата: «Pricing updated April 2024»
+- URL: https://rentalrealestate.com/tools/rhino/
+- Цитата: блок «Deposit Insurance»: "Starting at $4/month"; ниже: "Pricing updated April 2024"
+- Статус: проверено по странице · Тип: независимые данные (обзорный сайт, цены со слов провайдера). **Исправление:** в прошлой версии было «$10–20 в месяц за $1 000 покрытия»; на странице этого нет.
+
+**US-4. Слияние Rhino и Jetty (06.02.2025): «крупнейшая платформа» замены залога в США, >6 млн квартир, арендаторы сохранили >$4 млрд; до слияния Rhino привлёк $140.8 млн, Jetty $121.3 млн; CEO объединённой компании Georges Clement; условия сделки не раскрыты.**
+- Дата: 06.02.2025
+- URL: https://www.prnewswire.com/news-releases/rhino-and-jetty-merge-to-create-the-largest-security-deposit-insurance-company-in-the-market-302370218.html ; https://www.alleywatch.com/2025/02/security-deposit-alternative-insurnace-rhino-jetty-merger/
+- Цитаты: "The merger unites two established companies that serve more than 6 million rental units." (PRN) · "Prior to the merger, Rhino had raised $140.8M in total funding, while Jetty had secured $121.3M in funding. The combined company has helped renters retain over $4B in move-in costs" · "Georges Clement, currently Rhino’s COO, will lead the combined company as CEO." · "Terms of the transaction were not disclosed." (AlleyWatch)
+- Статус: проверено по странице · Тип: заявление компании
+- Дополнительно: юрфирма Goodwin, советник Jetty, сообщила о сделке 16.06.2025 (https://www.goodwinlaw.com/en/news-and-events/news/2025/06/announcements-technology-ma-goodwin-advises-jetty): "team advised Jetty on their merger today with Rhino Labs". Статус: проверено по странице · Тип: заявление консультанта.
+
+**US-5. Ребрендинг: Rhino теперь называется Greenlight Rent, продукт Greenlight Deposit; условия старых полисов Rhino не изменились. Greenlight работает как лицензированное страховое агентство и general agent нескольких страховщиков; лимит покрытия может превышать денежный залог.**
+- Дата: без даты (дата ребрендинга не установлена), открыто 25.10.2026
+- URL: https://maymonthomes.com/rhino-security-deposit-alternative/ (перенаправляет на https://www.maymonthomes.com/greenlight-rent) ; https://www.greenlightrent.com/
+- Цитаты: "Rhino is now Greenlight Rent. If you already have a Rhino policy, nothing about your current policy, pricing, or coverage has changed." · "Greenlight's Security Deposit Alternative (SDA) is provided by Rhino New York LLC DBA Greenlight Rent (RIG Greenlight Insurance Agency in California) (Greenlight), a licensed insurance agency." · "landlords may select a coverage limit that is greater than the amount of a cash security deposit. Greenlight acts as a general agent for various insurance carriers."
+- Статус: проверено по странице · Тип: заявление партнёра (управляющей компании) и самой компании
+
+**US-6. Урегулирование претензий: Greenlight с ИИ-платформой Taktile сократила ручную работу на 50% и время обработки на 80%, а трёхкратный рост числа претензий приняла без новых сотрудников.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://taktile.com/customer-stories/rhino-jetty-and-taktile (перенаправляет на /greenlight-rent-and-taktile)
+- Цитаты: "Reduced claims adjusters’ manual work by 50%" · "Absorbed a 3X increase in claims volume with zero new hires" · "Reduced the time needed to process a claim by 80%"
+- Статус: проверено по странице · Тип: заявление вендора (кейс)
+
+**US-7. Регресс и права арендатора в Rhino: арендодатель получил $6 000, Rhino взыскивает их с арендатора; договор содержит арбитражную оговорку и запрет коллективных исков. Отказ платить грозит кредитной истории арендатора.**
+- Дата: 10.12.2020 (Shelterforce); 05.05.2021 (The Intercept)
+- URL: https://shelterforce.org/2020/12/10/security-deposit-alternatives-the-misleading-marketing-of-renters-choice/ ; https://theintercept.com/2021/05/05/rhino-rent-security-deposits-baltimore/
+- Цитаты: "Steininger’s landlord was able to collect $6,000 from the company, and the company is now pursuing Steininger for reimbursement." · "Rhino’s bond agreement, for instance, includes an arbitration clause, which could limit a renter’s ability to bring a suit against the company." · "The contract also contains a clause that bars renters from participating in a class action lawsuit against the company" · "warns that failure to repay could hurt the tenant’s credit score and their ability to find housing or obtain any kind of insurance in the future."
+- Статус: проверено по странице · Тип: независимые данные (журналистика)
+
+**US-8. Навязывание: арендодатель может предлагать только альтернативу, без денежного залога; данных о числе пользователей мало.**
+- Дата: 23.10.2023
+- URL: https://www.vice.com/en/article/how-landlord-tech-is-squeezing-renters-who-cant-afford-security-deposits/
+- Цитаты: "landlords can offer an “alternative” like Rhino without requiring a security deposit, essentially forcing renters into the more costly product." · "There’s little information about how many renters are using security deposit alternatives like Rhino’s."
+- Статус: проверено по странице · Тип: независимые данные (журналистика)
+
+### 3.2 Jetty (до слияния)
+
+**US-9. Февраль 2019: раунд B на $25 млн под руководством Keith Rabois (Khosla Ventures); плата арендатора составляла 17.5% суммы залога; партнёры управляли более чем 500 000 квартир.**
+- Дата: 11.02.2019
+- URL: https://mpamag.com/news/jetty-raises-25m-in-funding-to-secure-more-renters-158325.aspx (перенаправляет на mpamag.com/us/...) ; https://www.housingwire.com/articles/48134-renter-focused-insurance-startup-jetty-raises-25-million
+- Цитаты: "So instead of forking over a full security deposit, renters can pay a fee of 17.5% of the deposit amount." · "Jetty also partnered with management partners such as LivCor, Beam Living, Griffis, Lynd, Rose Associates, and others to manage more than 500,000 rental units all over country." · "led by Keith Rabois of Khosla Ventures"
+- Статус: проверено по странице · Тип: заявление компании (2019, устарело)
+
+### 3.3 LeaseLock
+
+**US-10. Июль 2026: >$17 млрд застрахованных договоров аренды («leases secured»); в панель страховщиков добавлены два международных страховщика с рейтингом A; компания утверждает, что у неё нет ни квалификационных барьеров, ни взыскания долгов после окончания аренды.**
+- Дата: 28.07.2026
+- URL: https://www.generation-nt.com/communiques-presse/leaselock-surpasses-17-billion-in-leases-secured-and-expands-2079207
+- Цитаты: "has surpassed $17 billion in leases secured and expanded its insurance panel with the addition of two A-rated international carriers." · "Unlike most deposit alternatives, with LeaseLock lease insurance there are no qualification barriers nor post-tenancy debt collection."
+- Статус: проверено по странице · Тип: заявление компании (пресс-релиз GlobeNewswire)
+
+**US-11. Июль 2025: $14 млрд застрахованных договоров, более 2 млн договоров без залога; CEO Janine Steiner Jovanovic.**
+- Дата: 08.07.2025
+- URL: https://www.financialcontent.com/article/bizwire-2025-7-8-leaselock-surpasses-14-billion-in-leases-insured-as-renters-nationwide-opt-for-deposit-free-living
+- Цитаты: "today announced a landmark achievement of insuring $14 billion in leases. This milestone reflects a fundamental shift in consumer preference, with over 2 million leases achieving a deposit-free experience." · "said Janine Steiner Jovanovic, CEO of LeaseLock"
+- Статус: проверено по странице · Тип: заявление компании
+
+**US-12. Цена и Мэриленд (показания LeaseLock в законодательном собрании Мэриленда, 2024): средняя плата $39 в месяц; генпрокурор Мэриленда считает «deposit waiver fee» залогом, который должен быть возвратным; LeaseLock работала в штате с 2016 по 2021 год и ушла оттуда.**
+- Дата: 2024 (PDF «DRAFT 2024 LL MD Written Testimony», в поддержку Senate Bill 1167)
+- URL: https://mgaleg.maryland.gov/cmte_testimony/2024/jpr/23645_04012024_18329-632.pdf
+- Цитаты: "instead pay a monthly fee that averages $39 dollars a month." · "However, Maryland’s Attorney General has interpreted the definition of a security deposit to include a deposit waiver fee, which means the fees would have to be refundable" · "We operated in Maryland from 2016 to 2021 without any issues before agreeing to cease working with landlords to offer deposit waiver fees in the state."
+- Статус: проверено по странице · Тип: заявление компании (о позиции регулятора). Детали соглашения 2022 года с генпрокурором (возврат платежей, запрет на продажу) на открытых страницах не подтверждены, см. раздел 8.
+
+**US-13. Привлечённое финансирование: $63.7 млн по CB Insights против $73.2 млн за девять раундов, включая Series B на $52 млн в 2021 году, по Insurtech List (там же «более 2,5 млн квартир»).**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.cbinsights.com/company/leaselock ; https://insurtechlist.com/companies/leaselock/
+- Цитаты: "LeaseLock raised a total of $63.7M." · "With over USD 14 billion in leases insured and coverage across more than 2.5 million apartment homes ... The company raised USD 73.2 million across nine funding rounds, including a USD 52 million Series B in 2021"
+- Статус: проверено по странице · Тип: независимые данные (базы стартапов; цифры между собой расходятся)
+
+### 3.4 TheGuarantors
+
+**US-14. 18.03.2026: мажоритарная инвестиция Warburg Pincus. Охват >3,5 млн квартир, защищено >$6 млрд стоимости договоров аренды; ёмкость дают панель страховщиков и перестраховщиков.**
+- Дата: 18.03.2026
+- URL: https://www.prnewswire.com/news-releases/theguarantors-announce-growth-investment-from-warburg-pincus-302716073.html
+- Цитаты: "today announced a majority investment from Warburg Pincus" · "the platform supports a footprint of over 3.5 million rental units across many of the largest institutional property management companies in the United States and has protected more than $6 billion in lease value" · "supported by a panel of premier carriers and reinsurers"
+- Статус: проверено по странице · Тип: заявление компании. На сайте (без даты, https://www.theguarantors.com/solutions-multifamily) указано «$7B+».
+
+**US-15. Цена: Rent Coverage на 1-летний договор стоит от 40% до чуть более одной месячной аренды, единоразово; Deposit Coverage обычно 25–50% месячной аренды.**
+- Дата: без даты, открыто 25.10.2026 (страница найдена поиском)
+- URL: https://help.theguarantors.com/what-products-does-theguarantors-offer
+- Цитаты: "For a one-year lease, the cost generally ranges between 40% and a bit more than a full month's rent. This is a one-time fee to purchase the policy, which covers the term of one lease." · "But it is usually between 25% and 50% of a full month's rent."
+- Статус: проверено по странице · Тип: заявление компании
+
+**US-16. Ценообразование по риску; покрытие от 3 до 12 месячных арендных плат; арендатор обязан возместить выплаты (регресс).**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.theguarantors.com/products-rent-coverage ; https://www.theguarantors.com/solutions-multifamily ; https://theguarantors.com/faq (перенаправляет на /faq-for-renters)
+- Цитаты: "Pricing is personalized based on a few key factors, including the monthly rent, the renter applicant’s financial profile, and the coverage you require." · "Custom coverage limit from 3 to 12 GMR" · "If you damage your apartment and TheGuarantors pays a claim to your landlord, you will have to reimburse TheGuarantors for the amounts paid on your behalf."
+- Статус: проверено по странице · Тип: заявление компании
+
+**US-17. История: раунд A в 2017 году на $11.7 млн; тогда арендатор платил 5–10% аренды за срок договора, гарантию давала Hanover Insurance Group. По базе StartupIntros всего привлечено $112 млн за 4 раунда.**
+- Дата: 13.11.2017; без даты (база)
+- URL: https://globalventuring.com/blog/2017/11/13/corporates-sign-up-to-theguarantors-series-a/ ; https://startupintros.com/orgs/theguarantors
+- Цитаты: "Tenants pay between 5% and 10% of their rent to the company over the course of their lease in return for a guarantee provided by Hanover Insurance Group." · "TheGuarantors has raised $112.0M in total across 4 funding rounds."
+- Статус: проверено по странице · Тип: независимые данные (СМИ 2017, устарело; база стартапов)
+
+**US-18. Партнёрство с Kikoff (кредитный рейтинг арендаторов), март 2026.**
+- Дата: 17.03.2026
+- URL: https://www.theguarantors.com/blog/company-updates/theguarantors-and-kikoff-partner-to-help-renters-build-credit
+- Цитата: заголовок "TheGuarantors & Kikoff partner to help renters build credit"
+- Статус: проверено по странице · Тип: заявление компании
+
+### 3.5 Obligo
+
+**US-19. Механизм «billing authorization»: арендатор платит небольшую ежемесячную плату, а при ущербе арендодатель списывает с него до согласованной суммы. Это кредитная структура, не страхование. По данным Plaid, 80% пользователей проходят проверку через open banking; партнёры управляют более чем 200 000 квартир.**
+- Дата: 25.02.2021 (блог Plaid); 14.01.2019 (Multifamily Executive)
+- URL: https://plaid.com/blog/obligo-customer-story/ ; https://plaid.com/customer-stories/obligo/ ; https://www.multifamilyexecutive.com/property-management/obligo-puts-a-new-twist-on-the-deposit-free-model_o
+- Цитаты: "If a tenant causes damages, the landlord is authorized to charge them up to a pre-agreed amount." · "80% of Obligo users qualify for a deposit-free rental after connecting their bank account using Plaid." · "All told, their partners manage more than 200,000 units." · "Obligo is using a credit-based financial structure (not insurance)"
+- Статус: проверено по странице · Тип: заявление компании и партнёра (Plaid)
+
+**US-20. 70% арендаторов выбирают вариант без залога, если он доступен.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://myobligo.com/blog/9-key-questions-to-ask-before-implementing-a-deposit-free-solution/ (перенаправляет на obligo.com/blog/...)
+- Цитата: "(70% of renters choose to go deposit-free)"
+- Статус: проверено по странице · Тип: заявление компании
+
+### 3.6 Регуляторное давление в США
+
+**US-21. NCLC, отчёт «Tenant Insecurity» (20.05.2026, обновлён 05.06.2026; авторы Kuehnhoff, Nelson, Sharpe): продукты «пытаются обойти» законы о залогах. Отчёт перечисляет 12 проблем, включая невозвратность платы, навязывание, дифференцированные цены и отсутствие подтверждения претензий, и рекомендует применять действующие законы и запретить злоупотребления.**
+- Дата: 20.05.2026
+- URL: https://www.nclc.org/resources/tenant-insecurity-how-security-deposit-alternatives-raise-tenants-costs-and-erode-their-protections/ ; https://www.nclc.org/security-deposit-alternative-products-are-hurting-tenant-financial-security/ ; PDF: https://law.utexas.edu/wp-content/uploads/sites/11/2026/06/2026-May_Tenant-Insecurity-report.pdf
+- Цитаты: "“Security deposit alternative products attempt to evade state laws designed to protect tenants,”" (блог NCLC, 26.05.2026) · "Security deposit alternative products are designed to evade these requirements by falling outside the definition of a “security deposit” in state statutes." (PDF) · "Compared to a tenant who receives their full security deposit back at the end of the tenancy, a tenant who uses a security deposit alternative product will always pay more." (PDF) · список проблем на странице отчёта: "Nonrefundable fees; Landlords that require their use; Misleading marketing; Failure to protect tenants; Higher costs; Overdrawn bank accounts; No proof of claims or dispute resolution; ... Differential pricing; Price increases"
+- Статус: проверено по странице · Тип: независимые данные (НКО по защите потребителей)
+
+**US-22. Цинциннати (январь 2020): арендодатели с более чем 25 квартирами обязаны предлагать альтернативы залогу: страховку «от $3 в месяц», рассрочку не менее чем на 6 месяцев или залог не выше половины аренды. Типичные премии составляют $3–50 в месяц. Shelterforce пишет, что это была первая законодательная победа лоббирования Rhino.**
+- Дата: 15.01.2020 (CityBeat); 24.01.2020 (CBS); 19.12.2025 (Shelterforce)
+- URL: https://www.citybeat.com/news/cincinnati-city-council-passes-ordinance-requiring-security-deposit-alternatives-for-rental-housing-12157511/ ; https://www.cbsnews.com/news/cincinnati-security-deposit-cash-alternatives/ ; https://shelterforce.org/2025/12/19/what-happened-to-renters-choice-legislation/
+- Цитаты: "Cincinnati City Council today approved an ordinance 7-1 that will require landlords renting more than 25 units to offer alternatives to a large, lump-sum payment." · "an insurance policy that costs as little as $3 a month; an installment plan on the security deposit paid over no less than six months; or a cap" · "The premiums — which typically range from $3 to $50 a month — cost less than what a renter would have paid upfront when signing a lease." · "The passage of the Cincinnati law was the first legislative win for Rhino"
+- Статус: проверено по странице · Тип: независимые данные (СМИ)
+
+**US-23. Волна «Renter’s Choice» сошла на нет после 2020–2021 годов. Колумбус (2021) выбрал рассрочку (полностью, на 3 или на 6 месяцев) для арендодателей с 5+ квартирами, жалоб нет. Балтимор вместо страховки ввёл разовые гранты на залог.**
+- Дата: 19.12.2025
+- URL: https://shelterforce.org/2025/12/19/what-happened-to-renters-choice-legislation/
+- Цитаты: "Interest in Renter’s Choice legislation was strong in 2020 and 2021, when officials in dozens of cities and states considered it to help renters offset costly upfront security deposits. But that interest has since died down." · "landlords who have five or more units must offer tenants options for paying a security deposit: in full upon signing a rental agreement, over 3 monthly installments, or over 6 monthly installments." · "“I’ve heard no complaints, either from tenants or from landlords,”" · "But the city instead chose to offer income-eligible tenants a one-time grant to cover the cost of the security deposit."
+- Статус: проверено по странице · Тип: независимые данные (журналистика)
+
+**US-24. Коннектикут: законопроект 2022 года, разрешавший страховку вместо залога, не прошёл; лимит залога 2 месячные аренды, для арендаторов старше 62 лет одна.**
+- Дата: 29.11.2022
+- URL: https://www.ctpublic.org/news/2022-11-29/rent-without-a-hefty-security-deposit-an-alternative-may-be-in-connecticuts-future
+- Цитата: "Legislation that proposed to give Connecticut landlords the option to accept damage insurance was raised in the 2022 session, but it died before making it to the Senate floor."
+- Статус: проверено по странице · Тип: независимые данные (СМИ)
+
+**US-25. Калифорния, AB 12: залог в большинстве случаев не выше одной месячной аренды.**
+- Дата: 11.12.2023
+- URL: https://www.theguarantors.com/blog/owners-and-operators/californias-security-deposit-bill-a-b-12
+- Цитата: "AB 12 blocks most owners and operators from charging more than the value of one month’s rent as a security deposit."
+- Статус: проверено по странице · Тип: заявление компании (блог вендора о законе; текст закона не открывался)
+
+**US-26. NHLP (январь 2023) описывает схему так: невозвратная ежемесячная плата за «покрытие» в размере залога, после чего компания взыскивает выплату с арендатора.**
+- Дата: 05.01.2023 (по имени файла)
+- URL: https://www.nhlp.org/wp-content/uploads/2023.01.05-Regarding-Security-Deposit-Replacement-Products.pdf
+- Цитата: "Instead of posting a security deposit, a tenant pays a nonrefundable monthly fee to an SDR company for “coverage” up to an amount equivalent to what the security deposit would have been"
+- Статус: проверено по странице · Тип: независимые данные (НКО)
 
 ---
 
-## 5. Europe: Germany (Mietkautionsbürgschaft), France (Visale, GLI), Switzerland (SwissCaution, Firstcaution)
+## 4. Европа
 
-### Takeaway
-Continental Europe uses a different pricing model: an **annual premium of about 3.5–6% of the deposit amount** (Germany, Switzerland). The tenant remains liable to reimburse the guarantor. Sometimes the guarantee is **free and state-backed** (France's Visale: ~350k new contracts in 2025 and more than 1.9–2m cumulative). France shows that a free public product limits private uptake: private landlord-paid GLI covers only about 10% of private rentals. Insurers and banks have bought leading providers (Aareal bought plusForta in 2019; La Mobilière bought SwissCaution in 2016).
+### 4.1 Германия: Mietkautionsbürgschaft / Kautionsversicherung
 
-### Cited Findings
-**Germany: Mietkautionsbürgschaft / Kautionsversicherung**
-- Prices: kautionsfrei.de charges **4.7%/yr** of the deposit — [kautionsfrei.de](https://kautionsfrei.de/mietkautionsbuergschaft). EuroKaution charges **4.7%/yr, minimum €50** (€94/yr on a €2,000 deposit) — [EuroKaution FAQ](https://www.eurokaution.de/faq-mietkautionsbuergschaft-privat/). Allianz charges **4.4%/yr, minimum €25** — [Allianz](https://www.allianz.de/recht-und-eigentum/mietkautionsversicherung/). The market typically runs **3.5–6%/yr**, with 4.7% very common — [ImmoScout24](https://www.immobilienscout24.de/wissen/vermieten/kaution.html). Stiftung Warentest is quoted at 3–5%/yr — [Kostenlupe 2026](https://www.kostenlupe.de/artikel/mietkautionsbuergschaft-kosten)
-- The fee is not refundable and builds no savings. If the landlord calls the guarantee, **the tenant must reimburse the guarantor** (recourse). — [Kostenlupe](https://www.kostenlupe.de/artikel/mietkautionsbuergschaft-kosten); [Waitly](https://waitly.eu/de/blog/kautionsversicherung)
-- kautionsfrei.de lets the tenant cancel by returning the original guarantee certificate, with no minimum term. — [kautionsfrei.de](https://kautionsfrei.de/mietkautionsbuergschaft)
-- Feb 2019: **Aareal Bank** bought 100% of plusForta GmbH (kautionsfrei.de), described as the market-leading online broker, with about **160,000** guarantee contracts brokered to date. **[company claim, 2019]** — [Aareal Bank press release](https://www.aareal-bank.com/medienportal/newsroom/pressemitteilungen/pressemitteilungen/aareal-bank-uebernimmt-marktfuehrenden-online-vermittler-fuer-mietkautionsbuergschaften); [Wohnungswirtschaft heute](https://wohnungswirtschaft-heute.de/die-aareal-bank-gruppe-hat-alle-anteile-der-plusforta-gmbh-eines-marktfuehrenden-vermittlers-fuer-mietkautionsbuergschaften-in-deutschland-uebernommen-mit-der-akquisition-erweitert-die-aareal-bank/). A third-party site says plusForta's newer brand heykaution claims **>100,000 active customers** (undated). — [mietkautionskonto.info](https://mietkautionskonto.info/heykaution-vs-deutsche-mietkaution/)
+**DE-1. Цены: kautionsfrei.de берёт 4,7% суммы залога в год, поручитель R+V Versicherung; EuroKaution 4,7% в год, минимум €50 (€94 в год при залоге €2 000); Allianz 4,4% в год, минимум €25.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://kautionsfrei.de/mietkautionsbuergschaft ; https://www.eurokaution.de/faq-mietkautionsbuergschaft-privat/ ; https://www.allianz.de/recht-und-eigentum/mietkautionsversicherung/
+- Цитаты: "Die Jahresgebühr beträgt bei kautionsfrei.de 4,7 % der Kautionssumme." · "Bei kautionsfrei.de bietet sich die renommierte R+V Versicherung, einer der größten Versicherer Deutschlands, als Bürge an." · "Für Privatkunden beträgt der Beitrag 4,7 % der Kautionssumme pro Jahr, mindestens 50 EUR jährlich. Bei 2.000 EUR Kaution sind das 94 EUR im Jahr." · "Jährlich 4,4 Prozent des Mietkautionsbetrags" / "Mindestjahresbeitrag 25 Euro"
+- Статус: проверено по странице · Тип: заявление компании
 
-**France: Visale (state-backed, Action Logement / APAGL)**
-- Visale is free for tenant and landlord. It is funded by Action Logement through the employers' housing levy (PEEC). — [France Épargne](https://www.france-epargne.fr/academy/assurance-habitation/visale-action-logement-gratuit-bailleur-locataire); [APAGL](https://www.apagl.fr/les-dispositifs-daide/visale/)
-- **About 350,000 new contracts in 2025 (+3.2% YoY); more than 1.9m signed since the 2016 launch.** Jérôme Drunat, CEO of APAGL. **[operator data]** — [Journal de l'Agence](https://www.journaldelagence.com/1409265-depuis-son-lancement-plus-de-19-million-de-contrats-visale-ont-ete-signes-jerome-drunat-apagl). Visale.fr later announced it had passed **2 million contracts** (I saw only the title; date unconfirmed) — [Visale](https://www.visale.fr/visale-2-millions/)
-- H1 2025: almost **150,000** new contracts, and a cumulative total of more than **1.7m** at that point. — [Visale S1 2025](https://www.visale.fr/visale-s1-2025/)
-- Coverage: unpaid rent and charges up to **36 months**. After paying, Action Logement becomes the tenant's creditor and **pursues recovery** from the tenant. — [APAGL](https://www.apagl.fr/les-dispositifs-daide/visale/); [France Épargne](https://www.france-epargne.fr/academy/assurance-habitation/visale-action-logement-gratuit-bailleur-locataire); [123loger](https://www.123loger.com/blog/visale-impayes-prise-en-charge-remboursement/)
-- **Reform from Jan 6 2026:** cover is limited to the **first 3 years** of the lease, because most arrears occur in that period. Rent caps for non-students are **€1,940** in Île-de-France, **€1,575** in agglomerations over 100k people, Corsica and the overseas departments, and **€1,365** elsewhere. Student caps are €1,000 / €840 / €680. The income ceiling for employees over 30 not in job mobility rises from **€1,500 to €1,710** net per month. Contracts signed before Jan 6 2026 keep the old rules. — [MySweetimmo, Jan 2026](https://www.mysweetimmo.com/2026/01/07/garantie-visale-ce-qui-change-depuis-le-6-janvier); [Moneyvox](https://www.moneyvox.fr/immobilier/actualites/107000/location-voici-les-nouvelles-conditions-pour-beneficier-de-cette-caution-gratuite); [Crédit Agricole e-immobilier](https://e-immobilier.credit-agricole.fr/index.php/conseils/habiter/loyers-impayes-la-garantie-visale-evolue); [Optimhome](https://www.optimhome.com/fr/blog/garantie-visale-2026-les-nouvelles-regles-pour-les-locataires-et-les-bailleurs); [Action Logement](https://groupe.actionlogement.fr/action-logement-adapte-la-garantie-visale-pour-mieux-repondre-aux-besoins-des-salaries-et-des)
-- An APAGL interview says **95%** of landlords are satisfied (self-reported). — [UNPI interview with J. Drunat](https://www.unpi.org/fr/1/15/816/L-interview-de-Jerome-Drunat-Directeur-General-de-l-APAGL-entite-du-Groupe-Action-Logement-experte-en-matiere-de-securisation-locative-et-pilote-du-dispositif-VISALE.html)
+**DE-2. Рыночный диапазон: ImmoScout24 даёт 3,5–6% (чаще всего 4,7%); Kostenlupe (2026) даёт 4–6%, минимум около €50–60; Waitly со ссылкой на Stiftung Warentest даёт 3–5%. Плата не возвращается; после выплаты арендодателю гарант взыскивает сумму с арендатора.**
+- Дата: без даты (ImmoScout24, Waitly); 2026 (Kostenlupe)
+- URL: https://www.immobilienscout24.de/wissen/vermieten/kaution.html ; https://www.kostenlupe.de/artikel/mietkautionsbuergschaft-kosten ; https://waitly.eu/de/blog/kautionsversicherung
+- Цитаты: "Üblicherweise verlangen Versicherungen eine jährliche Gebühr zwischen 3,5 % und 6 % der Kautionssumme. Sehr häufig sind es 4,7 %, wobei oft eine jährliche Mindestgebühr eingefordert wird." · "Mietkautionsbürgschaften kosten 2026 häufig etwa 4 bis 6 Prozent der Kautionssumme pro Jahr, mindestens aber oft rund 50 bis 60 Euro jährlich." · "Danach holt sich der Anbieter das Geld beim Mieter zurück." · "Sie kostet laut Stiftung Warentest jedes Jahr 3 bis 5 Prozent der Kautionssumme, und diese Gebühr bekommen Sie nie zurück."
+- Статус: проверено по странице · Тип: независимые данные (порталы). **Исправление:** цифра Stiftung Warentest (3–5%) приведена у Waitly, а не у Kostenlupe.
 
-**France: GLI (garantie loyers impayés, landlord-paid insurance)**
-- GLI covers "just over **10%** of insured units out of the **8 million** units of the private rental stock" (Mar 2025). **[industry white paper]** — [Galian-SMABTP white paper, Mar 2025](https://www.galian-smabtp.fr/sites/default/files/2025-03/livre-blanc-garantie-des-loyers-impayes-gli-pour-les-professionnels-galian-smabtp.pdf)
-- Price (2020, older): **2.5–3%** of rent when bought through an agency, **3–3.5%** when bought directly by the landlord. — [Imodirect press release 2020 (Galivel)](https://www.galivel.com/media/files/20201123__cp_imodirect___garanties_loyers_impayes.pdf)
-- Insurers typically require tenant net income of **2.5–3× rent**. The law bars combining GLI with a personal guarantor, except for student or apprentice tenants. — [Bourse Inside](https://bourseinside.fr/?p=12708); [PAP](https://www.pap.fr/bailleur/loyers-impayes/garantie-de-loyers-impayes-ou-visale/a23666)
+**DE-3. Лимит: на поручительство распространяется тот же предел, что и на залог, три Nettokaltmieten (§551 BGB).**
+- Дата: без даты
+- URL: https://waitly.eu/de/blog/kautionsversicherung
+- Цитата: "Die Kautionsversicherung unterliegt derselben Obergrenze von drei Nettokaltmieten, denn sie ist nur eine andere Form der Mietsicherheit."
+- Статус: проверено по странице · Тип: независимые данные (портал; текст BGB не открывался)
 
-**Switzerland: SwissCaution, Firstcaution (rent-guarantee surety instead of a blocked bank deposit)**
-- SwissCaution charges an annual premium of **5%** of the guaranteed amount, including the 5% federal stamp duty, plus **CHF 20/yr** admin. — [CautionLoyerSuisse comparison](https://www.cautionloyersuisse.ch/comparatif); [Helvetia](https://www.helvetia.com/ch/web/fr/personnes-privees/assurance/garantie-de-loyer.html); [SVIT](https://www.svit.ch/fr/swisscaution-la-garantie-de-loyer-avec-un-plus). For commercial leases it adds **CHF 50** management and **CHF 100** certificate issuance in the first year. — [SwissCaution](https://www.swisscaution.ch/fr/garantie-loyer-caution/bail-commercial/comment-ca-marche/)
-- Firstcaution claims typical costs of **2.5–3.5%/yr**, puts SwissCaution at 3%, and offers **50% off for under-30s**. These are competitor claims that conflict with the 5% above. — [Firstcaution blog](https://www.firstcaution.ch/fr/blog/quel-est-le-cout-dune-garantie-de-loyer-en-suisse/)
-- **La Mobilière bought SwissCaution in Aug 2016.** At the time it had **180,000 clients** and more than **CHF 40m** in annual premiums. **[2016]** — [Le Temps](https://www.letemps.ch/economie/mobiliere-acquiert-societe-vaudoise-swisscaution); [Bilan](https://www.bilan.ch/finance/la_mobiliere_acquiert_swisscaution); [SwissCaution "about"](https://www.swisscaution.ch/fr/swisscaution/). A third-party site now claims **400,000+** clients (undated) and wrongly dates the acquisition to 2024. — [CautionLoyerSuisse profile](https://www.cautionloyersuisse.ch/societes/swisscaution)
+**DE-4. Февраль 2019: Aareal Bank купила 100% plusForta (kautionsfrei.de, kautionsfuchs.de), к тому моменту было оформлено около 160 000 договоров поручительства. В 2026 году plusForta называет более 100 000 активных клиентов (по стороннему сайту).**
+- Дата: 11.02.2019; 2026 (сторонний сайт)
+- URL: https://wohnungswirtschaft-heute.de/die-aareal-bank-gruppe-hat-alle-anteile-der-plusforta-gmbh-eines-marktfuehrenden-vermittlers-fuer-mietkautionsbuergschaften-in-deutschland-uebernommen-mit-der-akquisition-erweitert-die-aareal-bank/ ; https://mietkautionskonto.info/heykaution-vs-deutsche-mietkaution/
+- Цитаты: "Die Aareal Bank Gruppe hat alle Anteile der plusForta GmbH, eines marktführenden Vermittlers für Mietkautionsbürgschaften in Deutschland, übernommen." · "Die Anzahl der bis dato vermittelten Bürgschaftsverträge liegt bei rund 160.000." · "Betreiber plusForta ist seit 2009 mit Kautionsbürgschaften am Markt und nennt über 100.000 aktive Kunden."
+- Статус: проверено по странице · Тип: заявление компании (2019); заявление компании в пересказе стороннего сайта (2026)
 
-### Inferences
-- European unit economics: CHF 40m in premiums ÷ 180k clients ≈ **CHF 220 per client per year** (SwissCaution, 2016, my calculation). On a deposit of 3 monthly rents, a premium of about 5%/yr equals roughly **15% of one month's rent per year**, a recurring fee comparable to the UK's one-off ~23% of a month's rent.
-- France shows that a **free state guarantee crowds out paid private products** (GLI ~10% of private units). Russia has no Visale equivalent today, so it has room for a private product. Ingosstrakh could position against the personal guarantor (поручитель) and the cash deposit, not against a state scheme.
-- Visale's 2026 cut to the first three years ("most arrears happen early") is a useful design input: cap ИнгоКлюч's risk period at the first lease term, with repricing on renewal.
+### 4.2 Франция: Visale (Action Logement / APAGL)
 
-### Gaps
-- I found no published claim frequency, loss ratio or recovery rate for Visale. A search extract said a real-estate site cites "about **3%** of contracts trigger the guarantee", attributed to Action Logement, but I could not pin the URL or verify it. I found no Cour des comptes report on Visale.
-- GLI provider prices for 2025 (one extract listed Smartloc 2.2–2.5%, Unkle 2.3–2.8%, Garantme 2.8–3.2%) and the "2.5–5% of annual rent" range could not be pinned to a URL. They are not cited as fact.
-- I could not verify the German (§551 BGB, max 3 net cold rents) and Swiss (Art. 257e CO, max 3 months, blocked account) deposit caps against statute texts in this session. I found nothing on Deutsche Kautionskasse, and no German market totals.
+**FR-1. Объёмы: около 350 000 новых договоров в 2025 году (+3,2% за год); более 1,9 млн с 2016 года (на январь 2026); в июле 2026 рубеж в 2 млн.**
+- Дата: 14.01.2026 (интервью Jérôme Drunat, CEO APAGL); 10.07.2026 (Visale)
+- URL: https://www.journaldelagence.com/1409265-depuis-son-lancement-plus-de-19-million-de-contrats-visale-ont-ete-signes-jerome-drunat-apagl ; https://www.visale.fr/visale-2-millions/
+- Цитаты: "Depuis 2016, plus de 1,9 million de contrats ont été signés" · "En 2025, près de 350 000 nouveaux contrats qui ont été conclus, avec une progression annuelle de l’ordre de 3,2 %, dans un contexte de marché locatif pourtant très tendu." · "Juillet 2026. Dix ans après ses débuts, la garantie Visale atteint un jalon historique : 2 millions de contrats signés"
+- Статус: проверено по странице · Тип: данные оператора
+
+**FR-2. H1 2025: около 150 000 новых договоров; всего более 1,7 млн защищённых домохозяйств.**
+- Дата: 10.07.2025
+- URL: https://www.visale.fr/visale-s1-2025/
+- Цитата: "Au terme du premier semestre 2025, près de 150 000 nouveaux contrats de cautionnement ont été mis en place, portant à plus de 1,7 million le nombre total de ménages protégés depuis le lancement de Visale"
+- Статус: проверено по странице · Тип: данные оператора
+
+**FR-3. Удовлетворённость: 92% арендодателей довольны; 38% не сдали бы жильё без этой гарантии.**
+- Дата: 14.01.2026
+- URL: https://www.journaldelagence.com/1409265-depuis-son-lancement-plus-de-19-million-de-contrats-visale-ont-ete-signes-jerome-drunat-apagl
+- Цитата: "Le taux de satisfaction est très élevé : 92 % des bailleurs se déclarent satisfaits ou très satisfaits. 38% des bailleurs n’auraient pas reloué leur logement sans ce cautionnement."
+- Статус: проверено по странице · Тип: данные оператора. **Исправление:** в прошлой версии было 95% со ссылкой на UNPI; на странице UNPI (2021) этой цифры нет.
+
+**FR-4. Модель: бесплатное поручительство (cautionnement), а не страховка. Покрывает до 36 месяцев неоплаты; Action Logement платит арендодателю и затем взыскивает долг с арендатора.**
+- Дата: страница APAGL без даты (описывает правила до 2026 года); France Épargne, открыто 25.10.2026
+- URL: https://www.apagl.fr/les-dispositifs-daide/visale/ ; https://www.france-epargne.fr/academy/assurance-habitation/visale-action-logement-gratuit-bailleur-locataire
+- Цитаты: "L’engagement sur les Loyers impayés couvre toute la durée du bail, y compris les renouvellements, dans la limite de 36 mois de loyers/charges impayés" (APAGL; правило до 06.01.2026) · "Action Logement s'engage à payer la dette locative à la place du locataire défaillant, puis se retourne contre lui pour récupérer les sommes avancées."
+- Статус: проверено по странице · Тип: данные оператора и независимые данные (консультант)
+
+**FR-5. Реформа с 06.01.2026: гарантия покрывает только первый договор и не дольше 3 лет, так как этот период «статистически наиболее подвержен неплатежам». Лимиты аренды вне студентов: €1 940 (Иль-де-Франс), €1 575 (агломерации >100 тыс. жителей, Корсика, DROM), €1 365 (остальные); для студентов €1 000 / €840 / €680. Порог дохода для работников старше 30 лет, не находящихся в профессиональной мобильности, поднят с €1 500 до €1 710. Договоры до января 2026 действуют на старых условиях.**
+- Дата: 07.01.2026 (MySweetimmo); 08.01.2026 (Moneyvox); 14.01.2026 (Journal de l'Agence); Crédit Agricole без даты
+- URL: https://www.mysweetimmo.com/2026/01/07/garantie-visale-ce-qui-change-depuis-le-6-janvier ; https://www.moneyvox.fr/immobilier/actualites/107000/location-voici-les-nouvelles-conditions-pour-beneficier-de-cette-caution-gratuite ; https://www.journaldelagence.com/1409265-depuis-son-lancement-plus-de-19-million-de-contrats-visale-ont-ete-signes-jerome-drunat-apagl ; https://e-immobilier.credit-agricole.fr/index.php/conseils/habiter/loyers-impayes-la-garantie-visale-evolue
+- Цитаты: "portera sur la durée du bail initial, et au maximum pour 3 ans" (Moneyvox, цитата Action Logement) · "La garantie se concentre sur les trois premières années du bail, période statistiquement la plus exposée aux impayés" (Journal de l'Agence) · "Pour les salariés de plus de 30 ans et n’étant pas en situation de mobilité, le plafond de ressources est relevé à 1 710 euros (1 500 euros préalablement)." (MySweetimmo) · таблица MySweetimmo: "Zone 1 : Île-de-France ... 1 940 € | 1 000 €", "Zone 2 : villes et agglomérations de plus de 100 000 habitants, Corse, DROM ... 1 575 € | 840 €", "Zone 3 : toutes les autres villes | 1 365 € | 680 €" · "Non, les contrats conclus avant janvier 2026 bénéficient toujours de la couverture du dispositif Visale." (Crédit Agricole)
+- Статус: проверено по странице · Тип: независимые данные (СМИ со ссылкой на оператора)
+
+### 4.3 Франция: GLI (garantie loyers impayés, страховку оплачивает арендодатель)
+
+**FR-6. GLI застрахована чуть более 10% из 8 млн частных арендных лотов (530 000 в управлении агентств и 480 000 у арендодателей напрямую; источник PwC Strategy&).**
+- Дата: белая книга Galian-SMABTP; PDF создан 25.11.2024, размещён в 2025-03
+- URL: https://www.galian-smabtp.fr/sites/default/files/2025-03/livre-blanc-garantie-des-loyers-impayes-gli-pour-les-professionnels-galian-smabtp.pdf
+- Цитата: "Méconnue du grand public avec à peine plus de 10 % de lots assurés sur les 8 millions de lots du parc locatif privé (530 000 lots assurés dans le parc intermédié et 480 000 dans le parc direct)***" · "*** Source : étude de marché réalisée par PwC Strategy&."
+- Статус: проверено по странице · Тип: отраслевые данные (страховщик со ссылкой на исследование PwC)
+
+**FR-7. Цена GLI: 2,5–3% аренды через агентство и 3–3,5% напрямую (2020); около 2,5–5% годовой аренды с учётом платежей (2026). Страховщики требуют доход не менее 3 арендных плат.**
+- Дата: 23.11.2020; 31.08.2026
+- URL: https://www.galivel.com/media/files/20201123__cp_imodirect___garanties_loyers_impayes.pdf ; https://bourseinside.fr/?p=12708 (перенаправляет на bourseinside.fr/immobilier/loyers-impayes-cette-interdiction-de-cumul-...)
+- Цитаты: "2,5 et 3 % du prix du loyer, si elle est souscrite via une agence immobilière ; 3 et 3,5 %, lorsqu’elle est souscrite directement par le propriétaire." · "En échange d’une cotisation asses modérée, souvent entre 2,5 % et 5 % du loyer annuel charges comprises" · "revenus au moins trois fois supérieurs au loyer"
+- Статус: проверено по странице · Тип: заявление компании (пресс-релиз Imodirect, 2020); независимые данные (СМИ, 2026)
+
+**FR-8. Закон запрещает совмещать GLI и личного поручителя, кроме сдачи студенту или ученику (apprenti).**
+- Дата: открыто 25.10.2026
+- URL: https://www.france-epargne.fr/academy/assurance-habitation/visale-action-logement-gratuit-bailleur-locataire
+- Цитата: "L'article 22-1 de la loi du 6 juillet 1989 interdit de cumuler un cautionnement et une assurance garantissant les obligations locatives, à peine de nullité du cautionnement. La seule exception vise les logements loués à un étudiant ou à un apprenti."
+- Статус: проверено по странице · Тип: независимые данные (консультант; текст закона не открывался)
+
+### 4.4 Швейцария: SwissCaution, Firstcaution
+
+**CH-1. Цена SwissCaution для жилья: 5% суммы гарантии в год + CHF 20 сбора + 5% федерального гербового сбора сверху. Пример: гарантия CHF 4 200 стоит CHF 241.50 в год. Скидка за лояльность 10–30%.**
+- Дата: 22.05.2018
+- URL: https://www.svit.ch/fr/swisscaution-la-garantie-de-loyer-avec-un-plus
+- Цитата: "Le locataire s’acquitte de la prime annuelle qui correspond à 5% du montant de la garantie de loyer auxquels s’ajoutent CHF 20 de frais de gestion et 5% de droit de timbre fédéral. Le montant de la garantie n’est pas limité."
+- Статус: проверено по странице · Тип: заявление компании (материал партнёра SVIT, 2018). **Исправление:** гербовый сбор начисляется сверх 5%, он не включён в них.
+
+**CH-2. Коммерческая аренда (текущая страница): 5% + CHF 50 сбора + CHF 100 за сертификат в первый год + 5% гербового сбора.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.swisscaution.ch/fr/garantie-loyer-caution/bail-commercial/comment-ca-marche/
+- Цитата: "Prime annuelle de 5% du montant de la garantie de loyer + CHF 50.- de frais de gestion + CHF 100.– pour l’émission du certificat (1ère année uniquement) + droit de timbre fédéral de 5%."
+- Статус: проверено по странице · Тип: заявление компании
+
+**CH-3. Конкурент Firstcaution называет рыночный диапазон 2,5–3,5% в год, даёт скидку 50% для клиентов до 30 лет и указывает SwissCaution на 3%. Это расходится с CH-1.**
+- Дата: без даты, открыто 25.10.2026
+- URL: https://www.firstcaution.ch/fr/blog/quel-est-le-cout-dune-garantie-de-loyer-en-suisse/
+- Цитаты: "En Suisse, le coût d'une garantie de loyer varie entre 2,5% et 3,5% du montant de la garantie par an." · "Réduction de 50% sur la prime avec le code Primo"
+- Статус: проверено по странице · Тип: заявление компании (конкурента)
+
+**CH-4. Август 2016: La Mobilière купила SwissCaution, у которой было более CHF 40 млн премий в год и 180 000 клиентов. Сейчас SwissCaution имеет лицензию FINMA и заявляет более 400 000 клиентов и 2 500 партнёров-риелторов (в 2018 году она называла 400 000 «clients affiliés» и более 45 000 новых в год).**
+- Дата: 09.08.2016; без даты (сайт); 22.05.2018 (SVIT)
+- URL: https://www.letemps.ch/economie/mobiliere-acquiert-societe-vaudoise-swisscaution ; https://www.bilan.ch/finance/la_mobiliere_acquiert_swisscaution ; https://www.swisscaution.ch/fr/swisscaution/ ; https://www.svit.ch/fr/swisscaution-la-garantie-de-loyer-avec-un-plus
+- Цитаты: "L’assureur coopératif bernois rachète la compagnie d’assurances vaudoise Swisscaution" · "elle affiche un volume de primes annuel supérieur à 40 millions de francs, avec un portefeuille de 180 000 clients." · "Agréée par la FINMA, SwissCaution est une entreprise de la Mobilière" · "Merci aux plus de 400 000 clients privés et commerciaux et aux 2 500 partenaires immobiliers qui nous font confiance !" · "plus de 400’000 clients affiliés ; plus de 45’000 nouveaux clients chaque année"
+- Статус: проверено по странице · Тип: независимые данные (СМИ 2016, со ссылкой на компанию); заявление компании (сайт, SVIT). Расхождение: 180 000 «в портфеле» (2016) и 400 000 «affiliés» (2018). Похоже, во втором случае считаются все клиенты за всё время, но это не подтверждено.
 
 ---
 
-## 6. Ukraine: Tenant service + VUSO insurance replacing the deposit
+## 5. Украина: VUSO + Tenant
 
-### Takeaway
-VUSO, together with the Tenant service, launched **tenant liability insurance as a replacement for the cash deposit**. There are three options, with premiums of about **UAH 4,000–17,000** for cover of **UAH 100,000–500,000**. Both companies call it new to the Ukrainian market. It is the closest post-Soviet analog to ИнгоКлюч, but its launch date and recovery terms could not be verified.
+**UA-1. 23.03.2026 СК VUSO вместе с сервисом Tenant запустила страхование ответственности арендатора вместо залога. Три варианта: платёж от 4 000 до 17 000 грн, покрытие от 100 000 до 500 000 грн; полис оформляется полностью онлайн. Компании называют модель новой для Украины.**
+- Дата: 23.03.2026
+- URL: https://interfax.com.ua/news/economic/1153737.html
+- Цитаты: "Страхова компанія VUSO в партнерстві з сервісом Tenant запускає нову страхову програму для ринку нерухомості, яка передбачає страхування відповідальності орендаря замість традиційної застави" · "Передбачено три фінансові варіанти програми: страховий платіж — від 4 тис. грн до 17 тис. грн. грн, страхове покриття — від 100 тис. грн до 500 тис. грн. Оформлення страхового полісу відбувається повністю онлайн — без відвідування офісу." · "запропонована модель є новою для українського ринку"
+- Статус: проверено по странице · Тип: заявление компании (пресс-релиз страховщика в пересказе Интерфакс-Украина)
 
-### Cited Findings
-- VUSO and Tenant launched a tenant liability insurance program that replaces the traditional deposit. The tenant buys a policy instead of handing cash to the owner, and the owner gets cover "significantly exceeding the deposit amount". The release says the model is new for Ukraine. — [Interfax-Ukraine](https://interfax.com.ua/news/economic/1153737.html)
-- There are three options: a premium of about **UAH 4,000 to 17,000**, with cover of **UAH 100,000 to 500,000**. — [Interfax-Ukraine](https://interfax.com.ua/news/economic/1153737.html)
-- Typical Ukrainian deposit: one month's rent, sometimes 2–3 months. For rents of **UAH 12,000–47,000** that means about **UAH 36,000–140,000**. — [Interfax-Ukraine](https://interfax.com.ua/news/economic/1153737.html)
-
-### Inferences
-- The premium is about **3.4–4% of the cover limit** (4/100 and 17/500). As a one-off payment this is cheaper than the UK's ~12.5–17% of cover, presumably because cover is set far above the actual deposit and most claims are expected to stay small.
-- The search engine dated the article about 216 days before the search, which puts it in roughly **March 2026**. This is an estimate only.
-
-### Gaps
-- The exact launch date, the policy term, the split of risks between damage and unpaid rent, the insurer's recourse (регрес) to the tenant, and uptake numbers are not verified. The page could not be opened.
+**UA-2. Контекст: обычно залог равен месячной аренде, иногда 2–3 месячным. При аренде 12–47 тыс. грн он составляет 36–140 тыс. грн. Покрытие у владельца «значительно превышает» сумму залога.**
+- Дата: 23.03.2026
+- URL: https://interfax.com.ua/news/economic/1153737.html
+- Цитаты: "Зазвичай застава береться у розмірі місячної орендної плати. Іноді для додаткового захисту власник вимагає її в розмірі 2-3 місячних платежів" · "наразі вартість оренди коливається від 12 до 47 тис. грн., отже застава обійдеться орандарю від 36 тис. грн. до 140 тис грн." · "Натомість власник отримує фінансовий захист із покриттям, що значно перевищує суму застави."
+- Статус: проверено по странице · Тип: заявление компании
 
 ---
 
-## 7. Business-model metrics across players (fee as % of rent, claims, loss ratio, recovery, adoption)
+## 6. Собственные расчёты (выводы из проверенных цифр, а не факты)
 
-### Takeaway
-Prices cluster in three models: a one-off fee of about one week's rent (UK, US bonds), an annual 3.5–6% of the deposit (DE, CH), or 2.5–3.5% of annual rent paid by the landlord (French GLI). **Almost no player publishes loss ratio or recovery rate.** The only public claim data is Reposit's: 49% of tenancies end with no charge, and 17% have claims above 5 weeks' rent (2024). Independent uptake data shows UK penetration in single digits (4–7%).
-
-### Cited Findings (summary table; sources in sections 1–6)
-
-| Player (country) | Model / risk carrier | Tenant price | Landlord cover | Scale (date, type) |
-|---|---|---|---|---|
-| Zero Deposit (UK) | Insurance; Great Lakes Insurance SE (Munich Re); FCA-authorised intermediary | 1 week's rent + £49 set-up (or £59.99), £17.50/yr renewal | up to 6 weeks' rent | 400+ agency branches (c. 2018, company); Guarantor+ "24% share" (May 2026, company) |
-| Reposit (UK) | FCA-regulated | 1 week's rent (min £150); £30/yr after 12 months; £60 dispute fee | 8 weeks or £5,000, whichever is lower | H1 2026: ~£17.2m tenant savings, £1,088 average (company) |
-| Flatfair (UK) | Not insurance; recovery from tenant plus debt purchase | 28% of a month's rent or £120, + VAT | up to 10 weeks, +5 weeks via Deposit Boost | 56% "choose alternatives" (company) |
-| Rhino/Jetty → Greenlight (US) | Surety bond / insurance | $5/month (2021) to $10–20/month per $1,000; Jetty 17.5% of deposit (2019) | deposit amount | >6m units reach, >$4bn "retained" (2025, company); ARR $60m (Jan 2021) |
-| LeaseLock (US) | Lease insurance, carrier panel (QBE + 2 A-rated international carriers) | monthly fee | rent, damage, pet damage, eviction costs | $17bn leases secured (Jul 2026, company) |
-| TheGuarantors (US) | Insurance-backed guarantor | ~40% to >100% of one month's rent per year | lease obligations | $7B+ lease value (company) |
-| Obligo (US) | Billing authorization (credit, not insurance) | non-refundable service fee | pre-agreed security amount | 80% qualify (Plaid) |
-| kautionsfrei.de / EuroKaution / Allianz (DE) | Bank or insurer guarantee (Bürgschaft) | 4.4–4.7%/yr of deposit (min €25–50) | deposit amount | ~160k contracts brokered (plusForta, 2019) |
-| SwissCaution (CH) | Insurer surety (La Mobilière) | 5%/yr incl. stamp duty + CHF 20 | deposit amount | 180k clients, CHF 40m+ premiums (2016) |
-| Visale (FR) | State-backed, Action Logement | free | up to 36 months of unpaid rent (3-year window from 2026) | ~350k new contracts in 2025; >1.9m cumulative |
-| GLI (FR) | Landlord-paid insurance | 2.5–3.5% of rent (2020) | unpaid rent | ~10% of 8m private units (2025) |
-| VUSO + Tenant (UA) | Tenant liability insurance | UAH 4–17k | UAH 100–500k | n/a |
-
-- **Claim frequency (only public data):** in 2024, **17%** of Reposit tenancies ended with a claim above 5 weeks' rent, up from **13%** in 2023, and **49%** ended with no charges at all. Reposit says charges, when they occur, are "in line with average deductions on cash deposits". **[company claim]** — [Reposit blog](https://reposit.co.uk/blog/number-of-claims-exceeding-five-weeks-rent-rises-to-17-but-around-half-of-all-tenancies-end-in-no-charges/); [Reposit landlord leaflet](https://pattinson.blob.core.windows.net/web/1/root/reposit-landlord-leaflet.pdf)
-- **Claims handling speed:** valid claims are resolved in an average of **14–20 days** (agent page describing Reposit). — [All Day & Miller](https://www.alldayandmiller.co.uk/articles/reposit-deposit-free-renting)
-- **Adoption:** UK 4% (Generation Rent 2025) to 7% (Opinium) of tenancies **[independent]**. In France, GLI covers ~10% of private units and Visale adds ~350k contracts a year. In the US, Obligo reports 70% choose deposit-free where offered **[company]**. — sources in sections 1, 3 and 5.
-- **Landlord acceptance:** Visale reports 95% landlord satisfaction (self-reported). Zero Deposit's survey found 9% of landlords would switch directly to an alternative and 26% would follow tenant preference. — sources in sections 1 and 5.
-
-### Inferences
-- Reposit's data implies that about **51% of tenancies generate some charge**, and in about **17%** the charge exceeds 5 weeks' rent. Yet the fee is only about 1 week's rent. This only adds up if **most charges are recovered from tenants**, so the recovery rate is the key value driver and the least disclosed one. For ИнгоКлюч this argues for strong recovery tools: the digital inspection act as evidence, a pre-agreed charge mechanism, and the reliability rating as an incentive to pay.
-- Reposit's rising share of large claims (13% → 17%) in a cost-of-living squeeze signals **adverse selection and macro sensitivity**. Tenants who cannot afford a deposit are, on average, more likely to fall behind on rent. Underwriting (referencing; Obligo's open-banking check) is essential.
-
-### Gaps
-- **I found no published loss ratio, average claim (£/$/€), recovery or subrogation rate, or conversion rate** for any private player. Visale's claim rate (~3%) is unpinned. This is the main data gap. The deck should say that these metrics are not disclosed, which matches the TDS chief executive's criticism, and use scenario assumptions instead.
+- **Плата относительно лимита.** У Zero Deposit 1 неделя аренды за 6 недель покрытия, около 17% лимита (ZD-1, ZD-3). У Reposit 1 неделя за 8 недель, 12,5% (RP-1). В доле месячной аренды одна неделя составляет 12/52, около 23%. У Flatfair 28% + VAT: при ставке VAT 20% это около 33,6% месячной аренды (FF-1; ставку 20% я не проверял по странице).
+- **Reposit, H1 2026:** £17.2 млн ÷ £1 088 ≈ 15 800 договоров за полугодие. £34 млн покрытия ÷ 15 800 ≈ £2 150 на договор; это 8 недель, значит недельная аренда около £270, и примерно столько же средняя плата (сравни: £242 в 2023, RP-5) (RP-7).
+- **Reposit, 2024:** если 49% договоров закрываются без начислений, то у 51% какие-то начисления есть; у 17% они превышают 5 недель аренды (RP-3). Плата в одну неделю окупает это только при высоком взыскании с арендаторов. Ставку взыскания ни один игрок не публикует.
+- **Украина:** 4 000 / 100 000 = 4% лимита, 17 000 / 500 000 = 3,4% (UA-1). Это заметно дешевле британских 12,5–17% лимита, но лимит в Украине задан с большим запасом над реальным залогом.
+- **Германия:** 4,7% в год от залога в 3 месячные аренды (DE-1, DE-3) ≈ 14% одной месячной аренды в год, причём ежегодно. В Великобритании ~23% месячной аренды платятся один раз плюс небольшой ежегодный сбор.
+- **LeaseLock:** $39 × 12 ≈ $468 в год (US-12).
+- **SwissCaution, 2016:** CHF 40 млн ÷ 180 000 ≈ CHF 222 премии на клиента в год (CH-4).
+- **Природа «масштаба» в США:** «квартиры в сети партнёров» (6 млн у Greenlight, 3,5 млн у TheGuarantors) и «стоимость застрахованных договоров» ($17 млрд у LeaseLock, $6 млрд у TheGuarantors) показывают охват и экспозицию, а не число полисов или выручку. Единственная цифра выручного типа — contracted ARR Rhino $60 млн (январь 2021), и та означает ожидаемый объём (US-1).
 
 ---
 
-## 8. Key lessons and failure modes relevant to Russia (ИнгоКлюч)
+## 7. Уроки для России (ИнгоКлюч)
 
-### Takeaway
-The model works abroad at scale: Visale has more than 1.9m contracts, LeaseLock $17bn of leases, and Rhino/Jetty more than 6m units of reach. Insurers and banks have bought or backed the leading providers. Recurring failure modes are tenant misunderstanding ("I paid, so I'm covered") followed by debt collection, landlords **forcing** the product, regulators **recharacterizing** fees as deposits, opacity about claims data, and adverse selection.
+1. **Ценовой ориентир: разовая плата около 20–25% месячной аренды за лимит в 1,2–1,6 обычного залога.** В Великобритании стандартом стала одна неделя аренды (~23% месячной) за 6–8 недель покрытия (ZD-1, ZD-3, RP-1). Ежегодная модель в Германии и Швейцарии (4,4–5% суммы залога в год, DE-1, CH-1) выгоднее арендатору только при коротком сроке аренды. В Украине на запуске выбрали лимит, во много раз превышающий залог (100–500 тыс. грн против залога 36–140 тыс. грн), при плате 3,4–4% лимита (UA-1, UA-2). Для слайда: плата в одну неделю работает, когда к ней есть регресс и андеррайтинг (уроки 2 и 4).
 
-### Cited Findings
-- **Tenant still liable / surprise collections:** UK critics say that after paying hundreds in fees, tenants can face "hundreds more" in damage charges — [Generation Rent](https://generationrent.org/_deposit_free_products). In the US, collections follow claims; one case involved a $6,000 reimbursement demand — [Shelterforce 2020](https://shelterforce.org/2020/12/10/security-deposit-alternatives-the-misleading-marketing-of-renters-choice/). Credit-damage warnings in contracts — [The Intercept 2021](https://theintercept.com/2021/05/05/rhino-rent-security-deposits-baltimore/).
-- **Forced choice:** landlords offering only the alternative force renters into "the more costly product" — [Vice](https://www.vice.com/en/article/how-landlord-tech-is-squeezing-renters-who-cant-afford-security-deposits/). In the UK the product must be optional — [Landlords Guild](https://england.landlordsguild.com/article/how-zero-deposit-home-rentals-work).
-- **Regulatory recharacterization:** the Maryland AG forced LeaseLock to refund fees (2022) — [Nottingham MD](https://nottinghammd.com/2022/01/26/attorney-general-frosh-announces-settlement-with-leaselock/). NCLC says the products evade deposit laws (2026) — [NCLC](https://www.nclc.org/resources/tenant-insecurity-how-security-deposit-alternatives-raise-tenants-costs-and-erode-their-protections/).
-- **Unregulated non-insurance schemes:** Generation Rent wants all alternatives FCA-regulated or banned (2025) — [Generation Rent PDF](https://www.generationrent.org/wp-content/uploads/2025/07/Tenancy-deposits-recommendations-2025.pdf). Flatfair is not insurance — [LetCompliance](https://letcompliance.com/blog/deposit-replacement-schemes-zero-deposit-flatfair-reposit-uk-2026).
-- **Dispute process and evidence:** NCLC flags "no proof of claims or dispute process" — [NCLC blog](https://www.nclc.org/security-deposit-alternative-products-are-hurting-tenant-financial-security/). Reposit charges a refundable £60 dispute fee — [Reposit FAQ](https://support.reposit.co.uk/en/articles/11485229-general-faqs). Flatfair uses independent adjudicators — [The Negotiator](https://thenegotiator.co.uk/news/rental-market/alternative-rental-deposits-are-solution-to-generation-rent-accusations/). Connecticut created a pre-occupancy walk-through right in 2023 — [CGA OLR](https://cga.ct.gov/2023/rpt/pdf/2023-R-0153.pdf). In the UK, 46,950 deposits went to TDS adjudication in the year to March 2025 — [Property Investments UK](https://www.propertyinvestmentsuk.co.uk/zero-deposit-scheme/).
-- **Transparency deficit:** the TDS chief executive says providers should publish policy and claims numbers — [The Negotiator](https://thenegotiator.co.uk/features/products-services-features/deposit-alternatives-too-good-to-be-true/).
-- **Political backlash to mandates:** "renter's choice" laws stalled after 2021, and Baltimore's mayor vetoed one — [Shelterforce 2025](https://shelterforce.org/2025/12/19/what-happened-to-renters-choice-legislation/).
-- **Consolidation and incumbent ownership:** Aareal bought plusForta (2019) — [Aareal](https://www.aareal-bank.com/medienportal/newsroom/pressemitteilungen/pressemitteilungen/aareal-bank-uebernimmt-marktfuehrenden-online-vermittler-fuer-mietkautionsbuergschaften). La Mobilière bought SwissCaution (2016) — [Le Temps](https://www.letemps.ch/economie/mobiliere-acquiert-societe-vaudoise-swisscaution). Rhino and Jetty merged (2025) — [PR Newswire](https://www.prnewswire.com/news-releases/rhino-and-jetty-merge-to-create-the-largest-security-deposit-insurance-company-in-the-market-302370218.html). Warburg Pincus took a majority of TheGuarantors (2026) — [PR Newswire](https://www.prnewswire.com/news-releases/theguarantors-announce-growth-investment-from-warburg-pincus-302716073.html). Munich Re underwrites Zero Deposit — [Zero Deposit](https://www.zerodeposit.com/faq/agents/).
-- **Product extension to rent guarantees:** Zero Deposit Guarantor+ (2026) — [Zero Deposit](https://www.zerodeposit.com/guarantorplus/). TheGuarantors' Rent and Damage Protection (2022) — [BusinessWire](https://www.businesswire.com/news/home/20221012005841/en/TheGuarantors-Launches-Rent-and-Damage-Protection-for-Independent-Landlords).
-- **Risk window:** Visale limited cover to the first 3 years of the lease from 2026, because most arrears occur early — [MySweetimmo](https://www.mysweetimmo.com/2026/01/07/garantie-visale-ce-qui-change-depuis-le-6-janvier).
+2. **Экономика держится на регрессе и доказуемом разборе претензий, и это надо объяснять до покупки.** Все крупные игроки взыскивают выплаченное с арендатора (ZD-5, RP-2, US-7, US-16, DE-2, FR-4). У Reposit 51% договоров заканчиваются хоть каким-то начислением (RP-3), а плата равна одной неделе, так что без взыскания модель не сходится. Споры решает третья сторона (TDS у Zero Deposit, ZD-6; 14–20 дней у Reposit, RP-8). Претензия к рынку: «No proof of claims or dispute resolution» (US-21), арбитраж и запрет коллективных исков (US-7). Для ИнгоКлюч цифровой акт приёма-передачи даёт доказательную базу, а рейтинг надёжности мотивирует погашать долг. Регресс надо раскрывать заранее, иначе повторится претензия BBC и Generation Rent о том, что арендатор не понимает невозвратности (UK-9).
 
-### Inferences (design implications for ИнгоКлюч)
-1. **Proof of concept for the deck:** an insurer-backed "fee instead of deposit" with tenant recovery is mainstream in the UK (Zero Deposit with Munich Re, Reposit), the US (LeaseLock, Greenlight) and DACH (4–5%/yr guarantees). Ukraine (VUSO, 2026) shows it can launch in a post-Soviet market.
-2. **Price anchor:** a one-off fee of about **20–25% of one month's rent** (UK) or **3.5–5% of the deposit per year** (DACH). Cover should be **1.2–2× the usual deposit** (UK 6–10 weeks vs a 5-week cap), and Ukraine sets cover well above the deposit.
-3. **Must-haves against the known failure modes:** a voluntary choice with the cash-deposit option kept; explicit disclosure that the fee is non-refundable and the tenant stays liable; an **evidence-based claims process**, which is exactly the role of the digital inspection act (акт приёма-передачи); an independent dispute step; and humane recovery with instalments, not aggressive collections. The **reliability rating** turns recovery into an incentive: paying restores the tenant's score.
-4. **Underwriting matters:** Reposit's rising large claims and NCLC's adverse-selection concerns argue for scoring before acceptance, through referencing, open banking (as Obligo does) or bank or credit-bureau data, and for capping the risk window (Visale: 3 years).
-5. **Go-to-market:** B2B2C through agencies, build-to-rent operators and listing platforms, possibly with an exclusive partner like Goodlord–Reposit. Expect consolidation, and position Ingosstrakh as the capacity provider that others white-label.
-6. **Disclose what rivals don't:** publishing claim and recovery statistics answers the transparency criticism and could become a differentiator.
+3. **Продукт должен быть добровольным, с сохранением денежного залога, и юридически не должен выглядеть как «залог под другим именем».** В Великобритании продукт нельзя навязывать (UK-4, ZD-7), а CMA с 2023 года изучала «zero deposit schemes» (UK-7). В Мэриленде регулятор приравнял плату к залогу, который должен возвращаться, и LeaseLock ушла из штата (US-12). NCLC обвиняет продукты в обходе законов о залогах (US-21). Generation Rent называет их «надбавкой за бедность»: среди 7% пользователей 51% получают пособия (UK-1). Для России это означает оформление как договора страхования, а не обеспечительного платежа, и отдельное раскрытие невозвратности (российское право разобрано в 06_regulation_ingosstrakh.md).
 
-### Gaps
-- Loss ratios, recovery rates and conversion rates are undisclosed everywhere (see section 7). These need modelled assumptions, not cited facts.
-- Because of the blocked fetches and the exhausted search budget, I could not verify Zero Deposit's latest scale claim, a current Greenlight price, Flatfair's current status, or primary FCA/Propertymark texts. A follow-up session with working page access should check these before final slides.
+4. **Андеррайтинг и антиселекция: скоринг до выдачи обязателен.** Доля крупных претензий у Reposit выросла с 13% до 17% за год (RP-3). Число претензий у Greenlight выросло втрое (US-6). Zero Deposit отказывает в выплате, если арендатор не прошёл проверку (ZD-6). TheGuarantors и Obligo ценят риск по кредитным и банковским данным; у Obligo проверку проходят 80% (US-16, US-19). Visale сузила окно риска до первых 3 лет как самого аварийного периода (FR-5). Отсюда для ИнгоКлюч: скоринг по данным БКИ и банка, цена в зависимости от рейтинга надёжности, ограничение риска сроком первого договора с переоценкой при продлении.
+
+5. **Второй продукт — гарантия аренды, а не только замена залога.** Рынок движется от залога к гарантии неоплаты аренды. Guarantor+ работает с февраля 2026 и покрывает до 12 месяцев аренды, но не более £130 000 (ZD-10, ZD-11). TheGuarantors покрывает 3–12 месячных аренд по цене 40–100%+ месячной аренды (US-15, US-16); в неё вошёл Warburg Pincus (US-14). Visale даёт до 36 месяцев (FR-4). Модуль неоплаты аренды в ИнгоКлюч стоит предусмотреть отдельным тарифом.
+
+6. **Дистрибуция идёт через B2B2C и партнёров; раскрытие данных может стать отличием.** Zero Deposit выросла через агентства: 400 отделений в 2018 году, 850 агентств в 2019, сейчас более 200 000 арендаторов (ZD-8, ZD-9), агенты получают комиссию (ZD-7). Reposit стал эксклюзивным партнёром платформы Goodlord (RP-7). Масштаб в США измеряется в квартирах партнёров (US-4, US-14). Для ИнгоКлюч естественные каналы — агентства, классифайды и BTR-операторы. Комиссия агентам создаёт риск навязывания (UK-7), поэтому нужны правила продаж. Почти никто не публикует число полисов, убыточность и взыскание; глава TDS прямо требует это раскрыть (UK-8). Регулярная публикация собственной статистики выделила бы Ингосстрах среди конкурентов.
+
+---
+
+## 8. Не подтверждено и не используется
+
+Эти утверждения из прошлой версии файла не найдены на открытых страницах или страницы не открылись. На слайдах их не использовать.
+
+| Утверждение из прошлой версии | Почему не подтверждено |
+|---|---|
+| Reposit: покрытие «8 недель или £5 000, что меньше» (OpenRent) | help.openrent.co.uk вернул HTTP 403 |
+| Flatfair: «56% арендаторов выбирают альтернативы» (Letting Agent Today, 12.2024) | На странице этой цифры нет; статья о Zero Deposit (см. ZD-14) |
+| 46 950 залогов на арбитраже TDS за год до марта 2025 (Property Investments UK) | На странице этой цифры нет |
+| Generation Rent, апрель 2025: «4% платили альтернативу залогу» | PDF закрыт Cloudflare (403). Открытые пересказы того же опроса относят 4% к формальной процедуре спора (UK-2); вероятно, это ошибка прежней версии |
+| Generation Rent (июль 2025): «регулировать все продукты через FCA, остальные запретить» | PDF закрыт (403); в открытых пересказах (UK-1, The Negotiator 14.08.2025) такой рекомендации нет |
+| Generation Rent: «No Deposit Option» у Romans обошёлся в £864 за два года | generationrent.org вернул 403 |
+| Renters’ Rights Act: штрафы до £5 000 за нарушения с залогами | Не найдено на открытых страницах |
+| Rhino: «от $5 в месяц» за $1 000 (TechCrunch 2021) | В тексте TechCrunch этого нет |
+| Rhino: «$10–20 в месяц за $1 000 покрытия» (RentalRealEstate) | На странице другое: «Starting at $4/month» (US-3) |
+| Rhino: инвесторы раунда Kairos, Lakestar, Lakehouse; цель сэкономить $500 млн в 2021 (IBS Intelligence) | IBS вернул 403; в TechCrunch Kairos упомянут как компания Jain, а не как участник раунда |
+| Rhino: сооснователь «would never sue a renter» (The Intercept) | Фразы в тексте нет |
+| Coverager о ребрендинге в Greenlight; дата ребрендинга | coverager.com вернул 403; дата не установлена (факт ребрендинга см. US-5) |
+| Jetty: средняя экономия $1 350; >$40 млн привлечено к 2019 | Нет на открытых страницах HousingWire и MPA; coverager.com вернул 403 |
+| LeaseLock: $300 млн (06.2020), $500 млн (09.2020), $1 млрд (03.2021), $3 млрд; партнёрство с QBE (09.2020); партнёрство с Get Covered (06.2024) и список покрываемых рисков | Все релизы на businesswire.com вернули 403; блог leaselock.com/?p=45684 вернул 404 |
+| Генпрокурор Мэриленда и LeaseLock (январь 2022): возврат ежемесячных платежей и запрет на продажу | nottinghammd.com вернул 403; PDF на marylandattorneygeneral.gov перенаправляет на главную oag.maryland.gov. Только по сниппету поиска: релиз AG от 24.01.2022 (а не 26.01). Подтверждены лишь позиция AG и уход LeaseLock (US-12) |
+| TheGuarantors: «от половины до более чем месячной аренды» (старая формулировка); традиционные гаранты 70–110% месячной аренды (RealEstateSkills); раунды $50 млн C (Portage), $15 млн B, $35 млн долга; запуск Rent and Damage Protection (BusinessWire, 10.2022) | На текущей странице этой формулировки нет (действует US-15); realestateskills.com и businesswire.com вернули 403; в StartupIntros подтверждена только сумма $112 млн |
+| Obligo на Medium (70%, >200 000) | medium.com вернул 403; те же цифры подтверждены на других страницах (US-19, US-20) |
+| Колорадо HB25-1249: лимит залога 1× аренды и право на рассрочку | Сводка Colorado DRE указывает, что раздел 2 закона не вступил в силу из-за HB25-1168, а лимит и рассрочку не упоминает; Otten Johnson их тоже не упоминает. Действующие нормы не установлены |
+| Нью-Йорк S180 / S6397 | nysenate.gov вернул 403 |
+| Коннектикут PA 23-207 (21 день на возврат, осмотр до заселения, программа гарантий залога) | cga.ct.gov: ошибка SSL-сертификата |
+| Балтимор: вето мэра или принятие Council Bill 21-0022 | PressReader пуст; Shelterforce 2025 пишет, что город ввёл гранты (US-23); The Intercept упоминает только призыв к вето |
+| Visale: 95% довольных арендодателей (UNPI) | На странице UNPI (2021) цифры нет; используется 92% (FR-3) |
+| Visale: «около 3% договоров приводят к выплате» | URL не найден ни в прошлой, ни в этой версии |
+| Цены GLI у Smartloc, Unkle, Garantme | URL не найден |
+| Helvetia (гарантия аренды), Optimhome, Action Logement (реформа Visale), PAP (GLI/Visale) | 504 / 403 / 500 / 403; соответствующие факты подтверждены другими страницами (FR-5, FR-7, FR-8) |
+| SwissCaution: «5% включая гербовый сбор» | Неверно: сбор начисляется сверху (CH-1) |
+| CautionLoyerSuisse: «400 000+ клиентов, покупка в 2024» | Сравнительная таблица грузится скриптом, данных по провайдерам не видно; 400 000 подтверждено на сайте SwissCaution (CH-4) |
+| Пресс-релиз Aareal Bank (2019) | Адрес вернул 404; факт подтверждён по Wohnungswirtschaft heute (DE-4) |
+| Blundells: Zero Deposit как FCA-авторизованный посредник | blundells.com вернул 403; статус FCA подтверждён на сайте Zero Deposit (ZD-4) |
+| Landlords Guild (3 статьи: referencing, добровольность, RRA) | Страницы рендерятся скриптом, текста нет; факты подтверждены другими источниками (ZD-6, UK-4, UK-6) |
+| Fenn Wright: «40–50% арендаторов выбирают альтернативу» (Residential Landlord) | Сайт не открылся (сбой соединения через прокси) |
+| Trustpilot и PissedConsumer (жалобы на Rhino) | 403 / капча |
+| Planetizen (пересказ Shelterforce) | 403; использован первоисточник Shelterforce (US-23) |
+| Украина: точный срок полиса, какие риски покрываются (ущерб или аренда), регресс страховщика, число проданных полисов | На Interfax этого нет; epravda.com.ua вернул 403 |
