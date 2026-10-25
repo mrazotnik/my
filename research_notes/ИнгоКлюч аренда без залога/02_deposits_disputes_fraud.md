@@ -1,253 +1,644 @@
-# Security deposits, deposit disputes, court practice and rental fraud in Russian long-term residential rentals (2025-2026)
+# Депозиты при долгосрочной аренде жилья, споры о возврате, судебная практика и мошенничество (Россия, 2024-2026). Проверенная база фактов
 
-> **How this was verified. Read this before using any number.**
-> - In this session WebFetch failed with DNS errors (`getaddrinfo ENOTFOUND`) on every Russian domain tried: kommersant.ru, cian.ru, irn.ru, tass.ru, dom.mail.ru, t.me, sudact.ru, legalacts.ru, base.garant.ru, pravorub.ru, vc.ru and cnews.ru. curl through the proxy was refused (403 CONNECT) for kommersant.ru, cian.ru and dom.mail.ru.
-> - Every finding below therefore comes from **search-engine result excerpts** (WebSearch), not from opening the page. The URLs are the ones the search engine returned. Quotes in «…» are the excerpt wording.
-> - Before a figure goes on a slide, open the URL in a normal browser and check the exact wording.
-> - The shared web-search budget ran out partway through. Court decisions and fraud statistics are therefore much thinner than planned (see Gaps).
-> - Markers used: **[weak]** = one excerpt only, or the excerpts conflict, or the source is unnamed. **[old]** = before 2025.
+> **Как проверялось.** Проверка проведена 25.10.2026. Каждая страница из этого файла открыта целиком через прокси (скрипт `fetch.py`, текст страницы, заголовок и дата публикации из метаданных). Цитаты в «…» скопированы со страниц дословно. Если на странице что-то сказано иначе, чем в прежней версии заметок, факт исправлен. Если подтвердить на открытой странице не удалось, факт перенесен в раздел 11 «Не подтверждено и не используется».
+>
+> **Обозначения.**
+> - **Статус «проверено по странице»** значит: цифра, формулировка, период и владелец данных совпадают с текстом открытой страницы.
+> - **[до 2024]** — данные старше 2024 года, использовать только как фон.
+> - **[расчет]** — число посчитано нами; формула и исходные данные приведены в разделе 8.
+> - **[вывод]** — наша интерпретация, а не факт источника.
+>
+> **Главные исправления по сравнению с прежней версией.**
+> 1. Определение ВС РФ № 4-КГ24-30-К1 принято **в пользу наймодателя**: суд признал законным условие о невозврате депозита 150 000 руб. при досрочном выезде нанимателя. Прежняя формулировка «депозит должен быть возвращен» не отражала исход дела.
+> 2. По делу 8Г-14546/2025 во взыскании депозита 90 000 руб. **отказано**: депозит зачтен в долг по арендной плате.
+> 3. Мировой судья рассматривает обычные имущественные споры при цене иска **до 50 000 руб.**, а не до 100 000 руб. Порог 100 000 руб. относится только к спорам о защите прав потребителей (ст. 23 ГПК РФ).
+> 4. Цифра «до 25% залогов не возвращается» **подтверждена**. Источник: совместный пресс-релиз «ПИК-Аренды» и «АльфаСтрахования», пересказанный РБК 05.02.2019. Это оценка заинтересованных компаний без методики, данные [до 2024].
+> 5. Схема F6 «Умный дом» — это кража доступа к банковскому счету через фишинг и Android-троян, а **не** предоплата или «залог за просмотр». Прежний вывод про «залог за бронь» снят.
+> 6. Данные Авито о доле объявлений без комиссии относятся к июлю 2026 (Москва 51%, +9,5 п.п.; Санкт-Петербург 50%, +6 п.п.) и к августу 2026 (Москва 51%, +9 п.п.; Московская область 60%). Доля спроса на такие объявления «превышает 58%». Исходная точка «54%» для спроса на странице не найдена.
+> 7. Цифра «каждое десятое объявление с признаками мошенничества» принадлежит компании «Информзащита» (через «Ленту.ру»), а не МВД и не «Эксперту». Точная формулировка: «от 9% до 11%».
+> 8. Два акта из прежней версии к жилому найму не относятся: решение Чертановского суда № 02-6091/2024 касается субаренды нежилого помещения, апелляционное определение № 33-1454/2026 — эксплуатации здания в Казани. Оба перенесены в раздел 11.
 
-## 1. Share of listings requiring a deposit, deposit size and dynamics (ЦИАН, Авито, Яндекс)
+---
 
-### Takeaway
-ЦИАН's November 2025 listings study is confirmed in substance through Коммерсантъ and Строительная газета.
-- **Share of listings with a deposit.** Only 3% of long-term rental listings in large Russian cities did not ask for a deposit (5% a year earlier). That gives the "97%" figure. In Moscow 2% of listings had no deposit, in St. Petersburg 1%.
-- **Deposit size.** The average deposit is 67% of the monthly rent, against 37% five years earlier.
+## 1. Сколько собственников требуют депозит и какого размера (ЦИАН)
 
-No 2026 update of the deposit study was found. Meanwhile the 2026 rental market has turned toward tenants: more supply, and rents below last year's for the first time since 2020. This may slow further growth in deposits.
+### Главное
+- **Доля объявлений без депозита.** Ноябрь 2025: 3% против 5% годом ранее. Москва 2%, Санкт-Петербург 1%, Новосибирск 23%, Тюмень 11% (ЦИАН, через Коммерсантъ).
+- **Средний депозит.** 67% месячной ставки в ноябре 2025, «заметно не изменившись год к году». Три года назад было 50%, пять лет назад 37%. В Москве и Санкт-Петербурге в среднем 97% ставки.
+- **Цифры 32% и 48% внутри статей противоречат друг другу** (подробно в Д1.3). Для слайдов надежнее брать пару 3% / 5% и базу МК за 2019 год (54% запрашивали депозит, 46% не запрашивали).
+- **Обновления исследования о депозитах за 2026 год не найдено** (поиск 25.10.2026).
 
-### Cited Findings
-**ЦИАН study, November 2025 (primary data owner: ЦИАН; published around 24.11.2025)**
-- Main wording, via Коммерсантъ: «В ноябре в крупных городах России в среднем только в 3% объявлений о долгосрочной сдаче жилья в аренду собственники не требовали депозита. В прошлом году этот показатель составлял 5%, следует из исследования ЦИАН» — [Коммерсантъ, «Выросла доля владельцев жилья, запрашивающих депозит у арендаторов»](https://www.kommersant.ru/doc/8228847)
-- The same 3% figure comes from a comment by ЦИАН's press service. Headline: «В ноябре на рынке долгосрочной аренды лишь 3% собственников не запрашивали депозит» — [Строительная газета](https://stroygaz.ru/news/dwelling/v-noyabre-na-rynke-dolgosrochnoy-arendy-lish-3-sobstvennikov-ne-zaprashivali-depozit-/); repost dated 24.11.2025 at [aspectlaw.ru](https://aspectlaw.ru/2025/11/24/v-noyabre-na-rynke-dolgosrochnoj-arendy-lish-3-sobstvennikov-ne-zaprashivali-depozit-stroitelnaya-gazeta/)
-- **City split, share of owners NOT asking for a deposit (November 2025)**
-  - «В Москве сейчас не требуют внесения депозита 2% собственников, в Санкт-Петербурге — 1%»
-  - «в Новосибирске и Тюмени не запрашивают депозит 23% и 11% владельцев соответственно»
-  - Source: [Коммерсантъ](https://www.kommersant.ru/doc/8228847)
-- **Longer dynamics, share of listings without a deposit**
-  - 3% (November 2025), 5% (a year earlier), 32% (three years earlier, about 2022), 48% (five years earlier, about 2020) — [Коммерсантъ](https://www.kommersant.ru/doc/8228847); [Коммерсантъ, «Депозит при аренде жилья: что изменилось в 2025 году»](https://www.kommersant.ru/doc/8228237)
-  - **[weak] Conflict.** One excerpt of doc/8228237 read 32% and 48% as the share that *did* ask for a deposit. That cannot be right: it contradicts the 54% requiring a deposit in 2019 (see the December 2024 ЦИАН data below). The consistent reading is "without a deposit". Check against the original.
-- **Deposit size**
-  - «арендатору необходимо внести 67% от ставки аренды, в то время как пять лет назад он составлял 37% от месячного платежа» — [Коммерсантъ doc/8228847](https://www.kommersant.ru/doc/8228847); [Коммерсантъ doc/8228237](https://www.kommersant.ru/doc/8228237)
-  - One excerpt adds a middle point: «Три года назад он составлял 50% месячного». The same excerpt says that in Moscow and St. Petersburg owners ask on average 97% of the monthly rent, +2 and +4 p.p. year on year. **[weak]** This appeared in only one search-generated excerpt (Коммерсантъ article [doc/8228237](https://www.kommersant.ru/doc/8228237) or [doc/8228847](https://www.kommersant.ru/doc/8228847)). Verify it before use.
-  - It is possible that a "97%" deposit-size figure for the two capitals exists alongside the "97% of listings require a deposit" figure. Do not mix them up on the slides.
-- **Reasons given by ЦИАН and experts**
-  - The ЦИАН analyst (Елена Бобровская is named in excerpts) links the high share to «высокой конкуренцией на рынке долгосрочной аренды из-за ограниченного предложения» — [Коммерсантъ](https://www.kommersant.ru/doc/8228847)
-  - Experts link the growth in deposit size to «ростом расходов на ремонт, который владельцы квартир зачастую вынуждены делать после того, как арендаторы съезжают». The article also expects deposit sizes to keep rising — [Коммерсантъ](https://www.kommersant.ru/doc/8228237)
-- **Method.** Analysis of long-term rental listings on ЦИАН in "large cities of Russia" («крупные города России»). Only Moscow, St. Petersburg, Novosibirsk and Tyumen are named in the excerpts. The full city list and the sample size were not found.
+### Д1.1. Доля объявлений без депозита: 3% (ноябрь 2025) против 5% (годом ранее)
+- **Период:** ноябрь 2025; сравнение «в прошлом году».
+- **География:** «крупные города России»; полный список городов и размер выборки не раскрыты.
+- **Владелец данных:** ЦИАН (исследование «есть у «Ъ»»).
+- **Издание, дата:** Коммерсантъ, 24.11.2025, 10:02 МСК.
+- **URL:** https://www.kommersant.ru/doc/8228847
+- **Цитата:** «В ноябре в крупных городах России в среднем только в 3% объявлений о долгосрочной сдаче жилья в аренду собственники не требовали депозита. В прошлом году этот показатель составлял 5%, следует из исследования ЦИАН (есть у «Ъ»).»
+- **Подтверждение:** та же цифра в расширенной статье «Доверие по предоплате» (Коммерсантъ, 24.11.2025, https://www.kommersant.ru/doc/8228237; в печатном номере №217 от 25.11.2025, стр. 7): «В ноябре 2025 года в крупных российских городах в среднем лишь в 3% объявлений о долгосрочной сдаче жилья в аренду собственники не требуют депозита, в прошлом году этот показатель составлял 5%, следует из исследования ЦИАН.»
+- **Подзаголовок 8228237:** «Доля владельцев жилья, запрашивающих депозит у арендаторов, достигла 97%».
+- **Комментарий пресс-службы ЦИАН для «Строительной газеты»:** «На ноябрь 2025 года лишь 3% собственников в крупных городах России не требовали депозит при заселении жильцов. Об этом «Стройгазете» сообщили в пресс-службе компании «Циан»…» (https://stroygaz.ru/news/dwelling/v-noyabre-na-rynke-dolgosrochnoy-arendy-lish-3-sobstvennikov-ne-zaprashivali-depozit-/). Даты публикации на странице нет; перепечатка на aspectlaw.ru датирована 24.11.2025.
+- **Статус:** проверено по странице.
 
-**Earlier ЦИАН data point [old: December 2024]**
-- Share requiring a deposit: «В декабре 2024 года только в 6% объявлений о долгосрочной аренде в российских городах-миллионниках не сообщалось о необходимости внесения депозита. Остальные 94% владельцев квартир требуют, чтобы арендаторы при заселении вносили залог» — [МК, 04.12.2024](https://www.mk.ru/economics/2024/12/04/nazvana-dolya-sobstvennikov-trebuyushhikh-depozit-pri-sdache-kvartiry-v-arendu.html)
-- 2019 baseline: «Еще в 2019 году доля собственников, запрашивающих депозит, составляла 54%» — [МК, 04.12.2024](https://www.mk.ru/economics/2024/12/04/nazvana-dolya-sobstvennikov-trebuyushhikh-depozit-pri-sdache-kvartiry-v-arendu.html)
-- One-month deposits in the capitals: in Moscow and St. Petersburg a deposit equal to one month's rent is the most common request, made by 81% and 75% of owners respectively — [МК](https://www.mk.ru/economics/2024/12/04/nazvana-dolya-sobstvennikov-trebuyushhikh-depozit-pri-sdache-kvartiry-v-arendu.html)
-- Note: the December 2024 sample covered million-plus cities («города-миллионники»), while November 2025 covered "large cities". The samples may differ.
+### Д1.2. Разбивка по городам (ноябрь 2025)
+- **Владелец данных:** ЦИАН. **Издание, дата:** Коммерсантъ, 24.11.2025.
+- **URL:** https://www.kommersant.ru/doc/8228847
+- **Цитата:** «В Москве сейчас не требуют внесения депозита 2% собственников, в Санкт-Петербурге — 1%, уточнили в ЦИАН. В некоторых городах тренд не такой выраженный. Например, в Новосибирске и Тюмени не запрашивают депозит 23% и 11% владельцев соответственно.»
+- **Статус:** проверено по странице.
 
-**2026 market context (needed to interpret the deposit trend)**
-- ЦИАН, March 2026: long-term rental supply +22% year on year, to about 70,000 listings — [Коммерсантъ, «Рынок аренды 2026: рост предложения снизил ставки в городах-миллионниках»](https://www.kommersant.ru/doc/8589906)
-- ЦИАН, 22.09.2026: rents fell below last year's level for the first time since 2020.
-  - Moscow one-room flat about 71,200 ₽ per month (−0.7% year on year).
-  - St. Petersburg about 45,600 ₽ (−8.4%).
-  - Source: [ПРАЙМ, 22.09.2026](https://1prime.ru/20260922/tsian-873537606.html)
-- Авито Недвижимость, December 2025: average long-term rent in large cities −2% year on year; supply +26% — [Коммерсантъ](https://www.kommersant.ru/doc/8380824)
-- ЦИАН, five-year rent growth: average across cities +56%; Kaliningrad +59% — [kgd.ru](https://kgd.ru/news/society/item/107983-cian-stoimost-arendy-kvartir-v-kaliningrade-vyrosla-na-59-za-pyat-let). One-room flats with cosmetic renovation +84% in five years — [Финансы Mail](https://finance.mail.ru/article/cian-arenda-odnushek-s-kosmeticheskim-remontom-podorozhala-za-pyat-let-na-84-68479860/). The exact periods were not visible in the excerpts.
+### Д1.3. Цифры 32% и 48% (три и пять лет назад): как читать
+- **Владелец данных:** ЦИАН. **Издание, дата:** Коммерсантъ, 24.11.2025.
+- **URL:** https://www.kommersant.ru/doc/8228237 и https://www.kommersant.ru/doc/8228847
+- **Формулировки на страницах противоречат друг другу.**
+  - Лид статьи 8228237: «В крупных российских городах только 3% владельцев квартир не требуют депозита при долгосрочной сдаче жилья в аренду. Три года назад этот показатель составлял 32%, пять лет назад — 48%.» Здесь «этот показатель» — доля тех, кто **не** требует депозит.
+  - Основной текст обеих статей: «по данным аналитиков, три года назад депозит запрашивали 32% владельцев жилья, пять лет назад — 48%» (8228237); «Три года назад депозит запрашивали 32% владельцев жилья, пять лет назад — 48%» (8228847). Буквально это доля тех, кто депозит **запрашивал**.
+- **[вывод] Читать как долю объявлений БЕЗ депозита.** Причины:
+  1. Так сказано в лиде.
+  2. Только при таком прочтении ряд монотонен: 48% → 32% → 5% → 3%. Это согласуется с заголовком «стали чаще запрашивать депозит».
+  3. Данные ЦИАН за декабрь 2019 года (Д1.6): «46% рантье не запрашивали депозит вообще». Это близко к 48% «пять лет назад».
+- **Рекомендация для слайдов:** не показывать 32% и 48% без оговорки. Надежная пара: 3% (ноябрь 2025) против 5% (ноябрь 2024). Долгий ряд лучше брать из МК (Д1.6).
+- **Статус:** проверено по странице (обе формулировки); интерпретация — [вывод].
 
-**Авито, Яндекс**
-- The Авито Гид reference page gives a typical deposit of «50-100% от ставки» — [avito-guide.ru](https://avito-guide.ru/articles/c/ch/chto-takoe-zalog-i-komissiya-pri-seme-kvartiry-na-avito.html). This is a reference article, not a statistic, and the site's relation to Авито is unclear. **[weak]**
-- Practical guides say the deposit is most often one month's rent and two to three months for expensive housing («Для дорогостоящего жилья депозит может составлять два или три месяца аренды») — [Журнал Домклик](https://blog.domclick.ru/nedvizhimost/post/chto-takoe-zalog-pri-arende-kvartiry-kak-ego-oformit-i-mozhno-li-vernut); [Яндекс Аренда журнал](https://arenda.yandex.ru/journal/post/depozit-pri-syome-kvartiry/)
+### Д1.4. Средний размер депозита: 67% ставки (ноябрь 2025), 50% три года назад, 37% пять лет назад; в столицах 97%
+- **Владелец данных:** ЦИАН. **Издание, дата:** Коммерсантъ, 24.11.2025.
+- **URL:** https://www.kommersant.ru/doc/8228237
+- **Цитата:** «Средний размер депозита при аренде жилья за последние пять лет заметно увеличился — по данным на ноябрь 2025 года, он составил 67% от месячного платежа, заметно не изменившись год к году, однако три года назад он составлял 50% месячного, пять лет назад — 37%, подсчитали в ЦИАН. В Москве и Санкт-Петербурге владельцы квартир в среднем требуют депозит в размере 97% от ставки аренды, что больше на 2 и 4 процентных пункта год к году соответственно, следует из данных ЦИАН.»
+- **То же в 8228847:** «в ноябре он достигал 67% от месячного платежа. Три года назад он составлял 50% месячного, пять лет назад — 37%, подсчитали в ЦИАН».
+- **Не раскрыто:** среднее это или медиана. В статье есть график «Топ-15 городов по среднему размеру депозита (% от арендной ставки)», значения в тексте страницы не выведены.
+- **Не путать:** 97% как размер депозита в столицах и 97% как долю собственников, требующих депозит.
+- **Статус:** проверено по странице.
 
-### Inferences
-- **Prevalence.** The share of listings with a deposit went from about 52% around 2020 to about 68% around 2022, about 95% in 2024 and about 97% in 2025. These are inverses of the 48%, 32%, 5% and 3% "no deposit" figures; the samples may differ slightly. In two-thirds of the large-city market, the deposit has become a near-universal entry barrier within five years.
-- **Size relative to rent.** The deposit-to-rent ratio rose 1.8× (37% → 67%).
-- **Size in rubles.** Rents also grew about 56% over a similar five-year window. The average deposit in rubles therefore roughly **2.5–2.8×** its level of five years earlier (1.81 × 1.56 ≈ 2.8). This is an estimate: the periods do not match exactly.
-- **Rubles today.** With a one-month deposit (the norm in the capitals, 81% of Moscow owners in 2024), a Moscow one-room flat means about 71,000 ₽ frozen per tenant. In St. Petersburg it is about 46,000 ₽. At the national 67% average, the deposit equals two-thirds of whatever the local rent is.
-- **What 2026 means for the pitch.** Falling rents and rising supply in 2026 weaken landlords' bargaining power. Deposits may then become a competitive lever for landlords, which is an opening for a "no-deposit" product. That framing is supported better than "deposits will keep rising".
+### Д1.5. Причины роста по версии ЦИАН и экспертов (ноябрь 2025)
+- **Издание, дата:** Коммерсантъ, 24.11.2025. **URL:** https://www.kommersant.ru/doc/8228237
+- **ЦИАН, дефицит предложения:** «Ведущий аналитик ЦИАН Елена Бобровская объясняет показатели высокой конкуренцией на рынке долгосрочной аренды в связи с ограниченным предложением недвижимости. По ее словам, в таких условиях собственники предъявляют более жесткие требования к арендаторам.»
+- **Ремонт после выезда:** «Эксперты связывают это с ростом расходов на ремонт, который владельцы квартир зачастую вынуждены делать после того, как арендаторы съезжают.»
+- **Данные Infoline о стоимости отделки:** «по итогам января—сентября 2025 года средняя стоимость материалов для отделки квартир в Москве увеличилась на 6,2% год к году, до 10,06 тыс. руб. за 1 кв. м, в Санкт-Петербурге этот показатель год к году вырос на 7,2%, до 10,89 тыс. руб. за 1 кв. м, подсчитали в Infoline.»
+- **Пандемия («Миэль»):** «Ранее владельцы жилья были вынуждены отказываться от депозитов, чтобы привлечь арендаторов, особенно во время пандемии, отмечает руководитель департамента аренды «Миэль» Мария Жукова.»
+- **Элитное жилье (NF Group):** «запрос крупного депозита связан с необходимостью защиты имущества собственника от риска ущерба: депозит не всегда может покрыть стоимость повреждений. В том случае, если высокобюджетная квартира обладает эксклюзивными характеристиками, страховой депозит может составлять сумму платежа за полтора-два месяца» (партнер NF Group Андрей Соловьев).
+- **Прогноз ЦИАН:** «Елена Бобровская считает, что рост стоимости депозита в ближайшее время продолжится.»
+- **Влияние на спрос:** «Впрочем, новые требования собственников квартир не сказываются на падении спроса со стороны потенциальных арендаторов, подчеркивает Елена Бобровская.»
+- **Контекст «Яндекс Аренды» в той же статье:** «По итогам трех кварталов 2025 года экспозиция на рынке долгосрочной аренды в российских городах-миллионниках сократилась на 21,5% год к году, следует из данных «Яндекс Аренды».»
+- **Статус:** проверено по странице.
 
-### Gaps
-- The original ЦИАН press release (cian.ru news or Telegram post [t.me/cian_official/5506](https://t.me/s/cian_official/5506), which may be related) could not be opened. Exact title, city list, sample size and whether the 67% is a mean or median are unverified.
-- No 2026 ЦИАН update on deposits was found.
-- No Авито or Яндекс Недвижимость statistic on the share of listings with a deposit was found.
-- No ruble average of deposits was published in the excerpts. The ruble figures above are inferences.
+### Д1.6. Декабрь 2024: 94% требуют депозит, в 2019 году было 54% [данные 2024; база 2019 — до 2024]
+- **Владелец данных:** ЦИАН («авторы исследования, специалисты Циан»). **Выборка:** города-миллионники.
+- **Издание, дата:** МК, 04.12.2024; перепечатка: Дом Mail, 09.12.2024 (https://dom.mail.ru/articles/82476-nazvana-dolia-sobstvennikov-trebuiushchikh-depozit/).
+- **URL:** https://www.mk.ru/economics/2024/12/04/nazvana-dolya-sobstvennikov-trebuyushhikh-depozit-pri-sdache-kvartiry-v-arendu.html
+- **Главная цитата:** «В декабре 2024 года только в 6% объявлений о долгосрочной аренде в российских городах-миллионниках не сообщалось о необходимости внесения депозита. Остальные 94% владельцев квартир требуют, чтобы арендаторы при заселении вносили залог в качестве страховки при порче имущества. Еще в 2019 году доля собственников, запрашивающих депозит, составляла 54%.»
+- **Депозит в один месяц:** «В столицах, Москве и Санкт-Петербурге, львиная доля хозяев (81% и 75% соответственно) запрашивают залоговый взнос в размере одного месячного платежа».
+- **Депозит больше месяца:** «Они требуют внесения суммы, превышающей размер одного арендного платежа в два-три раза. Количество таких хозяев, например, в Красноярске и Новосибирске составляет 2%, а в Санкт-Петербурге — 9%.»
+- **Декабрь 2019:** «В декабре 2019 года 46% рантье не запрашивали депозит вообще.» и «уже в 2019 году 90% хозяев требовали депозит в размере одного, а иногда и двух месячных платежей» (о Москве и Санкт-Петербурге).
+- **Оговорка:** выборки разные. В декабре 2024 — города-миллионники и 6% без депозита. В ноябре 2025 — «крупные города» и 5% «в прошлом году». Ряды не склеивать без оговорки.
+- **Статус:** проверено по странице.
 
-## 2. Agent commission and total upfront payment at move-in
+### Д1.7. Рынок 2026: предложение растет, ставки снижаются (нужно для трактовки тренда депозитов)
+- **ЦИАН и «Яндекс Аренда», март и I квартал 2026.** Коммерсантъ, 20.04.2026, https://www.kommersant.ru/doc/8589906
+  - «По итогам первого квартала 2026 года предложение на рынке долгосрочной аренды в российских городах-миллионниках увеличилось на 32,4% по сравнению с четвертым кварталом 2025 года, а медианная ставка снизилась на 3,7%, до 34 тыс. руб., подсчитали в «Яндекс Аренде». Рост предложения фиксирует и ЦИАН, но в своей выборке оценивает его более умеренно — на 22% год к году по итогам марта 2026 года, до 70 тыс. объявлений.»
+  - Доходность сдачи: «Расчетная доходность, по данным ЦИАН, снижается последние семь месяцев. По оценке сервиса, она сократилась с 6,8% в сентябре 2025 года до 5,8% сейчас.»
+  - Статус: проверено по странице.
+- **ЦИАН, сентябрь 2026 против сентября 2025.** ПРАЙМ, 22.09.2026, https://1prime.ru/20260922/tsian-873537606.html
+  - «Ставки аренды жилья в крупных городах России впервые с 2020 года оказались ниже прошлогодних, рассказали РИА Недвижимость в "Циане", изучившем рынок недвижимости 38 крупнейших городов страны, а также Подмосковья и Ленинградской области.»
+  - Однокомнатные квартиры: «Москва показала снижение на 0,7% - до 71,2 тысячи рублей, Санкт-Петербург - на 8,4%, до 45,6 тысячи рублей.»
+  - Статус: проверено по странице.
+- **Авито Недвижимость, декабрь 2025.** Коммерсантъ, 29.01.2026, https://www.kommersant.ru/doc/8380824
+  - «Средняя стоимость долгосрочной аренды жилья в России в декабре составила 35 тыс. руб. в месяц, что на 2% ниже показателя годичной давности.»
+  - «В целом по стране выбор квартир для долгосрочной аренды за год увеличился на 26%…»
+  - Статус: проверено по странице.
+- **ЦИАН, рост ставок за пять лет** [данные до 2024; окна отличаются от окна депозитов].
+  - kgd.ru (Калининград.Ru), 16.02.2024, https://kgd.ru/news/society/item/107983-cian-stoimost-arendy-kvartir-v-kaliningrade-vyrosla-na-59-za-pyat-let. Цитата: «За пять лет ставки аренды в среднем по городам стали выше на 56%. Лишь в одном городе — Керчи — снять жилье сейчас дешевле, чем зимой 2018-2019 годов.» Окно: зима 2018-2019 → 2023-2024. Статус: проверено по странице.
+  - Финансы Mail, 27.10.2025, https://finance.mail.ru/article/cian-arenda-odnushek-s-kosmeticheskim-remontom-podorozhala-za-pyat-let-na-84-68479860/. Цитата: «За последние пять лет средние ставки аренды “однушек” сильнее всего выросли в квартирах с косметическим ремонтом (на 84%)». Сегмент: однокомнатные с косметическим ремонтом, сравнение с 2020 годом. Статус: проверено по странице.
 
-### Takeaway
-About half of the capitals' rental listings now come without commission: 51% in Moscow and 50% in St. Petersburg (Авито, July 2026). The other half charge a commission of typically 50–100% of a month's rent. With the first month's rent and a deposit of 67–100% of rent, a tenant typically pays about 1.7–3 monthly rents upfront.
+---
 
-### Cited Findings
-- **Share without commission.** Авито Недвижимость analytics, July 2026: in Moscow 51% of rental listings were without commission (+9.5 p.p. year on year), in St. Petersburg 50% (+6 p.p.) — [Московская перспектива](https://mperspektiva.ru/topics/v-moskve-51-obyavleniy-ob-arende-zhilya-publikuetsya-bez-komissii-rieltora/)
-- **Demand for no-commission listings.** Авито: the share of demand going to no-commission long-term rental listings in Russia rose from 54% to 58% year on year (data for July 2026) — [Московская перспектива](https://mperspektiva.ru/topics/v-moskve-51-obyavleniy-ob-arende-zhilya-publikuetsya-bez-komissii-rieltora/)
-- **Commission size.** «По данным платформы, средняя комиссия на рынке долгосрочной аренды в среднем составляет 50–100% от месячной ставки — это примерно от 12 тыс. рублей и выше в зависимости от города» — Авито, April 2026, at the launch of «Секретные объявления» (priority access to listings from owners) — [Мойка78, 03.04.2026](https://moika78.ru/news/2026-04-03/1284651-snyat-bez-komissii-i-pervymi-v-dolgosrochnoj-arende-avito-nedvizhimosti-poyavilsya-prioritetnyj-dostup-k-obyavleniyam-ot-sobstvennikov/); also [Бизнес Online](https://www.business-gazeta.ru/news/699133)
-- **Free access.** Авито: «более 98% объявлений о долгосрочной аренде по-прежнему доступны всем пользователям бесплатно, включая агентов и посредников» — [Мойка78](https://moika78.ru/news/2026-04-03/1284651-snyat-bez-komissii-i-pervymi-v-dolgosrochnoj-arende-avito-nedvizhimosti-poyavilsya-prioritetnyj-dostup-k-obyavleniyam-ot-sobstvennikov/)
-- **Tenant preferences**
-  - Авито Недвижимость and OMI survey: 79% of Russians prefer renting directly from the owner — [Т-Ж](https://t-j.ru/rent-sobstv/)
-  - Авито: about one in two people is ready to pay for extra rental-search features — [om1.ru, 14.08.2026](https://www.om1.ru/news/realty/430380-opros_polovina_rossijan_gotova_platit_za_dopolnitelnye_sredstva_poiska_kvartiry/); [dom.mail.ru](https://dom.mail.ru/news/377818-issledovanie-kazhdyj-vtoroj-rossiyanin-gotov-platit-za-vozmozhnosti-poiska-arendnogo-zhilya/)
-- **Composition of the upfront payment.** Practical guides list three parts:
-  - prepayment of the first month, «почти всегда равен месячной аренде» — [Яндекс Аренда журнал](https://arenda.yandex.ru/journal/post/predoplata-za-1-mesyac-pri-syome-zhilya/)
-  - the deposit;
-  - the agent commission of 50–100% of a month's rent, paid on move-in day — [ALAVITO блог](https://alavito.com/blog/zadatok-i-depozit-pri-arende)
-- **Benchmark no-deposit model: Яндекс Аренда.** The tenant pays no deposit and no commission, only the first month. The commission is built into the price, and so is insurance of up to 1.4 million ₽ covering damage to the owner's property and 30 days of vacancy if tenants leave early — [CNews, 01.06.2021](https://www.cnews.ru/news/top/2021-06-01_rieltory_bolshe_ne_nuzhny) **[old: 2021, terms may have changed]**; [vc.ru](https://vc.ru/services/2657272-kak-snyat-kvartiru-cherez-yandeks-arendu). Яндекс Аренда also guarantees the owner timely full rent even if the tenant is late — [chtoeto.ru](https://chtoeto.ru/servisy-i-prilozheniya/yandex-arenda-chto-eto/)
-- **Яндекс Аренда reviews [weak; anecdotes, not statistics]**
-  - A tenant: after mould was found, the service refused a refund, «это мои разборки с собственником» — [2ГИС](https://2gis.ru/moscow/firm/70000001025471135/tab/reviews)
-  - A reviewer was offered compensation «раза в 4 ниже реальной рыночной стоимости восстановления» — [2ГИС](https://2gis.ru/moscow/firm/70000001025471135/tab/reviews)
-  - Owners complain that getting compensation for damaged furniture or appliances is «практически невозможно» — [Zenama review](https://zenama.userecho.com/knowledge-bases/2/articles/268-yandeks-arenda-kak-snyat-i-sdat-kvartiru-bez-problem)
+## 2. Комиссия агента и сумма, которую арендатор платит при заселении
 
-### Inferences
-- **Upfront payment, illustrative calculation from ЦИАН September 2026 rents.** Upfront = first month + deposit (1 month in the capitals) + commission (0–1 month).
+### Главное
+- **Доля объявлений без комиссии (Авито, июль 2026):** Москва 51%, Санкт-Петербург 50%, Россия в целом 54%.
+- **Доля без комиссии на ЦИАН (2026):** 39% (по Т-Ж).
+- **Размер комиссии (Авито):** «50–100% от месячной ставки», по России «от 12 тыс. рублей», по Санкт-Петербургу «от 19 тыс. рублей».
+- **Сумма при заселении [расчет]:** первый месяц + депозит (+ комиссия). Для Москвы и Санкт-Петербурга это около 2-3 месячных ставок (раздел 8, Р4).
 
-  | City | Without commission | With 100% commission |
-  |---|---|---|
-  | Moscow, one-room (71.2k ₽) | ≈ 142,000 ₽ | ≈ 214,000 ₽ |
-  | St. Petersburg (45.6k ₽) | ≈ 91,000 ₽ | ≈ 137,000 ₽ |
+### Д2.1. Доля объявлений без комиссии, июль 2026 (Авито)
+- **Владелец данных:** Аналитический центр Авито Недвижимости; комментарий Константина Каменева, руководителя категории долгосрочной аренды.
+- **Издания, даты:** Омск-Информ (om1.ru), 14.08.2026; Дом Mail, 19.08.2026.
+- **URL:** https://www.om1.ru/news/realty/430380-opros_polovina_rossijan_gotova_platit_za_dopolnitelnye_sredstva_poiska_kvartiry/ и https://dom.mail.ru/news/377818-issledovanie-kazhdyj-vtoroj-rossiyanin-gotov-platit-za-vozmozhnosti-poiska-arendnogo-zhilya/
+- **Цитата:** «В столицах на июль 2026 года около половины квартир на витрине сдаются без комиссии напрямую владельцами: в Москве это 51 % (+9,5 п. п. год к году), а в Санкт-Петербурге — 50 % (+6 п. п. год к году). При этом интерес арендаторов на витрине также смещается в сторону объявлений без комиссии — доля спроса на такие лоты превышает 58 % и растет на протяжении последнего года»
+- **Статус:** проверено по странице. Исправлено: прежняя формулировка «спрос вырос с 54% до 58%» на странице не подтверждена. На странице: «превышает 58%».
 
-  The ~50% of listings with a commission are where ИнгоКлюч's fee would compete hardest on total move-in cost.
-- **Benchmark products.** Яндекс Аренда proves both demand for and workability of a no-deposit, insurance-backed model in Russia. Its review base also shows the pain point ИнгоКлюч could address: disputes over damage evidence and compensation amounts. That supports a digital inspection act.
+### Д2.2. Доля объявлений без комиссии, август 2026 (Авито): Москва и Московская область
+- **Владелец данных:** Авито Недвижимость. **Издание, дата:** Московская перспектива, 30.09.2026.
+- **URL:** https://mperspektiva.ru/topics/v-moskve-51-obyavleniy-ob-arende-zhilya-publikuetsya-bez-komissii-rieltora/
+- **Цитата:** «В августе 2026 года 51% объявлений о долгосрочной аренде в Москве размещались без комиссии — на 9 процентных пунктов больше, чем годом ранее. В Московской области доля таких предложений выросла на 6 п. п. и достигла 60%.»
+- **Совет экспертов Авито:** прописать в договоре «условия возврата обеспечительного платежа», а состояние жилья, мебель, технику и показания счетчиков — в акте приема-передачи.
+- **Статус:** проверено по странице. Санкт-Петербурга в этой статье нет; цифра 50% по Санкт-Петербургу взята из Д2.1.
 
-### Gaps
-- No ЦИАН statistic on the share of listings with a commission for 2025-2026 was found. Авито covers only Moscow and St. Petersburg in the excerpts.
-- No published "total move-in cost" study was found; the table above is a calculation.
-- Current Яндекс Аренда tenant and owner terms for 2026 (fee %, insurance limit) were not verified.
+### Д2.3. Россия в целом (Авито) и ЦИАН, 2026
+- **Издание, дата:** Т-Ж, 16.09.2026, «Конец эпохи комиссий…». **URL:** https://t-j.ru/rent-sobstv/
+- **Цитата:** «На «Циане» без комиссии в 2026 году выставлено 39% арендного жилья, а годом ранее было 37%. На «Авито» в июле доля объявлений о долгосрочной аренде без комиссии составила 54% — на пять процентных пунктов больше, чем в том же месяце прошлого года.»
+- **Оговорка:** для цифры ЦИАН Т-Ж не называет месяц и методику.
+- **Статус:** проверено по странице (вторичный источник; первоисточники ЦИАН и Авито не открывались).
 
-## 3. Paying the deposit in installments (депозит частями / в рассрочку)
+### Д2.4. Размер комиссии: 50-100% месячной ставки (Авито, апрель 2026)
+- **Владелец данных:** Авито Недвижимость («по данным платформы»); повод — запуск платной функции «Секретные объявления».
+- **Издание, дата:** Мойка78, 03.04.2026.
+- **URL:** https://moika78.ru/news/2026-04-03/1284651-snyat-bez-komissii-i-pervymi-v-dolgosrochnoj-arende-avito-nedvizhimosti-poyavilsya-prioritetnyj-dostup-k-obyavleniyam-ot-sobstvennikov/
+- **Цитата:** «По данным платформы, средняя комиссия на рынке долгосрочной аренды составляет 50–100% от месячной ставки — в среднем по России это от 12 тыс. рублей и выше в зависимости от города, а в среднем по Санкт-Петербургу — от 19 тыс. рублей и выше.»
+- **Там же:**
+  - «При этом сейчас более 98% объявлений о долгосрочной аренде доступны для всех арендаторов и пользователей этого раздела, в том числе агентов, бесплатно.»
+  - Цена подписки: «Стоимость услуги для арендатора на 7 дней составляет 399 ₽, на 14 дней — 599 ₽.»
+- **То же:** Бизнес Online, 08.04.2026, https://www.business-gazeta.ru/news/699133. Цитата: «средняя комиссия на рынке долгосрочной аренды в среднем составляет 50–100% от месячной ставки — это примерно от 12 тыс. рублей и выше в зависимости от города.»
+- **Статус:** проверено по странице.
 
-### Takeaway
-Paying the deposit in parts is a visible practice in listings. No platform statistic on its share was found.
+### Д2.5. Опрос арендаторов Авито и OMI (май 2026)
+- **Владельцы данных:** Авито Недвижимость и исследовательское агентство OMI.
+- **Выборка:** «В мае 2026 года они опросили 1 040 жителей 15 городов-миллионников. Всем респондентам было от 18 до 55 лет.» Это люди, снимавшие жилье онлайн с начала 2023 по вторую половину 2025 года.
+- **Издания, даты:** om1.ru, 14.08.2026; Дом Mail, 19.08.2026; Т-Ж, 16.09.2026. URL: те же, что в Д2.1 и Д2.3.
+- **Цитаты:**
+  - «В целом по России арендовать квартиру у собственника хотели бы 79 % опрошенных.» (om1.ru)
+  - «За услуги агентского сопровождения россияне готовы заплатить 35% от месячной арендной ставки (в среднем около 12 тыс. рублей) и большинство (84%) считает такую комиссию справедливой.» (Дом Mail)
+  - «Подавляющее большинство россиян (71%) при отсутствии подходящих вариантов готовы увеличивать бюджет. В среднем за понравившуюся квартиру арендаторы из крупных городов согласны доплатить около 15%.» (Дом Mail)
+- **Статус:** проверено по странице.
 
-### Cited Findings
-- Example of a split deposit: owners ask tenants to pay the deposit either as half of the monthly payment, or in two parts, in the first and second months of the stay — [dom.mail.ru](https://dom.mail.ru/articles/82476-nazvana-dolia-sobstvennikov-trebuiushchikh-depozit/) **[weak: excerpt context unclear; the article appears to be the December 2024 ЦИАН deposit study]**
-- A ЦИАН listing for Moscow apartments (апартаменты) carried a note that the deposit is split over 3 months. This is a single listing, found in a search excerpt, not a statistic — [ЦИАН, раздел «Снять апартаменты»](https://www.cian.ru/snyat-apartamenty/) **[weak]**
-- ЦИАН has a filter page for flats without a deposit. At the time of search it showed "Найдено 1 702 объявления" for Moscow, against 26,494 long-term listings on the main Moscow page — [cian.ru/snyat-kvartiru-bez-zaloga](https://www.cian.ru/snyat-kvartiru-bez-zaloga/); [cian.ru/snyat-kvartiru](https://www.cian.ru/snyat-kvartiru/) **[weak: live counters in page titles, snapshot date unknown]**
+### Д2.6. Из чего складывается платеж при заселении (справочные материалы, не статистика)
+- **Предоплата за первый месяц.** Яндекс Аренда, глоссарий, 28.10.2025, https://arenda.yandex.ru/journal/post/predoplata-za-1-mesyac-pri-syome-zhilya/. Цитата: «Размер предоплаты почти всегда равен стоимости месячной аренды.» Статус: проверено по странице.
+- **Типичный депозит.** Яндекс Аренда, журнал, 14.08.2025, https://arenda.yandex.ru/journal/post/depozit-pri-syome-kvartiry/. Цитата: «Обычно он равен 1 месячной арендной плате, но точная сумма устанавливается по соглашению сторон.» Статус: проверено по странице.
+- **Таблица платежей.** Блог ALAVITO, 22.04.2026, https://alavito.com/blog/zadatok-i-depozit-pri-arende. Строки таблицы: «Задаток (за бронь) | 5 000–15 000 ₽ | После осмотра, до подписания»; «Депозит | 1 месяц аренды | В день заселения»; «Комиссия агента | 50–100% аренды | В день заселения (если есть агент)». Статус: проверено по странице (справочный блог).
 
-### Inferences
-- The live ЦИАН counters imply about 6% of Moscow listings tagged "без залога". That is the same order of magnitude as ЦИАН's 2% study figure; the filter likely also catches listings with "залог частями". Treat it only as a sanity check.
-- Installments soften the upfront payment but leave the cash at the landlord and keep the return dispute. ИнгоКлюч removes both.
+### Д2.7. Яндекс Аренда как образец модели без залога
+- **Запуск в 2021 году [до 2024].** CNews, 01.06.2021, https://www.cnews.ru/news/top/2021-06-01_rieltory_bolshe_ne_nuzhny
+  - «Для арендодателей сервис полностью бесплатный, арендатор же платит ежемесячную комиссию в размере 5% арендной платы.»
+  - «Также в цену заранее включена страховка на сумму до 1,4 млн руб. Она покрывает потенциальный ущерб имуществу работодателя [так на странице; по смыслу «арендодателя»] и 30 дней простоя, если жильцы неожиданно решат съехать до окончания срока аренды.»
+  - Статус: проверено по странице. Условия 2021 года; актуальные условия 2026 года не проверялись.
+- **Гарантия выплаты аренды (описание, 2026).** ЧтоЭто, 09.04.2026, https://chtoeto.ru/servisy-i-prilozheniya/yandex-arenda-chto-eto/. Цитата: «Яндекс Аренда гарантирует собственнику получение арендной платы в полном объёме и в установленный срок, даже если арендатор задерживает платеж.» Статус: проверено по странице (сторонний обзор, не официальная оферта).
+- **Отзывы собственников (обзор отзывов, анекдотично).** Zenama, 18.09.2025, https://zenama.userecho.com/knowledge-bases/2/articles/268-yandeks-arenda-kak-snyat-i-sdat-kvartiru-bez-problem. Цитата: «Основной поток негатива от владельцев жилья связан с проблемами после выезда жильцов. Жалобы касаются испорченной мебели и техники, оставленного мусора и грязи. По словам некоторых собственников, сервис умывает руки, и добиться возмещения ущерба практически невозможно.» Статус: проверено по странице; это пересказ отзывов, а не статистика.
 
-### Gaps
-- No share of listings offering installments (ЦИАН, Авито, Яндекс) was found.
+---
 
-## 4. How often deposits are not returned or are partly withheld, and why
+## 3. Депозит частями
 
-### Takeaway
-No 2023-2026 survey with a share of withheld or unreturned deposits was found. The commonly quoted claim "up to 25% of deposits are not returned without objective reason (РБК, 2019)" **could not be verified**: it did not appear in any RBC or other search excerpt. The reasons for withholding are well documented: damage, unpaid utilities, early exit without notice, cleaning, and "keeping it just in case". Lawyers agree that normal wear and undocumented claims are not grounds for withholding.
+### Главное
+Разбивка депозита на два платежа — практика, которую называют ЦИАН (декабрь 2024) и «Миэль» (ноябрь 2025). Доли объявлений с рассрочкой депозита ни одна площадка не публикует.
 
-### Cited Findings
-- **RBC 25% claim: not found.** Searches for the RBC 2019 claim returned only RBC explainer articles without the figure. One is from July 2024: [РБК Недвижимость, 04.07.2024](https://realty.rbc.ru/news/6681db4a9a79472af9747e8b); also [РБК Недвижимость](https://realty.rbc.ru/news/68cb2b8d9a79473bfdc9913e). **Treat the 25% figure as UNVERIFIED and do not put it on a slide without the original link.**
-- **Main reasons for withholding (НДВ expert Елена Мищенко).** «наиболее частые причины удержания залога — повреждение имущества, неуплата коммунальных платежей, досрочное расторжение договора без предупреждения или нарушение других условий аренды». She also notes that some owners simply «забывают» to return the money, counting on the tenant not to pursue it — [НДВ журнал](https://www.ndv.ru/journal/experts/jekspert-rasskazala-chto-delat-esli-arendodatel-otkazyvaetsja-vozvrashhat-zalog-1399)
-- **Grounds owners give for withholding part of the deposit**
-  - breakages not recorded in the move-in inventory;
-  - rent or utility arrears;
-  - extra cleaning or repair.
-  - Source: Яндекс Недвижимость/Аренда journal content — [realty.yandex.ru](https://realty.yandex.ru/journal/post/depozit-i-zalog-pri-arende-kvartiry/) **[weak: excerpt attribution]**
-- **Normal wear is not a ground (RBC).** «естественный износ (потертый паркет, выцветшие обои) не является основанием для удержания залога»; damage requires an inspection act, photos and repair receipts — [РБК Недвижимость](https://realty.rbc.ru/news/68cb2b8d9a79473bfdc9913e)
-- **No withholding "just in case".** Lawyer Екатерина Сорокина, via ТАСС: «владелец недвижимости не имеет права удерживать залог «про запас» — для этого необходимы документальные подтверждения реального ущерба» — [regions.ru](https://regions.ru/obschestvo/snimaete-kvartiru-i-boites-poterjat-zalog-jurist-objasnila-kak-zaschitit-dengi-pri-arende)
-- **Lawyers' advice, 22.05.2026.** «Естественный износ — не повод удерживать залог». They recommend a detailed acceptance act (акт приёма-передачи) with photo and video at move-in and move-out — [Кубанские новости](https://kubnews.ru/obshchestvo/2026/05/22/estestvennyy-iznos-ne-povod-uderzhivat-zalog-yuristy-razyasnili-prava-arendatorov-zhilya)
-- **Early exit [weak: forum anecdote].** On the ЦИАН realtors' forum, keeping the deposit as a penalty for early termination is described as a «практика, появившаяся после ковида» — [ЦИАН форум](https://www.cian.ru/forum-rieltorov-zalog-pri-sdache-kvartiry-338355/)
-- **Contract wording decides the outcome.** If the deposit is an «обеспечительный платёж» and the tenant broke the notice period, the owner may keep rent only for the missing days and must return the rest. If it is «предоплата последнего месяца», the logic differs — [m2.ru](https://m2.ru/media/article/arendodatel-ne-vozvrashchaet-zalog/) **[weak: excerpt attribution]**
-- **Pain is common enough to generate content.** First-person story «Мне пришлось составить претензию на возврат залога…» — [Т-Ж](https://t-j.ru/my-doc-pretenziia-na-vozvrat-zaloga/). There is also a large volume of Q&A threads on harant.ru and pravoved.ru, for example a tenant whose landlord would not return a 27,000 ₽ deposit on move-out day — [Правовед](https://pravoved.ru/question/3481210/); [harant.ru Q 136763](https://harant.ru/questions/q-136763/)
+### Д3.1. ЦИАН, декабрь 2024: в миллионниках кроме столиц — половина платежа или две части [данные 2024]
+- **Владелец данных:** ЦИАН. **Издание, дата:** МК, 04.12.2024.
+- **URL:** https://www.mk.ru/economics/2024/12/04/nazvana-dolya-sobstvennikov-trebuyushhikh-depozit-pri-sdache-kvartiry-v-arendu.html
+- **Цитата:** «В других миллионниках хозяева более лояльны. Как правило, они просят арендаторов внести депозит либо в размере половины платежа, либо двумя частями - в первый и во второй месяцы проживания.»
+- **Статус:** проверено по странице. Исправлено: в прежней версии эта цитата приписывалась Дом Mail; первоисточник — МК, Дом Mail ее перепечатал.
 
-### Inferences
-- The absence of any quantitative survey is itself a finding. No Russian platform publishes deposit-return statistics. A proprietary ИнгоКлюч or Ингосстрах survey of tenants would fill a real gap, and the deck could propose it.
-- Every documented reason for withholding is one of two kinds:
-  - **Evidentiary:** damage versus wear, cleaning. A digital inspection act addresses these.
-  - **Financial:** arrears, early exit. Insurance cover addresses these.
-- This maps directly onto the two components of ИнгоКлюч.
+### Д3.2. «Миэль», ноябрь 2025: два взноса
+- **Источник оценки:** Мария Жукова, руководитель департамента аренды «Миэль». **Издание, дата:** Коммерсантъ, 24.11.2025.
+- **URL:** https://www.kommersant.ru/doc/8228237
+- **Цитата:** «иногда собственники позволяют разделить сумму депозита на два взноса: половина выплачивается при подписании договора, остальное — через месяц вместе с очередным платежом.»
+- **Статус:** проверено по странице.
 
-### Gaps
-- No 2023-2026 survey (ВЦИОМ, ФОМ, НАФИ, ЦИАН, Авито, Яндекс, banks) on the share of tenants who lost all or part of a deposit was found.
-- The source of the "25% (РБК, 2019)" claim was not found.
-- No data on average amounts withheld.
+---
 
-## 5. Court practice: ст. 381.1, ст. 1102 and глава 35 ГК РФ
+## 4. Как часто депозит не возвращают и почему
 
-### Takeaway
-- **Legal position.** It is consistent: a security deposit (обеспечительный платёж, ст. 381.1 ГК РФ) must be returned if the secured breach did not occur, unless the contract says otherwise. Withholding is allowed only for proven losses or arrears. Clauses that turn the deposit into a penalty for exercising the statutory right to terminate are contestable.
-- **Where disputes go.** Household disputes go to general-jurisdiction courts: the мировой судья for claims up to 100,000 ₽, otherwise the district court.
-- **What was found.** A few relevant appellate, cassation and Supreme Court acts were found, but their texts could not be opened. Their outcomes and amounts are therefore not verified. No data on the time or cost of litigation was found.
+### Главное
+- **Единственная найденная количественная оценка — «до 25%» залогов не возвращается без объективной причины.** Источник: совместный пресс-релиз «ПИК-Аренды» и «АльфаСтрахования» (РБК, 05.02.2019). Это оценка компаний, которые продавали страховку вместо залога. Методики нет, данные [до 2024].
+- **Опросов 2024-2026 годов о доле арендаторов, которым не вернули депозит целиком или частично, не найдено** (несколько поисков 25.10.2026).
+- **Есть опрос 2023 года о конфликтах:** 56% снимавших жилье конфликтовали с наймодателями (Росгосстрах и банк «Открытие»). Доля конфликтов из-за депозита не выделена.
+- **Причины удержания описаны одинаково у юристов и риелторов:** порча или утрата имущества, долги по коммунальным платежам, досрочный выезд без предупреждения, неустойки. Естественный износ основанием не является.
 
-### Cited Findings
-**Legal framework (background law)**
-- ст. 381.1 ГК РФ, обеспечительный платёж, is in ГК РФ часть 1 — [КонсультантПлюс, ГК ч.1](https://www.consultant.ru/document/cons_doc_LAW_5142/)
-- ст. 1102 (неосновательное обогащение) and глава 35 (ст. 671–688, найм жилого помещения) are in ГК РФ часть 2 — [КонсультантПлюс, ГК ч.2](https://www.consultant.ru/document/cons_doc_LAW_9027/)
-- ConsultantPlus summary of the position for residential leases. The deposit secures the tenant's obligations, including damages and penalties. «При отсутствии таких нарушений по окончании срока договора платеж возвращается нанимателю или засчитывается за последний месяц найма (п. 1 ст. 307.1, п. п. 1, 2 ст. 381.1 ГК РФ)» — [КонсультантПлюс, подборка «Обеспечительный платеж по договору найма»](https://www.consultant.ru/law/podborki/obespechitelnyj_platezh_po_dogovoru_najma/)
-- Claim procedure (lawyer Юрий Пустовит, RBC). With no rent arrears, the deposit should be returned within 7 days of a pre-trial claim (п. 2 ст. 314 ГК РФ). The lawsuit should be «о взыскании обеспечительного платежа» — [РБК Недвижимость](https://realty.rbc.ru/news/68cb2b8d9a79473bfdc9913e)
-- Non-return clauses on early termination. A commentator: «включение в договор найма условия о выплате денег при использовании нанимателем права на односторонний отказ не допускается (ст. 610, 422 ГК РФ)» — [КонсультантПлюс подборка](https://www.consultant.ru/law/podborki/obespechitelnyj_platezh_po_dogovoru_najma/) **[weak: excerpt attribution]**
-- Divided practice on such clauses: «судебная практика разная; некоторые судьи исходят из того, что пункт о невозврате залога ничтожен» — [harant.ru](https://harant.ru/questions/q-136763/) **[weak: Q&A portal]**
-- Jurisdiction: мировой суд up to 100,000 ₽, district court above that; interest under ст. 395 ГК РФ is usually claimed on top — practical guides, for example [sprosi-experta.ru](https://sprosi-experta.ru/yurist/zalog-pri-arende-kak-vernut) and [yustihab.ru](https://yustihab.ru/journal/vozvraschaetsya-li-zalog-za-arendu-kvartiry-prava-arendatora-i-obyazannosti-arendodatelya) **[weak: excerpt attribution]**
+### Д4.1. «До 25% залогов не возвращается» (2019) [до 2024]
+- **Владелец данных:** совместный пресс-релиз «ПИК-Аренды» и «АльфаСтрахования» о страховом полисе вместо залога.
+- **Издание, дата:** РБК Недвижимость, 05.02.2019, «Залог квартиры при аренде предложили заменить страховым полисом».
+- **URL:** https://realty.rbc.ru/news/5c5948f89a7947584dc0e1a4
+- **Главная цитата:** «При этом залог не гарантирует полного покрытия расходов в случае возникновения бытовых конфликтов, порчи имущества, отделки квартиры, а также внезапного съезда жильца или задержки арендной платы, отмечается в совместном пресс-релизе. До 25% залогов не возвращается арендаторам по окончании срока действия договора без объективной причины.»
+- **Объем рынка:** «Сейчас в Москве и ближайшем Подмосковье сдается около 700 тыс. квартир со средней арендной ставкой 38,5 тыс. руб. в месяц. Только в столичном регионе заморожено в залогах 27 млрд руб., из которых 6,7 млрд руб. владельцы жилья не вернут квартиросъемщикам.»
+- **Аналог ИнгоКлюча 2019 года:** «По оценке страховщика, стоимость такого полиса может составить от 0,6 тыс. до 2,3 тыс. руб. в месяц. … Таким образом, годовая страховка для арендатора обойдется от 7,9 тыс. до 27,6 тыс. руб. Сумма страхового покрытия начинается от 1 млн руб., что значительно превышает сумму среднего залога, говорится в пресс-релизе.»
+- **Скепсис рынка тогда же (Елена Куликова, Savills):** «Этот новый продукт подойдет только тем, кто сдает квартиру официально.»
+- **Проверка внутренней согласованности [расчет]:** 6,7 / 27 = 24,8%, что согласуется с «до 25%». 27 млрд / 700 тыс. ≈ 38,6 тыс. руб., то есть около одной месячной ставки (раздел 8, Р1).
+- **Статус:** проверено по странице. На слайд — только с подписью «оценка ПИК-Аренды и АльфаСтрахования, 2019».
 
-**Court acts found (texts not opened; subject matter partly unverified)**
-- **Верховный Суд РФ, СК по гражданским делам, Определение от 30.07.2024 № 4-КГ24-30-К1** (УИД 77RS0023-02-2022-014377-42; first instance in Moscow).
-  - Position in the excerpt: under ст. 381.1, if the circumstances in the contract did not occur in time, or the secured obligation ended, the deposit must be returned unless the parties agreed otherwise — [legalacts.ru](https://legalacts.ru/sud/opredelenie-sudebnoi-kollegii-po-grazhdanskim-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-30072024-n-4-kg24-30-k1-uid-77rs0023-02-2022-014377-42/)
-  - **[weak]** Whether the case concerns a residential lease, and the amounts, were not verified.
-- **Второй кассационный суд общей юрисдикции, Определение от 24.06.2025 по делу № 8Г-14546/2025 [88-14440/2025].**
-  - Dispute over a «страховой платёж» under a residential lease of a flat dated 04.08.2022. The court notes the sum is credited against the obligation only if the circumstances named in the contract occur — [ГАРАНТ](https://base.garant.ru/347016209/)
-  - **[weak]** Who won and the amount were not verified.
-- **Хорошевский районный суд г. Москвы (date and number not visible).**
-  - Tenant claimed back an обеспечительный платёж under a lease of a residential house, plus rent for the unused period. The landlord had refused to sign the handover act. The deposit «должен был вернуться нанимателю в день передачи имущества наймодателю, за исключением случаев, предусмотренных договором» — [Праворуб, case 102102](https://pravorub.ru/cases/102102.html)
-  - **[weak]** Outcome and date were not verified.
-- **Решение по делу № 02-6091/2024 от 15.01.2025** (general-jurisdiction court of Moscow, sublease dispute). Applies ст. 381.1 — [zakonrf.info](https://www.zakonrf.info/gorsud/doc-5d87f517-b297-5dcf-b716-5dd4dd7dda1d/) **[weak]**
-- **Апелляционное определение № 33-1454/2026 (33-18633/2025) от 21.01.2026** — [СудАкт](https://sudact.ru/regular/doc/iY74gcJUMEl1/). Returned for the query "взыскание обеспечительного платежа найм жилого помещения". **[weak: the excerpt suggested it concerns a residential premises dispute in Kazan; relevance to deposits not confirmed]**
+### Д4.2. Конфликты с наймодателями: 56% (сентябрь 2023) [до 2024]
+- **Владельцы данных:** СК «Росгосстрах» и банк «Открытие». **Выборка:** 1,2 тыс. россиян старше 18 лет, все федеральные округа, сентябрь 2023.
+- **Издание, дата:** РБК Недвижимость, 01.11.2023.
+- **URL:** https://realty.rbc.ru/news/65420f979a79475abcaa85f5
+- **Цитата:** «У 56% россиян, когда-либо снимавших жилье, были конфликты с наймодателями. Такие данные содержатся в исследовании СК «Росгосстрах» и банка «Открытие» (входит в Группу ВТБ). Опрос был проведен в сентябре 2023 года среди 1,2 тыс. россиян старше 18 лет во всех федеральных округах. Хотя бы раз в жизни снимали жилье 63% респондентов.»
+- **Оговорка:** доля конфликтов из-за депозита в статье не приведена.
+- **Статус:** проверено по странице.
 
-**Related commercial-lease precedents (economic chamber of the Supreme Court; useful only for principles)**
-- **ВС РФ, Определение от 24.12.2020 № 305-ЭС20-14025** [old]: the new owner of a leased property can be obliged to return the security deposit paid to the previous owner — [Адвокатская газета](https://www.advgazeta.ru/novosti/vs-poyasnil-poryadok-vozvrata-obespechitelnogo-platezha-po-dogovoru-arendy-pri-smene-sobstvennika/); see also [КонсультантПлюс подборка](https://www.consultant.ru/law/podborki/vozvrat_obespechitelnogo_platezha_pri_smene_sobstvennika/)
-- **ВС РФ, Определение от 13.05.2025 № 305-ЭС24-23432 по делу № А40-205606/2023**: unjust enrichment was refused because there was no evidence of overpaid rent. This illustrates that the claimant must prove the payment was made — [ГАРАНТ](https://www.garant.ru/products/ipo/prime/doc/411922758/)
-- **Evidence courts rely on.** A contract, even handwritten; proof of payment (receipt, card transfer); and the condition of the flat at return. The acceptance act is «главным доказательством состояния жилья» — [m2.ru](https://m2.ru/media/article/arendodatel-ne-vozvrashchaet-zalog/); [regions.ru](https://regions.ru/obschestvo/snimaete-kvartiru-i-boites-poterjat-zalog-jurist-objasnila-kak-zaschitit-dengi-pri-arende)
+### Д4.3. Основания для удержания по версии юристов (РБК, октябрь 2025)
+- **Издание, дата:** РБК Недвижимость, 29.10.2025, «Что делать, если наймодатель не отдает залог за аренду квартиры».
+- **URL:** https://realty.rbc.ru/news/68cb2b8d9a79473bfdc9913e
+- **Цитата (Юрий Пустовит, управляющий партнер адвокатского бюро «Юг»):** «наймодатель может отказаться возвращать залог, если, по его мнению, арендатор нарушил свои обязательства. К таким случаям относятся: повреждение или порча имущества собственника; задолженность по коммунальным платежам; утрата имущества собственника; досрочное расторжение договора без заблаговременного уведомления наймодателя; причинение вреда третьим лицам (залив соседей и т. д.).»
+- **Цитата о естественном износе (Леся Твелина, агентство «Выше крыши»):** «Естественный износ, такой как истирание напольного покрытия, не является ответственностью квартирантов.»
+- **Срок возврата:** «Если задолженность по арендной плате отсутствует, то возврат обеспечительного платежа должен быть осуществлен в течение семи календарных дней с момента предъявления досудебной претензии в соответствии с п. 2 ст. 314 Гражданского кодекса, добавляет Юрий Пустовит.»
+- **Вид иска:** «Судебный иск должен быть о взыскании обеспечительного платежа.»
+- **Взыскание через ФССП:** «будут арестованы счета ответчика (если сумма взыскания по исполнительному производству превышает 3 тыс. руб.)» (Дарья Нагорная).
+- **Статус:** проверено по странице. Исправлено: формулировка «потертый паркет, выцветшие обои» на этой странице не найдена; она есть в Д4.5 (Кубанские новости).
 
-### Inferences
-- **The law is tenant-friendly; enforcement is not.** The landlord bears the burden of proving damage. But the tenant must sue, usually before a мировой судья, over 30–70k ₽, and pay a state fee and possibly a lawyer. Many tenants rationally walk away. This "rational non-enforcement" is the core argument that the deposit problem is larger than court statistics show.
-- **Evidence is what decides cases.** Courts repeatedly hinge on the inspection act and photos, the clause wording (обеспечительный платёж vs предоплата последнего месяца) and proof of payment. A standardised digital move-in/move-out act addresses the exact evidentiary weak point.
+### Д4.4. Самые частые причины удержания по версии риелтора (НДВ)
+- **Источник оценки:** Елена Мищенко, руководитель департамента городской и загородной недвижимости «НДВ Супермаркет Недвижимости». Это мнение риелтора, а не статистика.
+- **Дата:** на странице не указана.
+- **URL:** https://www.ndv.ru/journal/experts/jekspert-rasskazala-chto-delat-esli-arendodatel-otkazyvaetsja-vozvrashhat-zalog-1399
+- **Цитаты:**
+  - «По ее словам, наиболее частые причины удержания залога — повреждение имущества, неуплата коммунальных платежей, досрочное расторжение договора без предупреждения или нарушение других условий аренды.»
+  - «Иногда арендодатель просто "забывает" вернуть деньги, надеясь, что арендатор не станет разбираться»
+- **Статус:** проверено по странице.
 
-### Gaps
-- Full texts, amounts and outcomes of the decisions above were not verified (sudact.ru, garant.ru, legalacts.ru, pravorub.ru were unreachable from this environment).
-- No Supreme Court review (обзор судебной практики) dedicated to residential deposits for 2022-2026 was found.
-- No data on average claim size, success rate, duration or cost of a tenant's lawsuit.
-- To verify (background knowledge, not checked in this session):
-  - Since 08.09.2024 the state fee (госпошлина) for property claims up to 100,000 ₽ is at least 4,000 ₽ (НК РФ ст. 333.19 as amended by 259-ФЗ).
-  - Under ст. 687 ГК РФ a tenant (наниматель) may terminate with 3 months' written notice.
+### Д4.5. Естественный износ — не повод удерживать депозит (май 2026)
+- **Источник оценки:** юрист Екатерина Сорокина, «Альтернатива» (Новосибирск). **Издание, дата:** Кубанские новости, 22.05.2026.
+- **URL:** https://kubnews.ru/obshchestvo/2026/05/22/estestvennyy-iznos-ne-povod-uderzhivat-zalog-yuristy-razyasnili-prava-arendatorov-zhilya
+- **Цитата:** «Арендодатель не имеет права удерживать страховой депозит за признаки естественного износа жилого помещения — например, потёртости на мебели или напольном покрытии, выцветшие обои — поскольку эти средства предназначены исключительно для погашения задолженностей или возмещения реального ущерба имуществу.»
+- **Там же:** «именно квалификация износа как «нормального» чаще всего становится предметом судебных разбирательств».
+- **Статус:** проверено по странице.
 
-## 6. Landlord side: damage, unpaid rent and utilities, repair costs, reasons for bigger deposits
+### Д4.6. Удерживать «про запас» нельзя; главное доказательство — акт (ТАСС, май 2026)
+- **Источник оценки:** юрист Екатерина Сорокина, через ТАСС. **Издание, дата:** REGIONS.RU, 27.05.2026.
+- **URL:** https://regions.ru/obschestvo/snimaete-kvartiru-i-boites-poterjat-zalog-jurist-objasnila-kak-zaschitit-dengi-pri-arende
+- **Цитаты:**
+  - «При этом владелец недвижимости не имеет права удерживать залог «про запас» — для этого необходимы документальные подтверждения реального ущерба в виде чеков и смет.»
+  - «По словам Сорокиной, основным доказательством при разрешении конфликтов между наймодателем и нанимателем на практике выступает акт приема-передачи.»
+- **Статус:** проверено по странице.
 
-### Takeaway
-The main documented landlord rationale is rising repair costs after tenants leave (ЦИАН experts, November 2025) and tight-market leverage. Landlords also want to screen tenants: a ЦИАН-related survey reports that 78% of owners want to check tenants' financial reliability, which supports the "portable tenant rating" idea. No quantitative data on the frequency or cost of tenant damage was found.
+### Д4.7. Два законных основания удержания и неосновательное обогащение (m2.ru, 2023) [до 2024]
+- **Издание, дата:** m2.ru, 07.09.2023. **URL:** https://m2.ru/media/article/arendodatel-ne-vozvrashchaet-zalog/
+- **Цитаты:**
+  - «Арендодатель имеет право оставить себе обеспечительный платёж — только в двух ситуациях:»
+    1. «Если арендатор испортил или украл имущество»;
+    2. «Если арендатор не предупредил о переезде минимум за три месяца (ст. 687 ГК РФ). Срок может быть и меньше, но это должно быть прописано в договоре.»
+  - «Во всех остальных случаях собственник обязан вернуть деньги, иначе это будет считаться неосновательным обогащением (ст. 1102 ГК РФ).»
+- **Пример в статье:** депозит 35 000 руб.
+- **Статус:** проверено по странице. Тезис прежней версии о различии «обеспечительный платеж или предоплата последнего месяца» на этой странице не найден; перенесен в раздел 11.
 
-### Cited Findings
-- Deposit growth explained by «ростом расходов на ремонт, который владельцы квартир зачастую вынуждены делать после того, как арендаторы съезжают» — experts cited in the ЦИАН November 2025 study coverage — [Коммерсантъ](https://www.kommersant.ru/doc/8228237)
-- **Tight market as a reason.** ЦИАН analyst: in conditions of limited supply owners «предъявляют более жесткие требования к арендаторам» — [Коммерсантъ](https://www.kommersant.ru/doc/8228847)
-- **Owners want to screen tenants.**
-  - Headline «78% собственников недвижимости хотят проверять финансовую надежность арендаторов» — [Вестник News](https://vestniknews.ru/novosti/20294-78-sobstvennikov-nedvizhimosti-khotyat-proveryat-finansovuyu-nadezhnost-arendatorov.html)
-  - Headline «Большинство собственников хотят проверять надежность арендаторов» — [РНРФ](https://rnrf.ru/news/29196-bolshinstvo-sobstvennikov-hotyat-proveryat-nadezhnost-arendatorov/)
-  - **[weak]** Only headlines were visible. The data owner (they surfaced in a ЦИАН-related search), date and sample are unverified.
-- **Purpose of the deposit (ЦИАН framing).** Owners require the deposit as insurance against damage to property («страховку на случай порчи имущества») — [МК, 04.12.2024](https://www.mk.ru/economics/2024/12/04/nazvana-dolya-sobstvennikov-trebuyushhikh-depozit-pri-sdache-kvartiry-v-arendu.html) [old]
-- **Owner complaints in reviews [weak: anecdotal].** Owners of flats let through Яндекс Аренда say the main negative is problems after tenants leave: damaged furniture and appliances — [Zenama](https://zenama.userecho.com/knowledge-bases/2/articles/268-yandeks-arenda-kak-snyat-i-sdat-kvartiru-bez-problem)
-- **Low rental yield.** ЦИАН, January 2026: average yield from letting a resale one-room flat was 6.1% per year (4.0–5.5% in Moscow and St. Petersburg), below bank deposits — [irn.ru](https://www.irn.ru/news/160071-tsian-dohodnost-ot-sdachi-kvartiry-v-2-raza-nizhe.html)
+### Д4.8. Примеры обращений арендаторов (анекдотично, не статистика)
+- **Т-Ж, 09.04.2024 [данные 2024]:** «Мне пришлось составить претензию на возврат залога за аренду квартиры, чтобы вернуть деньги» (заголовок). URL: https://t-j.ru/my-doc-pretenziia-na-vozvrat-zaloga/. Статус: проверено по странице.
+- **Правовед, 06.11.2022 [до 2024]:** «Арендодатель, не возвращает залог за квартиру 27 000₽, сегодня день выезда и проверки квартиры» (заголовок вопроса). URL: https://pravoved.ru/question/3481210/. Статус: проверено по странице.
 
-### Inferences
-- **Why landlords cling to cash deposits.** With yields of 4–6%, one major repair or two months of unpaid rent can wipe out a year's net income. That explains why landlords hold on to cash deposits. A product that guarantees the loss (Ингосстрах cover) is needed to replace them.
-- **The 78% figure.** If confirmed, it supports the portable tenant reliability rating as a landlord-side value proposition.
+---
 
-### Gaps
-- No data from Яндекс Аренда (claims statistics), ИНКОМ, МИЭЛЬ or Этажи on the frequency or cost of damage, unpaid rent or utilities was found in the available excerpts.
-- No average post-tenancy repair cost was found.
-- Source, date and sample of the "78% of owners" survey are unverified.
+## 5. Судебная практика по жилому найму (ст. 381.1, ст. 1102, глава 35 ГК РФ)
 
-## 7. Rental fraud 2024-2026 (МВД, F6, Сбер, Авито, ЦИАН, Kaspersky)
+### Главное
+- **Норма проста:** обеспечительный платеж возвращается, если обеспеченное обязательство прекратилось и основания удержания не наступили, «если иное не предусмотрено соглашением сторон» (п. 2 ст. 381.1 ГК РФ).
+- **Исход дела решают формулировка договора и доказательства.** Верховный Суд в 2024 году прямо поддержал договорное условие о невозврате депозита при досрочном выезде нанимателя.
+- **Исходы в найденных делах 2023-2026 годов (9 дел) разные, перевеса в пользу нанимателя нет:**
+  - арендатор взыскал депозит в трех делах (Хорошевский суд через Праворуб, Пресненский суд, Санкт-Петербургский горсуд);
+  - наймодатель удержал депозит в пяти (ВС РФ, 2-й КСОЮ, Тюмень, Благовещенск, суд ХМАО);
+  - в одном деле наймодатель взыскал с нанимателя ущерб и долг (Мосгорсуд).
+  - Это не репрезентативная выборка, а иллюстрация.
+- **Споры идут годами.** От выезда или претензии до последнего найденного судебного акта проходило примерно 20-31 месяц [расчет, раздел 8, Р6].
+- **Подсудность.** Мировой судья рассматривает имущественные споры при цене иска до 50 000 руб. (ст. 23 ГПК РФ); выше — районный суд. Госпошлина с имущественного иска до 100 000 руб. — 4 000 руб. (ст. 333.19 НК РФ) по заявлениям, поданным после 08.09.2024.
 
-### Takeaway
-Hard figures are scarce in the available excerpts. The best-documented item is F6 (ex Group-IB), April 2025: one group running a fake "smart home registration" rental scheme in new residential complexes. Since March 2025 it had 1,093 victims and stole at least 11.7 million ₽. The МВД figure of 6,553 crimes is for all real-estate-related crimes in 2024, not rentals specifically. Figures from Сбер, Kaspersky, Авито and ЦИАН were not found.
+### 5.1. Нормы права (проверено по тексту на КонсультантПлюс)
+- **Ст. 381.1 ГК РФ, обеспечительный платеж.** https://www.consultant.ru/document/cons_doc_LAW_5142/86072fde18c3cb11bd54a4c116530062a3daeb6c/
+  - П. 2: «В случае ненаступления в предусмотренный договором срок обстоятельств, указанных в … настоящей статьи, или прекращения обеспеченного обязательства обеспечительный платеж подлежит возврату, если иное не предусмотрено соглашением сторон.»
+  - П. 3: «Договором может быть предусмотрена обязанность соответствующей стороны дополнительно внести или частично возвратить обеспечительный платеж при наступлении определенных обстоятельств.»
+  - Статус: проверено по странице.
+- **Ст. 687 ГК РФ, расторжение договора найма.** https://www.consultant.ru/document/cons_doc_LAW_9027/d4304eec31c7e1323ffb419ed41883da482d9488/
+  - П. 1: «Наниматель жилого помещения вправе с согласия других граждан, постоянно проживающих с ним, в любое время расторгнуть договор найма с письменным предупреждением наймодателя за три месяца.»
+  - Статус: проверено по странице.
+- **Ст. 23 ГПК РФ, подсудность мировому судье.** Редакция «вступ. в силу с 01.09.2026». https://www.consultant.ru/document/cons_doc_LAW_39570/8eeff482f7e9848ce2417ea9035fa04307b57699/
+  - П. 4 ч. 1: «по имущественным спорам, за исключением дел о наследовании имущества и дел, возникающих из отношений по созданию и использованию результатов интеллектуальной деятельности, при цене иска, не превышающей пятидесяти тысяч рублей»
+  - П. 5 ч. 1: «по имущественным спорам, возникающим в сфере защиты прав потребителей, при цене иска, не превышающей ста тысяч рублей.»
+  - Статус: проверено по странице. **Исправлено:** спор двух физлиц о депозите идет к мировому судье только при цене иска до 50 000 руб. Справочник sprosi-experta.ru («иск в мировой суд (до 100 000₽)») здесь ошибается.
+- **Ст. 333.19 НК РФ, госпошлина.** https://www.consultant.ru/document/cons_doc_LAW_28165/1cfcdcc5936cbfc3ea52f964201a1bb6002be313/
+  - Ставки: «до 100 000 рублей - 4000 рублей; от 100 001 рубля до 300 000 рублей - 4000 рублей плюс 3 процента суммы, превышающей 100 000 рублей».
+  - Редакция применяется к заявлениям, «направленным в суд после 08.09.2024».
+  - Статус: проверено по странице. На практике: истцы в делах Тюмени и Благовещенска (депозиты 12 000 и 19 000 руб.) платили госпошлину 4 000 руб.
+- **Позиция КонсультантПлюс для договора найма.** Подборка «Обеспечительный платеж по договору найма», https://www.consultant.ru/law/podborki/obespechitelnyj_platezh_po_dogovoru_najma/
+  - Цитата: «При отсутствии таких нарушений по окончании срока договора платеж возвращается нанимателю или засчитывается за последний месяц найма (п. 1 ст. 307.1, п. п. 1, 2 ст. 381.1 ГК РФ).»
+  - Статус: проверено по странице.
 
-### Cited Findings
-- **F6, April 2025: the "Умный дом" scheme**
-  - How it works: listings for flats in new residential complexes at prices 20–40% below market. Victims are asked to pay via a fake «регистрация в «Умном доме»» (smart-home registration).
-  - Scale: «С начала марта 2025 г. от действий мошеннической группы, которая применяет эту схему обмана, пострадали уже 1093 пользователя, у которых похитили как минимум 11,7 млн руб.»
-  - Sources: [Ведомости, 17.04.2025](https://www.vedomosti.ru/society/news/2025/04/17/1104975-moshenniki-pridumali-novuyu); [CNews, 17.04.2025](https://safe.cnews.ru/news/line/2025-04-17_f6_moshenniki_ispolzuyut_novyj) ("более 1000" victims)
-- **МВД, 2024.** «в январе–декабре 2024 года… совершено 6 553 преступлений, связанных с операциями с недвижимостью». This is a broad category, not only rentals. The articles also note that victims of small-sum frauds often do not go to the police — [Рамблер/личные финансы](https://finance.rambler.ru/realty/54628668-moshennichestvo-pri-arende-kak-obmanyvayut-kvartirosemschikov/); [Эксперт](https://www.expert-russia.ru/m/news/rossiya/moshennichestvo-pri-arende-kak-obmanyvayut-kvartirosemshchikov/)
-- **Share of fraudulent listings [weak: unnamed "specialists"].** «фактически каждое десятое объявление о сдаче жилья в аренду в крупных городах имеет признаки мошенничества»; in tourist areas about 15% — [Рамблер/личные финансы](https://finance.rambler.ru/realty/54628668-moshennichestvo-pri-arende-kak-obmanyvayut-kvartirosemschikov/) / [Эксперт](https://www.expert-russia.ru/m/news/rossiya/moshennichestvo-pri-arende-kak-obmanyvayut-kvartirosemshchikov/)
-- **Growth [weak: period and data owner not visible].** Headline «Количество мошенничеств с арендой жилья подскочило на 26%» — [info-rm.com](https://info-rm.com/lenta/incidentru/kolichestvo-moshennichestv-s-arendoy-zhilya-podskochilo-na-26-/). The excerpt implied a January–February comparison, possibly 2026 against 2025, but this is unverified.
-- **Tenant guide [weak: content not retrieved].** «Гид арендатора 2026: как снять квартиру и не стать жертвой мошенников» — [Московская перспектива](https://mperspektiva.ru/topics/gid-arendatora-2026-kak-snyat-kvartiru-i-ne-stat-zhertvoy-moshennikov/)
+### 5.2. Сводная таблица дел (все — жилой найм)
 
-### Inferences
-- **Average loss in the F6 case.** About 10,700 ₽ per victim (11.7 million ₽ / 1,093). That is the size of an advance or "booking deposit". It matches the typical "залог за просмотр / бронь" pattern: the upfront deposit culture itself creates the fraud surface.
-- **How ИнгоКлюч helps.** It replaces the cash transfer to an unknown "owner" with a payment through an insurer. That removes the main vector of the deposit-for-viewing scam, and the deck can make this point.
+| № | Суд, дата, номер | Депозит | Кто выиграл | Почему |
+|---|---|---|---|---|
+| 1 | ВС РФ, СК по гражданским делам, 30.07.2024, № 4-КГ24-30-К1 | 150 000 руб. | Наймодатель (ИП) | Договор и соглашение о расторжении прямо исключали возврат при досрочном выезде нанимателя |
+| 2 | Второй КСОЮ, 24.06.2025, № 8Г-14546/2025 [88-14440/2025] | 90 000 руб. | Наймодатель | Депозит зачтен в недоплату аренды |
+| 3 | Хорошевский районный суд Москвы (через Праворуб; дата решения не указана; публикация 08.08.2023) | не раскрыт | Наниматель | Наймодатель уклонился от приемки по акту; встречный иск об ущербе отклонен |
+| 4 | Пресненский районный суд Москвы, 26.06.2025, № 02-14565/2024 (2-2660/2025) | обезличен («сумма») | Наниматель (частично) | В договоре нет основания для отказа в возврате; взысканы депозит и проценты |
+| 5 | Центральный районный суд Тюмени, 08.08.2025, № 2-6550/2025 | 12 000 руб. («гарантийный взнос») + 25 000 руб. аренды | Наймодатель | Наниматель отказался от квартиры в день подписания без 14-дневного уведомления по договору |
+| 6 | Благовещенский городской суд, 14.08.2025, № 2-2931/2025 | 19 000 руб. + 39 000 руб. аренды | Наймодатель | Акт при заселении, фото повреждений лоджии; наниматели не оспорили ущерб и не просили экспертизу |
+| 7 | Санкт-Петербургский городской суд, 29/30.04.2026, № 33-6245/2026 | 150 000 руб. | Наниматель | Неподписанный акт возврата сам по себе не дает права удержать депозит; встречного иска об ущербе не было |
+| 8 | Суд ХМАО-Югры, 30/31.03.2026, № 33-1931/2026 | 45 000 руб. | Наймодатель удержал депозит; во взыскании аренды за будущие месяцы отказано | Депозит обеспечивал досрочный выезд; брать и депозит, и аренду значило бы неосновательное обогащение |
+| 9 | Московский городской суд, 03.12.2025, № 33-59126/2025 | — (иск наймодателя) | Наймодатель | Взысканы ущерб по экспертизе, долг за два месяца и неустойка 1% в день; наниматель не явился и не оспорил |
 
-### Gaps
-- Statistics from F6 (annual 2025 or 2026), Сбер, Лаборатория Касперского, Авито and ЦИАН on rental fraud (counts of schemes, phishing domains, victims, losses) were not found before the search budget ran out.
-- No МВД figure specific to rental fraud was found.
-- Typical schemes other than the F6 "Умный дом" case (fake owners, phishing rental sites, deposit-for-viewing) were not quantified.
+### 5.3. Подробности по каждому делу
+
+**С1. ВС РФ, Определение СК по гражданским делам от 30.07.2024 № 4-КГ24-30-К1** (УИД 77RS0023-02-2022-014377-42)
+- **URL:** https://legalacts.ru/sud/opredelenie-sudebnoi-kollegii-po-grazhdanskim-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-30072024-n-4-kg24-30-k1-uid-77rs0023-02-2022-014377-42/ (полный текст).
+- **Жилой найм:** да. Цитата: «дело по иску … к индивидуальному предпринимателю … о взыскании страховой депозитной суммы по договору найма жилого помещения».
+- **Суммы и факты:**
+  - Договор найма от 30.11.2021 на 11 месяцев, плата 150 000 руб. в месяц, страховой депозит 150 000 руб.
+  - Цитата из договора: «сумма страхового депозита может быть использована наймодателем в качестве компенсации при досрочном расторжении договора по желанию нанимателя».
+  - Соглашение о расторжении от 01.06.2022, «по инициативе (желанию) нанимателя»; в нем сказано, что депозит «не подлежит возврату нанимателю».
+- **Ход дела:**
+  - Первая инстанция отказала, «поскольку условия договора найма исключают возврат депозита».
+  - Апелляция (Московский областной суд, 17.07.2023) взыскала депозит и проценты; Первый КСОЮ (15.11.2023) это поддержал, сославшись на Закон о защите прав потребителей.
+- **Решение ВС:** апелляционное и кассационное определения отменены, дело направлено на новое рассмотрение в апелляцию.
+  - Цитата: «Как установлено судом, по настоящему делу стороны заключили договор в соответствии с пунктом 4.1 которого страховой депозит в размере 150 000 руб. не возвращается, в частности при досрочном расторжении договора по инициативе нанимателя. … Между тем, суд апелляционной инстанции вопреки условиям договора и соглашения сторон о его расторжении взыскал данную сумму в пользу нанимателя.»
+  - О потребительском законе: «обстоятельств, позволявших бы сделать такой вывод, судами первой и апелляционной инстанции не устанавливалось и вопрос о применении Закона о защите прав потребителей не обсуждался.»
+- **Значение [вывод]:** для споров между частными лицами ВС подтвердил свободу договора. Условие о невозврате депозита при досрочном выезде применимо, если оно прямо прописано. Окончательный исход после нового рассмотрения не проверялся.
+- **Статус:** проверено по странице.
+
+**С2. Второй кассационный суд общей юрисдикции, Определение от 24.06.2025 по делу № 8Г-14546/2025 [88-14440/2025]**
+- **URL:** https://base.garant.ru/347016209/ (начало текста открыто, окончание за платным доступом; итог виден из открытой части и аннотации ГАРАНТа).
+- **Жилой найм:** да, договор найма квартиры от 04.08.2022.
+- **Суммы:**
+  - Страховой депозит 90 000 руб.; наниматель требовал также проценты 980,14 руб. и госпошлину 2 929,40 руб.
+  - Квартира возвращена 04.12.2022; по договору депозит возвращается в течение 5 дней.
+- **Ход дела:**
+  - Хорошевский районный суд Москвы 09.04.2024 иск удовлетворил.
+  - Мосгорсуд 26.11.2024 решение отменил и в иске отказал.
+  - Кассация жалобу нанимателя не удовлетворила.
+- **Цитаты:**
+  - Апелляция: «истец, пользуясь квартирой в период с 04 августа по 04 декабря 2022 года, не в полном объеме внесла денежные средства по оплате арендной платы (должна была оплатить 360 000 руб. плюс депозит 90 000 руб, оплатила с учетом страхового депозита 351 000 руб.), поэтому ответчик вправе удержать внесенный истцом депозит в размере 90 000 руб.»
+  - Кассация: «судебная коллегия не находит предусмотренных законом оснований для ее удовлетворения».
+  - Аннотация ГАРАНТа: «Суд отказал во взыскании страхового депозита, так как наниматель не в полном объеме оплатил арендную плату, и наймодатель имел право удержать депозит в счет долга.»
+- **Статус:** проверено по странице.
+
+**С3. Хорошевский районный суд г. Москвы, наем двух жилых домов (Праворуб, кейс 102102)**
+- **URL:** https://pravorub.ru/cases/102102.html (публикация адвоката от 08.08.2023).
+- **Жилой найм:** да, «договор коммерческого найма двух жилых домов на земельном участке».
+- **Суммы:** не раскрыты. Номер дела и дата решения не указаны. Дома освобождены 09.02.2022.
+- **Исход:** решение «требования нанимателя удовлетворены полностью, в удовлетворении требований наймодателя отказано». Мосгорсуд решение «частично изменено – отказано во взыскании процентов за пользование чужими денежными средствами, в остальной части решение устояло».
+- **Цитата Мосгорсуда, приведенная автором:** «поскольку стороны договорились по обоюдному согласию об освобождении истцом помещений 10 февраля 2022 года, то оснований у ответчика удерживать обеспечительный платеж не было».
+- **Позиция наймодателя:** повреждения, акт, составленный в одностороннем порядке, фото. Суд встречный иск отклонил.
+- **Оговорка:** это не дело С2, хотя суд тот же.
+- **Статус:** проверено по странице (пересказ представителя стороны, а не текст акта).
+
+**С4. Пресненский районный суд г. Москвы, решение от 26.06.2025 по делу № 02-14565/2024 (2-2660/2025)**
+- **URL:** https://sudact.ru/regular/doc/ypfug7mmNSmI/
+- **Жилой найм:** да, договор найма квартиры от 22.10.2022 на 11 месяцев.
+- **Суммы:** в публикации заменены словом «сумма» (обезличивание).
+- **Факты:** наниматель уведомил о выезде 06.11.2022; квартира передана 13.11.2022 «без задолженности и ущерба». Наймодатель отказал в возврате, сославшись на то, что договор действовал меньше 6 месяцев и был расторгнут в одностороннем порядке.
+- **Мотив суда:** «условиями данного пункта Договора не установлено, что для возврата обеспечительного платежа Договор должен действовать шесть месяцев с момента его подписания, а также не содержится иных условий для отказа в возврате обеспечительного платежа».
+- **Резолютивная часть:** «Взыскать … сумму обеспечительного платежа …, проценты за пользование чужими денежными средствами за период с 22.04.2023 по 12.06.2024 …, расходы по оплате услуг представителя … расходы по оплате государственной пошлины». Иск удовлетворен частично (расходы на представителя снижены).
+- **Статус:** проверено по странице.
+
+**С5. Центральный районный суд г. Тюмени, решение от 08.08.2025 по делу № 2-6550/2025** (УИД 72RS0025-01-2025-006395-49; окончательная форма 18.08.2025; на СудАкте датировано 17.08.2025)
+- **URL:** https://sudact.ru/regular/doc/4jJSnSF12sWp/
+- **Жилой найм:** да, квартира.
+- **Суммы:**
+  - «уплатил сумму в размере 37000 рублей, которая включает в себя стоимость арендной платы 25000 рублей и гарантийный взнос 12000 рублей».
+  - Иск: 37 000 руб. и проценты; госпошлина 4 000 руб.
+- **Факты:**
+  - Наниматель передумал в тот же вечер после подписания договора и вернул ключи.
+  - Обращался в полицию; там «указано об отсутствии нарушений законодательства РФ».
+- **Мотив суда:**
+  - Договор требует уведомления за 14 дней.
+  - П. 4.3 договора: при досрочном расторжении по инициативе нанимателя «авансируемая арендная плата (обеспечительный платеж), за непрожитые, предоплаченные нанимателем дни, нанимателю не возвращаются».
+- **Резолютивная часть:** «Исковые требования … оставить без удовлетворения.»
+- **Статус:** проверено по странице.
+
+**С6. Благовещенский городской суд Амурской области, решение от 14.08.2025 по делу № 2-2931/2025** (УИД 28RS0004-01-2025-004082-83; на СудАкте 19.11.2025, окончательная форма 20.11.2025)
+- **URL:** https://sudact.ru/regular/doc/bfxI3W9sDjVq/
+- **Жилой найм:** да, квартира, договор от 01.11.2024.
+- **Суммы:** «обеспечительный платеж в размере 19 000 рублей»; аренда 39 000 руб.; заявлены также представитель 40 000 руб. и госпошлина 4 000 руб.
+- **Факты:** наймодатель 01.03.2025 потребовал освободить квартиру после обнаружения повреждений лоджии. Цитата: «все стены мокрые, в испаринах, пластиковые окна покрытые наледью, краска и штукатурка на стенах и потолке в трещинах».
+- **Мотив суда (доказательства):** «принимая во внимание тот факт, что имущество было принято истцами в исправном состоянии, … учитывая наличие передаточного акта сдачи квартиры от нанимателя к собственнику от 01 марта 2025 года, не подписанного стороной истца, не содержащего указания о наличии со стороны истцов несогласия с описаниями нанесенных ущербов квартиры, ходатайства о назначении судебной экспертизы стороной истца заявлено не было, суд приходит к выводу о причинении истцами имуществу ответчика материального ущерба».
+- **Резолютивная часть:** «в удовлетворении исковых требований … о взыскании обеспечительного платежа, ежемесячного арендного платежа … – отказать.»
+- **Статус:** проверено по странице.
+
+**С7. Санкт-Петербургский городской суд, апелляционное определение № 33-6245/2026** (рег. № 78RS0015-01-2024-015531-68; в заголовке 29.04.2026, в тексте рассмотрено 30.04.2026; мотивированное определение 20.05.2026)
+- **URL:** https://sudact.ru/regular/doc/QMYXCc478L64/
+- **Жилой найм:** да. Цитата: «о взыскании обеспечительного платежа по договору в размере 150 000 руб.»
+- **Первая инстанция:** Невский районный суд, 08.09.2025, дело № 2-3305/2025. Взысканы депозит 150 000 руб., проценты 27 458,83 руб. и госпошлина 6 324 руб.
+- **Апелляция:** изменила только период и размер процентов (25 319,48 руб.) и госпошлину (4 706 руб.); «В остальной части решение суда оставить без изменения».
+- **Ключевая цитата:** «то обстоятельство, что при расторжении договора аренды сторонами не подписан акт о приеме - передачи квартиры, само по себе не свидетельствует о наличии материальных требований к арендатору и не освобождает арендодателя от принятых обязательств по возврату истцу обеспечительного платежа. Ссылки на то, что данный обеспечительный платеж принят в счет возмещения ущерба, отклоняются, поскольку встречных требований о возмещении материального ущерба имуществу арендодателя не были предъявлено арендатору».
+- **Статус:** проверено по странице.
+
+**С8. Суд Ханты-Мансийского автономного округа-Югры, апелляционное определение № 33-1931/2026** (в заголовке 30.03.2026, в тексте 31.03.2026; первая инстанция — Сургутский городской суд, 27.11.2025, дело 2-8019/2025)
+- **URL:** https://sudact.ru/regular/doc/hUN72m4eANYr/
+- **Жилой найм:** да. Договор найма квартиры от 19.05.2024; плата 45 000 руб. в месяц; «Договором предусмотрен страховой депозит в размере 45 000 рублей». Наниматель уведомил о досрочном расторжении 10.08.2024.
+- **Требования наймодателя:** аренда за будущие месяцы 135 000 руб., коммунальные 12 036,62 руб., пени. Взыскано только 6 000 руб. за уборку, 8 000 руб. за химчистку, госпошлина 4 000 руб., юрист 5 000 руб.
+- **Мотив:** «неисполнение ответчиком условий договора, в настоящем случае в виде не уведомления наймодателя о расторжении договора найма за 1 месяц до выезда, обеспечивалось внесением им обеспечительного платежа, который и был удержан истцом, в связи с чем, взыскание одновременно как обеспечительного платежа так и задолженности по договору найма на будущее время … приведет к неосновательному обогащению истца».
+- **Итог:** решение оставлено без изменения.
+- **Статус:** проверено по странице.
+
+**С9. Московский городской суд, апелляционное определение от 03.12.2025 № 33-59126/2025** (первая инстанция — Зеленоградский районный суд, 30.07.2025). Пример спора со стороны наймодателя.
+- **URL:** https://sudact.ru/regular/doc/rmX9hyEiPJoJ/
+- **Жилой найм:** да. Цитата: «По своей правовой природе договор является договором найма жилого помещения» (договор от 04.08.2024).
+- **Суммы:** обезличены.
+- **Факты:**
+  - Аренда за октябрь и ноябрь 2024 не внесена.
+  - При осмотре 20.10.2024 «выявлено, что квартире причинен значительный ущерб».
+  - Стоимость восстановления определена экспертным заключением № 37 от 28.10.2024.
+  - Наймодатель обращался в полицию (КУСП).
+  - Неустойка по договору — 1% в день.
+- **Итог:** иск наймодателя о возмещении ущерба, долга и неустойки удовлетворен; апелляция: «Решение … оставить без изменения».
+- **Статус:** проверено по странице.
+
+**Коммерческая аренда (только как принцип) [до 2024]**
+- **ВС РФ, СК по экономическим спорам, Определение № 306-ЭС21-4034 по делу № А65-27473/2019** (Адвокатская газета, 06.07.2021).
+- **URL:** https://www.advgazeta.ru/novosti/vs-poyasnil-poryadok-vozvrata-obespechitelnogo-platezha-po-dogovoru-arendy-pri-smene-sobstvennika/
+- **Цитата:** «переход прав и обязанностей арендодателя … не может ухудшать положение ООО “Ложка Вилка” и лишать его права на возврат обеспечительного платежа».
+- **Оговорка:** нежилое помещение. Определение № 305-ЭС20-14025 от 24.12.2020 упоминается в той же статье только в комментарии юриста. Исправлено: в прежней версии номер определения был указан неточно.
+- **Статус:** проверено по странице.
+
+### 5.4. Что следует из практики [вывод]
+1. **Право на стороне нанимателя только при чистом договоре и доказательствах.** Наниматель выигрывает, если в договоре нет основания для удержания (С4) или у наймодателя нет встречного требования и доказательств ущерба (С3, С7). Наймодатель выигрывает при прямом условии о невозврате (С1, С5, С8), долге по аренде (С2) или документально подтвержденном ущербе (С6, С9).
+2. **Чаще всего депозит теряют из-за досрочного выезда без уведомления.** Это прямо финансовый риск наймодателя, который можно страховать (покрытие простоя).
+3. **Доказательства решают исход.** Акт при заселении, фото, акт при выезде, экспертиза ущерба (С6, С9) — это то самое слабое место, которое закрывает цифровой акт приема-передачи.
+4. **Судиться долго и дорого относительно суммы.** Госпошлина 4 000 руб. при депозите 12 000-19 000 руб. (С5, С6), около 20-31 месяца до последнего найденного акта (Р6). Это аргумент за то, что реальных потерь депозитов больше, чем видно по судам.
+
+---
+
+## 6. Сторона собственника: ущерб, долги, проверка жильцов
+
+### Главное
+- **Данные 2024-2026 о частоте и стоимости ущерба от арендаторов не найдены.** Лучший количественный источник — опрос Росгосстраха и «Открытия» за май 2022 [до 2024]:
+  - 37% квартир нуждаются в ремонте после выезда;
+  - 23% собственников меняли сантехнику, мебель или технику;
+  - каждый десятый делал капитальный ремонт.
+- **Свежие данные (август 2026):** 78% собственников хотят проверять финансовую надежность арендаторов (ЦИАН и «Карма»).
+
+### Д6.1. Ремонт после выезда, май 2022 [до 2024]
+- **Владельцы данных:** СК «Росгосстрах» и банк «Открытие». **Выборка:** 1,6 тыс. человек старше 18 лет, все регионы, май 2022.
+- **Издание, дата:** РБК Недвижимость, 07.06.2022. **URL:** https://realty.rbc.ru/news/629df7c39a7947a7d09939d6
+- **Цитаты:**
+  - «Съемное жилье, из которого недавно выехали арендаторы, в 37% случаев нуждается в ремонте.»
+  - «Почти четверть собственников (23%) признались, что им пришлось менять сантехнику, мебель и бытовую технику после выезда квартирантов. А каждому десятому пришлось делать капитальный ремонт.»
+  - «больше трети (36,5%) российских арендодателей сталкиваются с проблемами, когда сдают жилье. Самой частой претензией оказалась задержка оплаты. Об этом заявили почти две трети опрошенных. Больше половины (57%) собственников рассказали, что во время аренды квартиры содержатся в ненадлежащем состоянии, в них грязно. Еще треть (31%) столкнулись с тем, что жильцы не оплачивают ЖКУ по счетчикам, а 21% заявили о разных нарушениях условий договора.»
+  - Взгляд арендаторов: «Абсолютное большинство снимающих квартиры (95%) убеждены, что они бережно относятся к чужому имуществу.»
+- **Статус:** проверено по странице.
+
+### Д6.2. Причины выселения: порча имущества, ЦИАН 2021 [до 2024]
+- **Владелец данных:** ЦИАН, опрос 300 московских рантье, II квартал 2021. **Издание, дата:** РБК Недвижимость, 27.07.2021.
+- **URL:** https://realty.rbc.ru/news/60f9f62a9a794787a65b1095
+- **Цитаты:**
+  - «Каждый третий арендатор съезжает из съемной квартиры по требованию собственников, следует из предоставленной «РБК-Недвижимости» статистики ЦИАН, основанной на опросе 300 московских рантье.»
+  - «Из-за порчи имущества и конфликта с хозяевами на этой почве покидают съемное жилье примерно 30% из тех, кого попросили съехать.»
+- **Статус:** проверено по странице.
+
+### Д6.3. 78% собственников хотят проверять финансовую надежность арендаторов (август 2026)
+- **Владельцы данных:** ЦИАН и сервис «Карма» от БКИ «Скоринг Бюро». Размер выборки и даты опроса на страницах не указаны.
+- **Издания, даты:** Вестник News, 21.08.2026; РНРФ, 23.08.2026.
+- **URL:** https://vestniknews.ru/novosti/20294-78-sobstvennikov-nedvizhimosti-khotyat-proveryat-finansovuyu-nadezhnost-arendatorov.html и https://rnrf.ru/news/29196-bolshinstvo-sobstvennikov-hotyat-proveryat-nadezhnost-arendatorov/
+- **Цитаты:**
+  - «Согласно исследованию, 78% собственников недвижимости хотят получить данные о финансовой надежности арендаторов, при этом 47% арендаторов не готовы предоставить такие данные.» (Вестник News)
+  - «Против высказались лишь 8%, еще 14% не видят в такой необходимости.» (Вестник News)
+  - «На практике 79% собственников проверяют паспорт или регистрацию, 14% ограничиваются залогом, банковские выписки просят только 11%. А 55% вообще никогда не проверяли будущих жильцов.» (РНРФ)
+  - «Из арендаторов 41% готовы раскрыть финансовую информацию, если это поможет быстрее снять квартиру.» (РНРФ)
+- **Статус:** проверено по странице. Исправлено: владелец данных установлен (ЦИАН и «Карма»).
+
+### Д6.4. Доходность сдачи (январь 2026)
+- **Владелец данных:** ЦИАН. **Издание, дата:** IRN.RU, 13.01.2026.
+- **URL:** https://www.irn.ru/news/160071-tsian-dohodnost-ot-sdachi-kvartiry-v-2-raza-nizhe.html
+- **Цитаты:**
+  - «Средний уровень доходности от сдачи в аренду однокомнатной квартиры, приобретённой на вторичном рынке, в январе 2026 г. составляет 6,1%, подсчитали в ЦИАН.»
+  - «Наименьшую доходность от сдачи квартиры могут получить рантье в Сочи, Севастополе, Казани, Владивостоке, Санкт-Петербурге и Москве (4,0-5,5% годовых).»
+- **Обновление:** в апреле 2026 ЦИАН оценил доходность в 5,8% (Д1.7).
+- **Статус:** проверено по странице.
+
+### Д6.5. Судебный пример ущерба со стороны наймодателя
+- Дело С9 (Мосгорсуд, № 33-59126/2025): ущерб по экспертизе, долг за два месяца, неустойка. Суммы обезличены.
+- Дело С8 (ХМАО): взыскано 6 000 руб. за уборку и 8 000 руб. за химчистку дивана и двух стульев.
+
+---
+
+## 7. Мошенничество при аренде (2024-2026)
+
+### Главное
+- **Самая подробная цифра — схема «Умный дом» (F6, апрель 2025).** С начала марта 2025 пострадали 1 093 человека, украдено не менее 11,7 млн руб. Механизм — фишинг через «BankID» и Android-троян с доступом к банковскому счету, а не предоплата.
+- **Рост в 2026 году.** По данным «Информзащиты», в январе-феврале 2026 число схем, связанных с арендой, выросло на 26% год к году. Признаки мошенничества имеют 9-11% объявлений в крупнейших городах.
+- **Официальных данных МВД именно по аренде не найдено.** Есть только 6 553 преступления по всем операциям с недвижимостью за 2024 год.
+- **Данных Сбера, Авито и ЦИАН о мошенничестве при аренде за 2025-2026 годы не найдено.**
+
+### Д7.1. F6, апрель 2025: «Умный дом» в новых ЖК
+- **Владелец данных:** F6 (департамент Digital Risk Protection). **Издания, даты:** Ведомости, 17.04.2025; CNews, 17.04.2025.
+- **URL:** https://www.vedomosti.ru/society/news/2025/04/17/1104975-moshenniki-pridumali-novuyu и https://safe.cnews.ru/news/line/2025-04-17_f6_moshenniki_ispolzuyut_novyj
+- **Масштаб:** «С начала марта 2025 г. от действий мошеннической группы, которая применяет эту схему обмана, пострадали уже 1093 пользователя, у которых похитили как минимум 11,7 млн руб.» (Ведомости, цитата F6).
+  - CNews в лиде пишет «более 1000 пользователей», в тексте — «1093 пользователя».
+- **Приманка:** «Мошенники привлекают внимание потенциальных арендаторов ценами на 20–40% ниже рыночных.» (Ведомости)
+- **Механизм:**
+  - «под предлогом регистрации в системе «Умный дом» через BankID похищают персональные данные пользователей» (Ведомости);
+  - на iOS: «злоумышленники получат доступ к личному кабинету онлайн-банка и попытаются вывести средства со счета» (CNews);
+  - на Android: «это приложение на самом деле – Android-троян» (CNews).
+- **Каналы:** «Злоумышленники размещают посты с выгодными предложениями в профильных Telegram-чатах и каналах, группах и сообществах в соцсетях, посвященных аренде недвижимости.» (CNews)
+- **Средний ущерб [расчет]:** около 10 700 руб. на пострадавшего (Р5).
+- **Статус:** проверено по странице. Исправлено: это не предоплата и не «залог за просмотр».
+
+### Д7.2. F6, ноябрь 2025: фальшивый сервис бронирования домов Point House (краткосрочная аренда)
+- **Владелец данных:** F6. **Издание, дата:** Anti-Malware, 10.11.2025.
+- **URL:** https://www.anti-malware.ru/news/2025-11-10-111332/47995
+- **Цитата:** «Злоумышленники создали поддельный сервис бронирования под названием Point House и с его помощью обманули около 300 человек, которые в сумме перевели аферистам более 2,3 млн рублей.»
+- **Оговорка:** аренда домов для отдыха в Подмосковье, а не долгосрочный найм.
+- **Статус:** проверено по странице.
+
+### Д7.3. F6, ноябрь 2025: поддельные домены сервисов недвижимости
+- **Владелец данных:** F6. **Издание, дата:** Anti-Malware, 05.11.2025.
+- **URL:** https://www.anti-malware.ru/news/2025-11-05-111332/47930
+- **Цитаты:**
+  - «с сентября 2025 года злоумышленники начали создавать сеть ложных доменов, маскирующихся под популярные сервисы недвижимости»
+  - «По данным F6, с 10 сентября 2025 года специалисты заблокировали восемь таких доменов»
+- **Цель:** захват личных кабинетов арендодателей.
+- **Статус:** проверено по странице.
+
+### Д7.4. F6, апрель 2025: «бронирование за 1 рубль» на курортах (без цифр)
+- **Владелец данных:** F6 (пресс-релиз). **Издание, дата:** РБК, 09.04.2025.
+- **URL:** https://www.rbc.ru/rbcfreenews/67f51eac9a79476b91ecea6c
+- **Цитата:** «После этого злоумышленники просят клиента внести один рубль для бронирования жилья.»
+- **Статус:** проверено по странице.
+
+### Д7.5. «Информзащита», январь-февраль 2026: +26% и 9-11% объявлений с признаками мошенничества
+- **Владелец данных:** компания «Информзащита» (через «Ленту.ру»). Методика не раскрыта.
+- **Издания, даты:** RTVI, 13.03.2026; РИА «Инфо РМ», 13.03.2026.
+- **URL:** https://rtvi.com/news/peregretyj-rynok-rossiyan-predupredili-o-volne-moshennichestva-s-arendoj-zhilya/ и https://info-rm.com/lenta/incidentru/kolichestvo-moshennichestv-s-arendoy-zhilya-podskochilo-na-26-/
+- **Цитаты (RTVI):**
+  - «В январе и феврале 2026 года в России число мошеннических схем, которые связаны с арендой и сдачей жилья, выросло на 26% по сравнению с аналогичным периодом 2025 года. Об этом компания «Информзащита» сообщила «Ленте.ру».»
+  - «Специалисты проанализировали популярные площадки покупки и аренды недвижимости и выяснили, что от 9% до 11% объявлений в крупнейших городах России могут иметь признаки мошенничества. Более высокие риски заметили в отдельных категориях — например, для краткосрочной аренды в туристических районах доля подозрительных предложений достигает 15%.»
+- **Инфо РМ формулирует проще:** «фактически каждое десятое объявление о сдаче жилья в аренду в крупных городах имеет признаки мошенничества» и называет источником «экспертов» без имени.
+- **Статус:** проверено по странице. Исправлено: владелец данных — «Информзащита»; период 2026 к 2025 подтвержден.
+
+### Д7.6. МВД, 2024: 6 553 преступления, связанных с операциями с недвижимостью
+- **Владелец данных:** МВД (по пересказу; на сайте МВД не проверялось). **Издание, дата:** журнал «Мир квартир», 07.05.2025; перепечатка: Рамблер/личные финансы, 07.05.2025.
+- **URL:** https://www.mirkvartir.ru/journal/assistant/2025/05/07/moshennichestvo-pri/ (переадресует на https://www.mirkvartir.ru/journal/assistant/moshennichestvo-pri/); https://finance.rambler.ru/realty/54628668-moshennichestvo-pri-arende-kak-obmanyvayut-kvartirosemschikov/
+- **Цитата:** «По данным МВД, в январе–декабре 2024 года в России был совершено 6 553 преступлений, связанных с операциями с недвижимостью. Но не все мошенничества попадают в официальную статистику. Так происходит потому, что не все обманутые люди обращаются с заявлением.»
+- **Оговорки:**
+  - Категория охватывает все операции с недвижимостью, не только аренду.
+  - Сайт expert-russia.ru, где опубликован тот же текст, принадлежит сети агентств недвижимости «Эксперт», а не журналу «Эксперт».
+- **Статус:** проверено по странице.
+
+### Д7.7. Описание схем с предоплатой (журналистика, не статистика)
+- **Московская перспектива, 22.10.2026:** «Вам предлагают «идеальную квартиру без комиссии», но просят заплатить 5–10 тыс. рублей за «информационные услуги» или «бронирование».» URL: https://mperspektiva.ru/topics/gid-arendatora-2026-kak-snyat-kvartiru-i-ne-stat-zhertvoy-moshennikov/. Статус: проверено по странице.
+- **Типичный задаток за бронь** (ALAVITO, Д2.6): «5 000–15 000 ₽».
+
+---
+
+## 8. Расчеты (все — наши, с формулой и исходными данными)
+
+- **Р1. Согласованность оценки ПИК-Аренды и АльфаСтрахования (2019).**
+  - Доля невозврата: 6,7 млрд / 27 млрд = 24,8% (против «до 25%»).
+  - Средний залог: 27 млрд / 700 тыс. квартир ≈ 38 571 руб., что близко к средней ставке 38,5 тыс. руб. Значит, в оценке заложен залог примерно в одну месячную ставку.
+  - Исходные данные: Д4.1.
+- **Р2. Доля объявлений с депозитом** (обратные величины к доле «без депозита»): 100 − 3 = 97% (ноябрь 2025); 100 − 5 = 95% (ноябрь 2024). Ряд 52% и 68% (100 − 48, 100 − 32) верен только при прочтении «без депозита» (Д1.3). Исходные данные: Д1.1, Д1.3.
+- **Р3. Рост отношения депозита к ставке:** 67% / 37% = 1,81 раза за пять лет (ноябрь 2020 → ноябрь 2025). Исходные данные: Д1.4.
+  - **Оценка в рублях (иллюстрация, окна не совпадают):** 1,81 × (1 + рост ставок). С ростом +56% (среднее по городам, зима 2018/19 → 2023/24) получается 1,81 × 1,56 ≈ 2,8 раза. С ростом +84% (однокомнатные с косметическим ремонтом, 2020 → 2025) — 1,81 × 1,84 ≈ 3,3 раза. Исходные данные: Д1.7. На слайд только с подписью «оценка».
+- **Р4. Платеж при заселении** (первый месяц + депозит 97% ставки по столицам + комиссия 0 / 50 / 100%). Ставки однокомнатных квартир ЦИАН на сентябрь 2026 (Д1.7); депозит по данным ЦИАН на ноябрь 2025 (Д1.4); комиссия Авито (Д2.4). Периоды не совпадают.
+
+  | Город | Ставка | Депозит 0,97 × ставка | Без комиссии | Комиссия 50% | Комиссия 100% |
+  |---|---|---|---|---|---|
+  | Москва | 71 200 | ≈ 69 060 | ≈ 140 260 (1,97 ставки) | ≈ 175 860 | ≈ 211 460 (2,97 ставки) |
+  | Санкт-Петербург | 45 600 | ≈ 44 230 | ≈ 89 830 | ≈ 112 630 | ≈ 135 430 |
+
+  Формула: ставка + 0,97 × ставка + k × ставка, где k = 0; 0,5; 1.
+- **Р5. Средний ущерб на пострадавшего.**
+  - F6 «Умный дом»: 11 700 000 / 1 093 ≈ 10 704 руб. («как минимум», так как 11,7 млн — нижняя граница; Д7.1).
+  - Point House: 2 300 000 / 300 ≈ 7 667 руб. («более 2,3 млн», «около 300»; Д7.2).
+- **Р6. Длительность споров** (от выезда или претензии до последнего найденного акта; 1 месяц = 30,44 дня).
+  - С4: 13.11.2022 → 26.06.2025 ≈ 31 месяц (первая инстанция).
+  - С2: 04.12.2022 → 24.06.2025 ≈ 31 месяц (кассация).
+  - С1: 01.06.2022 → 30.07.2024 ≈ 26 месяцев (ВС, дело ушло на новое рассмотрение).
+  - С7: претензия 10.09.2024 → 29.04.2026 ≈ 20 месяцев (апелляция).
+- **Р7. Госпошлина относительно депозита:** 4 000 / 12 000 = 33% (С5); 4 000 / 19 000 = 21% (С6). Исходные данные: 5.1, С5, С6.
+
+---
+
+## 9. Выводы для кейса ИнгоКлюч [вывод]
+
+1. **Депозит почти обязателен.** 97% объявлений в крупных городах с депозитом. В среднем это 67% ставки, в столицах 97% ставки, против 37% пять лет назад. Это барьер входа, который ИнгоКлюч снимает.
+2. **В 2026 году рынок повернулся к арендатору.** Предложение растет, ставки впервые с 2020 года ниже прошлогодних, доля объявлений без комиссии растет. Отказ от депозита становится для собственника способом быстрее сдать квартиру. Этот аргумент подкреплен данными лучше, чем «депозиты будут расти дальше» (хотя такой прогноз ЦИАН тоже дает).
+3. **Обе причины споров покрывает продукт:**
+   - финансовые (досрочный выезд, долги) — страховое покрытие;
+   - доказательные (ущерб или износ, уборка) — цифровой акт приема-передачи с фото.
+   Судебная практика (раздел 5) показывает, что исход решают условия договора и акты.
+4. **Суды не защищают надежно ни одну из сторон.** ВС подтвердил силу условия о невозврате (С1), но наниматели выигрывают, когда наймодатель не доказал ущерб (С7). Споры длятся 1,5-2,5 года, а госпошлина равна 21-33% малого депозита. Аргумент для обеих сторон: страховка дешевле и быстрее суда.
+5. **Прямой предшественник — «ПИК-Аренда» и «АльфаСтрахование», 2019 год:** полис 0,6-2,3 тыс. руб. в месяц, покрытие от 1 млн руб. Его оценка «до 25% залогов не возвращается» — единственная количественная цифра о невозврате. Стоит выяснить, почему продукт не стал массовым (поиск вне этого файла).
+6. **Довод про мошенничество — осторожно.** Главная по объему схема F6 — кража доступа к банку, и выплата через страховщика ее не устраняет. Корректная формулировка: платежи через страховщика и проверенную площадку уменьшают число переводов «собственнику» вне платформ, которые используют схемы с задатком за бронь (5-15 тыс. руб.).
+7. **Пробел в данных — возможность для кейса.** В России никто не публикует статистику возврата депозитов. Собственный опрос Ингосстраха или ИнгоКлюча закрыл бы этот пробел.
+
+---
+
+## 10. Пробелы (не найдено на 25.10.2026)
+- **Невозврат депозитов.** Нет опросов 2024-2026 годов (ВЦИОМ, ФОМ, НАФИ, ЦИАН, Авито, Яндекс, банки) о доле арендаторов, потерявших депозит целиком или частично. Нет средних сумм удержания.
+- **Депозиты в 2026 году.** Нет обновления исследования ЦИАН. Полный список городов, размер выборки и тип среднего (среднее или медиана) в исследовании 2025 года не раскрыты.
+- **Другие площадки.** Нет данных Авито или Яндекс Недвижимости о доле объявлений с депозитом и о доле объявлений с рассрочкой депозита.
+- **Ущерб.** Нет данных 2024-2026 годов о частоте и стоимости ущерба от арендаторов, нет статистики выплат страховщиков по сдаваемым квартирам.
+- **Мошенничество.** Нет годовой статистики F6 по аренде за 2025 год, нет данных Сбера, Авито, ЦИАН и МВД именно по мошенничеству при аренде.
+- **Суды.** Нет обзора ВС РФ по жилым депозитам. Нет статистики исходов, средних сумм и длительности дел (раздел 5 — иллюстрации). Окончательный исход дела С1 после нового рассмотрения не проверялся.
+- **Яндекс Аренда.** Актуальные условия 2026 года (комиссия, лимит страховки) не проверялись.
+
+---
+
+## 11. Не подтверждено и не используется
+
+| Утверждение из прежней версии | Что показала проверка | Решение |
+|---|---|---|
+| ВС РФ № 4-КГ24-30-К1 подтверждает, что депозит должен быть возвращен | Исход обратный: ВС поддержал условие о невозврате (С1) | Исправлено в С1 |
+| Второй КСОЮ № 8Г-14546/2025: исход и сумма неизвестны | Во взыскании 90 000 руб. отказано (С2) | Исправлено в С2 |
+| Мировой судья рассматривает иски до 100 000 руб. (sprosi-experta.ru, yustihab.ru) | По ст. 23 ГПК РФ — до 50 000 руб.; 100 000 руб. только по потребительским спорам. На yustihab.ru порог не найден | Не используется, исправлено в 5.1 |
+| Решение № 02-6091/2024 от 15.01.2025 (zakonrf.info) как дело о депозите при найме | Чертановский районный суд, субаренда нежилого помещения (школа танцев) https://www.zakonrf.info/gorsud/doc-5d87f517-b297-5dcf-b716-5dd4dd7dda1d/ | Не относится к жилому найму, не используется |
+| Апелляционное определение № 33-1454/2026 от 21.01.2026 (СудАкт) | Спор исполкома Казани об эксплуатации нежилого здания https://sudact.ru/regular/doc/iY74gcJUMEl1/ | Не относится, не используется |
+| ВС РФ № 305-ЭС24-23432 от 13.05.2025 как иллюстрация по депозиту | Спор о переплате арендной платы в коммерческой аренде, не о депозите (https://www.garant.ru/products/ipo/prime/doc/411922758/) | Не используется |
+| «включение в договор найма условия о выплате денег при использовании нанимателем права на односторонний отказ не допускается (ст. 610, 422 ГК РФ)» (КонсультантПлюс) | На странице подборки этой фразы нет | Не используется |
+| «судебная практика разная; некоторые судьи исходят из того, что пункт о невозврате залога ничтожен» (harant.ru, вопрос 136763) | На странице вопроса (11.01.2026) этой фразы нет | Не используется |
+| Логика «обеспечительный платеж или предоплата последнего месяца» (m2.ru) | На странице m2.ru не найдена; там другие формулировки (Д4.7) | Не используется |
+| «главным доказательством состояния жилья» (m2.ru) | На m2.ru нет; близкая формулировка — REGIONS.RU (Д4.6) | Заменено на Д4.6 |
+| Перечень оснований удержания «поломки, не отмеченные в акте; долги; доп. уборка» (realty.yandex.ru) | На странице (26.01.2023, обновлено 21.08.2024) перечня нет; есть общее определение депозита | Не используется |
+| «естественный износ (потертый паркет, выцветшие обои)…» как цитата РБК | В РБК другая формулировка (Д4.3); «выцветшие обои» есть в Кубанских новостях (Д4.5) | Исправлено |
+| «Практика, появившаяся после ковида» (форум ЦИАН) | Страница закрыта капчей ЦИАН | Не используется |
+| Объявление ЦИАН с депозитом «на 3 месяца»; счетчики «1 702» и «26 494» объявлений | Страницы ЦИАН закрыты капчей; счетчики живые, дата снимка неизвестна | Не используется |
+| Пост ЦИАН в Telegram t.me/cian_official/5506 как пресс-релиз о депозитах | Пост от 05.04.2024, о депозитах в нем ничего нет | Не используется |
+| Авито Гид: депозит «50-100% от ставки» (avito-guide.ru) | Значение есть в таблице, но это неофициальный справочный сайт без даты и без связи с Авито | Не используется как статистика |
+| Домклик: «Для дорогостоящего жилья депозит может составлять два или три месяца аренды» | Страница вернула HTTP 401 | Не используется; близкий тезис NF Group — в Д1.5 |
+| Яндекс Аренда, отзывы в 2ГИС («это мои разборки с собственником», компенсация «раза в 4 ниже») | Страница 2ГИС не открывалась в этой проверке | Не используется |
+| Авито: доля спроса на объявления без комиссии выросла «с 54% до 58%» | На странице: «превышает 58% и растет» | Исправлено в Д2.1 |
+| Авито: Москва 51% (+9,5 п.п.) по данным Московской перспективы | В Московской перспективе — август 2026, +9 п.п. и Московская область 60%; +9,5 п.п. — это июль 2026 у om1.ru и Дом Mail | Исправлено в Д2.1 и Д2.2 |
+| «каждое десятое объявление» — оценка «специалистов» у Рамблера и Эксперта | На этих страницах фразы нет; есть у Инфо РМ; первоисточник — «Информзащита» через «Ленту.ру», «от 9% до 11%» | Исправлено в Д7.5 |
+| Ущерб по F6 около 10 700 руб. соответствует «залогу за бронь» | Схема F6 — кража доступа к банку, а не предоплата | Вывод снят; расчет оставлен в Р5 |
+| Средний депозит в рублях вырос в 2,5-2,8 раза | Окна рядов не совпадают (2018/19-2023/24 против 2020-2025) | Оставлено только как иллюстрация с оговоркой (Р3) |
